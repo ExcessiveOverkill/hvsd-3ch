@@ -1,0 +1,8475 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00f2a9ce-3637-44e3-b649-c5a9b9cb6dbe")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NFAM2512SCBUT:NFAM3065L4BT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 25.4 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NFAM3065L4BT"
+				(at 25.4 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DIP39_54.5X31.0_MODGC_OSI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NFAM3065L4BT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NFAM3065L4BT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP39_54.5X31.0_MODGC_OSI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NFAM3065L4BT_0_1"
+				(pin power_out line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VS(U)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VDD(VH)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "HIN(V)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "VS(W)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "VB(W)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "VDD(WH)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "HIN(W)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "VTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "LIN(U)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "LIN(V)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -35.56 180)
+					(length 7.62)
+					(name "LIN(W)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -33.02 180)
+					(length 7.62)
+					(name "VFO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -30.48 180)
+					(length 7.62)
+					(name "CFOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -27.94 180)
+					(length 7.62)
+					(name "CIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 -25.4 180)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -22.86 180)
+					(length 7.62)
+					(name "VDD(L)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VB(U)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -20.32 180)
+					(length 7.62)
+					(name "NW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -17.78 180)
+					(length 7.62)
+					(name "NV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -15.24 180)
+					(length 7.62)
+					(name "NU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -12.7 180)
+					(length 7.62)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -10.16 180)
+					(length 7.62)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 50.8 -7.62 180)
+					(length 7.62)
+					(name "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 -5.08 180)
+					(length 7.62)
+					(name "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 50.8 -2.54 180)
+					(length 7.62)
+					(name "VTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "RTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VDD(UH)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "HIN(U)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VS(V)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "VB(V)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NFAM3065L4BT_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 43.18 -40.64)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "power:+15V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "042193f9-5266-401e-9513-6cfaf044ea52")
+	)
+	(junction
+		(at 187.96 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0557ec51-fd65-4696-a620-8d1567192164")
+	)
+	(junction
+		(at 347.98 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b9c469-87fe-41c6-897e-182234d69a45")
+	)
+	(junction
+		(at 340.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba47d72-a979-409a-b80a-d792bd9a0917")
+	)
+	(junction
+		(at 187.96 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e389574-7f28-4b8d-94ca-10dec643c5cd")
+	)
+	(junction
+		(at 350.52 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ecac408-46f1-4c1d-9ee9-91e84686be67")
+	)
+	(junction
+		(at 160.02 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292f016e-723d-4a44-a39d-436ede7e864c")
+	)
+	(junction
+		(at 335.28 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ac4afef-733f-4e97-89a6-b2ac5d5079f6")
+	)
+	(junction
+		(at 340.36 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313692d1-35d3-4133-a6b5-a56ea41dac86")
+	)
+	(junction
+		(at 148.59 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32267b77-7825-4278-b3a7-7c2d78a4fdac")
+	)
+	(junction
+		(at 316.23 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34b63745-8a47-498a-af07-bf4c499f6635")
+	)
+	(junction
+		(at 180.34 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35941c51-a89a-4089-98ee-66c7c2cff42a")
+	)
+	(junction
+		(at 347.98 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3d6516-a0b0-4e60-b5f5-a77496bda589")
+	)
+	(junction
+		(at 167.64 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c989b4d-167d-4797-b6cd-67bd717f5058")
+	)
+	(junction
+		(at 328.93 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f84ac5b-5e8c-44c7-a67a-6e6af98854b4")
+	)
+	(junction
+		(at 163.83 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e23e7cb-cb3c-4861-9b6f-1b2ca30e898c")
+	)
+	(junction
+		(at 187.96 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5139acbe-3070-4f32-a635-fc6af370a8fa")
+	)
+	(junction
+		(at 347.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5426c00d-a5c9-45c5-9098-9f9bbe03290b")
+	)
+	(junction
+		(at 350.52 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c477e3a-9edc-4668-a1a7-85404d317fec")
+	)
+	(junction
+		(at 163.83 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c59eb28-33ac-4a45-a240-e9a12d0b3f4d")
+	)
+	(junction
+		(at 106.68 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b0c18c-5c2c-41f7-be90-6afa7f144ce7")
+	)
+	(junction
+		(at 280.67 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e4cf13-1344-4d52-9edf-6562bcfdfcc1")
+	)
+	(junction
+		(at 144.78 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6554e616-d35a-4ba4-865c-90263cbe46de")
+	)
+	(junction
+		(at 148.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7af5ce-c34f-42e0-b977-b44e65b2662b")
+	)
+	(junction
+		(at 156.21 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71957fb5-cdf1-4364-87bb-74cb51aec9e5")
+	)
+	(junction
+		(at 156.21 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7399d622-2648-41bb-afb3-1ae316604905")
+	)
+	(junction
+		(at 287.02 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bff5442-75a5-4308-b519-6c4931350d11")
+	)
+	(junction
+		(at 106.68 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd9072f-e7b3-458b-be38-e8cbf418f5b1")
+	)
+	(junction
+		(at 148.59 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d756ba0-3c8d-4a8f-87da-17fa5d9c7155")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8db4039c-1824-4e1d-ac86-9667934e1eec")
+	)
+	(junction
+		(at 137.16 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97ab4f2e-2d49-41c1-83df-15af45dabc85")
+	)
+	(junction
+		(at 160.02 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "994409cb-dba2-4cac-be01-b8d99feb3bb0")
+	)
+	(junction
+		(at 180.34 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dcee0dc-72ba-4e1b-b762-743b3c22c47f")
+	)
+	(junction
+		(at 116.84 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a113f2f0-b899-408e-b409-20beb30f55ce")
+	)
+	(junction
+		(at 323.85 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a13e1673-390a-49ce-ac6e-fceaa3465fc6")
+	)
+	(junction
+		(at 340.36 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2044a38-9e06-4197-a809-0e699b58be73")
+	)
+	(junction
+		(at 323.85 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a25e5802-c420-4942-8d01-59a375dd3498")
+	)
+	(junction
+		(at 361.95 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac0147ff-45bc-4ca1-9d9b-3efe8677ef4f")
+	)
+	(junction
+		(at 316.23 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad050926-1612-4eee-ac79-a881cbdc41ce")
+	)
+	(junction
+		(at 167.64 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b59902b3-1d6e-4910-adfb-7249288485e0")
+	)
+	(junction
+		(at 168.91 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec5df0a-639f-4f9c-af53-a02e0f22e0b8")
+	)
+	(junction
+		(at 287.02 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf896ba8-2a19-4955-a5e2-7fbd6e0abda4")
+	)
+	(junction
+		(at 180.34 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c692ccfe-5c8a-4aa5-8eab-d25e5f5bfdf6")
+	)
+	(junction
+		(at 335.28 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc713f1f-7d07-4842-bae0-d87eb5c8e7fe")
+	)
+	(junction
+		(at 96.52 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d685d219-8179-4fd8-8510-6e207fba01da")
+	)
+	(junction
+		(at 361.95 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d747044e-16c3-4de1-b264-a5eacafbfeb1")
+	)
+	(junction
+		(at 96.52 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4ad153c-a3d5-4129-b496-b51ec024b0a5")
+	)
+	(junction
+		(at 180.34 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e611b73a-9c24-4e19-9b7b-c7ebb593fe15")
+	)
+	(junction
+		(at 106.68 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec3935ec-6dfb-43ab-bf58-4bbbe41d37cb")
+	)
+	(junction
+		(at 116.84 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc1089d-3980-4d9a-8193-d36da61343d9")
+	)
+	(junction
+		(at 350.52 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb1b8e4-78e0-41b3-aea4-c234fa7bde2d")
+	)
+	(junction
+		(at 165.1 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8d4443c-4e3f-45f1-8afc-2ab3070a87dd")
+	)
+	(junction
+		(at 106.68 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa34b592-635c-4f68-a79b-db423968bc14")
+	)
+	(junction
+		(at 180.34 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf20389-3b81-48ca-b5d2-23b9a3018aa1")
+	)
+	(junction
+		(at 180.34 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "febece8c-8a13-4ab8-aee3-c93dc9a21c52")
+	)
+	(wire
+		(pts
+			(xy 96.52 149.86) (xy 184.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006cfcb6-00a0-4fe8-ad34-dcc7de775bd8")
+	)
+	(wire
+		(pts
+			(xy 280.67 119.38) (xy 287.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f11c51-16ab-4bda-b0bd-2845d93a20a7")
+	)
+	(wire
+		(pts
+			(xy 96.52 207.01) (xy 106.68 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0806b507-fb04-4d2c-9773-cdb362e14d52")
+	)
+	(wire
+		(pts
+			(xy 340.36 93.98) (xy 340.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5747bb-5579-4d50-9e5e-55a687a528b9")
+	)
+	(wire
+		(pts
+			(xy 96.52 161.29) (xy 106.68 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf4127a-a4da-4f75-be1c-988bbc6ced84")
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de4835e-2659-4c6f-894b-5b2f884da7c8")
+	)
+	(wire
+		(pts
+			(xy 184.15 132.08) (xy 156.21 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de8664a-859d-433a-9f59-7978ee5410fd")
+	)
+	(wire
+		(pts
+			(xy 350.52 58.42) (xy 347.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101c2185-9719-4762-8000-6852ba551f02")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10822ad5-d6f0-4bed-a800-fd9800f16b6a")
+	)
+	(wire
+		(pts
+			(xy 116.84 153.67) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1119d377-5b9c-431f-9a76-2b2419a2aa73")
+	)
+	(wire
+		(pts
+			(xy 116.84 129.54) (xy 92.71 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1201f6ca-ce8f-4fce-9c2b-4ac418e37995")
+	)
+	(wire
+		(pts
+			(xy 306.07 139.7) (xy 316.23 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b1dfff-b91d-4151-9992-c38e757f62f1")
+	)
+	(wire
+		(pts
+			(xy 163.83 154.94) (xy 163.83 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f35736-fab5-4469-8b63-5646bf5a8c15")
+	)
+	(wire
+		(pts
+			(xy 350.52 58.42) (xy 361.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a27b41-0dfa-491b-93c8-0102faac2b66")
+	)
+	(wire
+		(pts
+			(xy 234.95 157.48) (xy 237.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c7761a-d523-4708-956b-602d466ad0b7")
+	)
+	(wire
+		(pts
+			(xy 158.75 152.4) (xy 163.83 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2bb9f7-212f-4095-9507-b2ab439cbd30")
+	)
+	(wire
+		(pts
+			(xy 92.71 195.58) (xy 96.52 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a44de6f-1162-49e1-bf9e-5475904a7c9c")
+	)
+	(wire
+		(pts
+			(xy 234.95 152.4) (xy 307.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af50c2f-0b07-4a79-bc74-70bcbde21d8b")
+	)
+	(wire
+		(pts
+			(xy 287.02 128.27) (xy 293.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8ee24b-f6ca-468f-80c4-3402207d5e11")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa47b43-6951-492e-a95c-90212883380e")
+	)
+	(wire
+		(pts
+			(xy 148.59 160.02) (xy 148.59 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235e6deb-00b5-4fd6-90bb-9e6aeca0c1bd")
+	)
+	(wire
+		(pts
+			(xy 234.95 149.86) (xy 309.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dc61d7-6ca4-41bd-9bfe-44fe100446ee")
+	)
+	(wire
+		(pts
+			(xy 293.37 119.38) (xy 293.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242c7d24-44f2-4a50-8a37-f3e68d7d6af6")
+	)
+	(wire
+		(pts
+			(xy 160.02 124.46) (xy 184.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b7bf34-a71b-4bc2-b31b-b9860b4653f6")
+	)
+	(wire
+		(pts
+			(xy 287.02 119.38) (xy 293.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cd8c01-015d-4765-9128-3c7258601441")
+	)
+	(wire
+		(pts
+			(xy 148.59 134.62) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29836f09-b81d-432b-b378-1e83c9a0fada")
+	)
+	(wire
+		(pts
+			(xy 328.93 154.94) (xy 337.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6824d6-f6a3-464e-a2c2-fd9dc341984b")
+	)
+	(wire
+		(pts
+			(xy 165.1 165.1) (xy 168.91 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f273713-3ac1-4bb0-bf58-e8e5ec1b18b9")
+	)
+	(wire
+		(pts
+			(xy 323.85 147.32) (xy 335.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3121d9e1-206b-45d0-8a63-d5ed3c8f1b92")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316cb000-ec50-4003-b44d-7e852a4d0c30")
+	)
+	(wire
+		(pts
+			(xy 137.16 62.23) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ebfc74-064a-469b-8bf1-3e0b8472f76d")
+	)
+	(wire
+		(pts
+			(xy 156.21 73.66) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354af153-70c6-406d-b8e3-259447da1bd0")
+	)
+	(wire
+		(pts
+			(xy 106.68 139.7) (xy 184.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f16525-d451-4835-99b7-dd7f2c6be1c8")
+	)
+	(wire
+		(pts
+			(xy 184.15 144.78) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37db681a-e2e8-43f6-bd08-07bb9c18b83d")
+	)
+	(wire
+		(pts
+			(xy 316.23 139.7) (xy 323.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dff2198-b5b5-40ea-bf50-ed01429608b9")
+	)
+	(wire
+		(pts
+			(xy 269.24 119.38) (xy 269.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc23355-588a-4c48-ac55-92fe90d0d8a7")
+	)
+	(wire
+		(pts
+			(xy 163.83 165.1) (xy 163.83 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411adb01-6c13-4444-9d09-63b0afc5b386")
+	)
+	(wire
+		(pts
+			(xy 307.34 152.4) (xy 307.34 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a6590b-b9ad-47c5-bdba-59bb3930145b")
+	)
+	(wire
+		(pts
+			(xy 234.95 144.78) (xy 306.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4200b5a5-7899-4e95-b1e1-af2237e2a689")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e9f105-24df-4cb8-b1dc-c955d8c7bbc2")
+	)
+	(wire
+		(pts
+			(xy 156.21 132.08) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4441c0df-96d0-4204-af80-13ceff962709")
+	)
+	(wire
+		(pts
+			(xy 148.59 62.23) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f973a5-a6a7-4d8d-b7a0-ed3b420f9bbe")
+	)
+	(wire
+		(pts
+			(xy 184.15 157.48) (xy 181.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474f54f1-f544-40ca-a0a1-fecd169a56dc")
+	)
+	(wire
+		(pts
+			(xy 316.23 147.32) (xy 323.85 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476dc52f-f13b-4c9c-ab67-96706822a9ff")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ceed05b-4c72-4573-8586-18fd251ff2cc")
+	)
+	(wire
+		(pts
+			(xy 148.59 165.1) (xy 163.83 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee64ea1-8720-43b9-a90e-f7a1b4696cc9")
+	)
+	(wire
+		(pts
+			(xy 331.47 58.42) (xy 340.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f406f9c-fc0e-40a3-b351-086833bdd08e")
+	)
+	(wire
+		(pts
+			(xy 96.52 195.58) (xy 96.52 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5246309c-0dcc-4bf3-9657-834bede8337f")
+	)
+	(wire
+		(pts
+			(xy 168.91 162.56) (xy 168.91 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b180ec-516b-4590-a62a-bc8f0531ae3f")
+	)
+	(wire
+		(pts
+			(xy 350.52 91.44) (xy 350.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563c20f5-2dab-4133-9a26-b61232aee6e2")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 106.68 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56cddda1-5a78-49c5-a5f0-388ec460dda3")
+	)
+	(wire
+		(pts
+			(xy 92.71 149.86) (xy 96.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57028055-89f6-4fdb-8dd8-6436c6739f17")
+	)
+	(wire
+		(pts
+			(xy 269.24 119.38) (xy 280.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a56723f-2f39-41f9-acad-64b4dd868eea")
+	)
+	(wire
+		(pts
+			(xy 361.95 76.2) (xy 361.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c316f9f-a13c-4e58-afd1-3e3040e72ccb")
+	)
+	(wire
+		(pts
+			(xy 137.16 152.4) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d50073a-dc5a-4cc8-b6b2-7af8e4984099")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8e5cb6-c879-4add-8c06-03502f9a3eb0")
+	)
+	(wire
+		(pts
+			(xy 163.83 165.1) (xy 165.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec7b887-9314-48eb-9ad5-766a52fc196d")
+	)
+	(wire
+		(pts
+			(xy 179.07 175.26) (xy 116.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecac430-d4e9-4eed-bbe2-c494716e08a8")
+	)
+	(wire
+		(pts
+			(xy 353.06 91.44) (xy 350.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60285d53-4e06-4d5d-b3de-706bb43cca4b")
+	)
+	(wire
+		(pts
+			(xy 180.34 137.16) (xy 184.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628ac1d6-c670-4b8c-919a-a2d0c7f664ea")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 156.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63683f74-7e4d-44ed-97c3-3baad20b131d")
+	)
+	(wire
+		(pts
+			(xy 358.14 91.44) (xy 368.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66120b66-8a66-4413-9209-360c0fda7f2c")
+	)
+	(wire
+		(pts
+			(xy 347.98 76.2) (xy 350.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fa176f-623e-47bd-b41b-f97b2419761c")
+	)
+	(wire
+		(pts
+			(xy 350.52 55.88) (xy 350.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ac34d-a04b-4847-b9f2-55f73731dafb")
+	)
+	(wire
+		(pts
+			(xy 184.15 142.24) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674e3464-2953-44ab-bacc-024e3bd2cc6c")
+	)
+	(wire
+		(pts
+			(xy 106.68 185.42) (xy 92.71 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68465e8c-cda6-4cc8-9b81-e90a9a087b30")
+	)
+	(wire
+		(pts
+			(xy 184.15 121.92) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68af38e2-58ce-4ff0-926e-5e33842e608f")
+	)
+	(wire
+		(pts
+			(xy 309.88 149.86) (xy 309.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b473306-a737-4415-92c1-f0febef3873e")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c731e01-d260-4bfe-aea9-39d644f57ef2")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e029438-c1e9-45df-8700-77177687ea74")
+	)
+	(wire
+		(pts
+			(xy 184.15 147.32) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7077b122-4bbb-4f4d-9c4e-425d3d485bde")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70918de1-200a-4f49-beae-39b5899be67d")
+	)
+	(wire
+		(pts
+			(xy 181.61 157.48) (xy 181.61 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7091d5d5-aa3c-4c88-be30-b3a99c111652")
+	)
+	(wire
+		(pts
+			(xy 106.68 207.01) (xy 116.84 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75dafc42-85c9-4bb0-a7b4-46f058c30ac8")
+	)
+	(wire
+		(pts
+			(xy 323.85 139.7) (xy 335.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7755fc48-ffc7-4da1-8033-196f37da87cd")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7876fe62-efa1-49d5-a31c-6a4a5f412ba6")
+	)
+	(wire
+		(pts
+			(xy 106.68 199.39) (xy 106.68 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c22ddce-b9d3-4d7d-a4d9-d3c91ee392fc")
+	)
+	(wire
+		(pts
+			(xy 106.68 139.7) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c45178b-d8ca-4633-8f92-8bb337d5a11d")
+	)
+	(wire
+		(pts
+			(xy 287.02 128.27) (xy 287.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d287f41-a1d5-433b-97bd-56f68ea221da")
+	)
+	(wire
+		(pts
+			(xy 347.98 93.98) (xy 347.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eec8abf-b17f-4d00-ba3f-bfe8f07f84b8")
+	)
+	(wire
+		(pts
+			(xy 347.98 76.2) (xy 347.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b3d40d-4a7a-4d87-a7d1-bf6abc19eb05")
+	)
+	(wire
+		(pts
+			(xy 350.52 73.66) (xy 350.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836418b0-a291-4be9-b6c1-d7c683219fc4")
+	)
+	(wire
+		(pts
+			(xy 237.49 157.48) (xy 237.49 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f5d3b6-4dbb-4ea3-af95-d883ce195a23")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fc167e-8b2e-4f4f-9700-001583288d92")
+	)
+	(wire
+		(pts
+			(xy 309.88 154.94) (xy 328.93 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95484600-ea90-4129-9014-83804c84bfff")
+	)
+	(wire
+		(pts
+			(xy 350.52 76.2) (xy 361.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a1a385-df16-45ea-acc1-2b44ed47af57")
+	)
+	(wire
+		(pts
+			(xy 269.24 127) (xy 234.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99730f6b-16c1-4fb7-ada6-9bfa7eec1d12")
+	)
+	(wire
+		(pts
+			(xy 234.95 147.32) (xy 316.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a863191-c7af-44c6-abe8-bbf69e54a359")
+	)
+	(wire
+		(pts
+			(xy 347.98 93.98) (xy 350.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbad477-d503-48bd-a292-746e734100a7")
+	)
+	(wire
+		(pts
+			(xy 347.98 58.42) (xy 347.98 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86a18d3-74c4-400e-bd8d-7c2f8153bab5")
+	)
+	(wire
+		(pts
+			(xy 96.52 149.86) (xy 96.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c57700-8ce5-45da-bb15-ad1d30fa1c70")
+	)
+	(wire
+		(pts
+			(xy 168.91 152.4) (xy 184.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a904c61f-0f79-4489-b5a8-1d38317ed57b")
+	)
+	(wire
+		(pts
+			(xy 350.52 93.98) (xy 361.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa98ada5-70d3-484e-9315-febf00fc0a23")
+	)
+	(wire
+		(pts
+			(xy 181.61 185.42) (xy 106.68 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6ac1de-2609-440e-8eef-466251098341")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4e0dbb-9e2c-467c-8687-7c477d1e438e")
+	)
+	(wire
+		(pts
+			(xy 184.15 134.62) (xy 148.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a5e44b-0a3c-481f-9729-72eb33bd052a")
+	)
+	(wire
+		(pts
+			(xy 187.96 73.66) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c3e023-ad04-4629-8254-a717cd3ccaca")
+	)
+	(wire
+		(pts
+			(xy 280.67 119.38) (xy 280.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38d84e0-2680-4edb-b17a-d2f061bb92ab")
+	)
+	(wire
+		(pts
+			(xy 280.67 128.27) (xy 287.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b438a6-c6bb-430a-8dd6-1456a39c7675")
+	)
+	(wire
+		(pts
+			(xy 335.28 139.7) (xy 350.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b9e829-c2af-4228-bc69-75184dc83bfa")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba23876f-c978-4ec1-89c8-f1eb1aa86796")
+	)
+	(wire
+		(pts
+			(xy 335.28 147.32) (xy 350.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd911c45-7fb3-489c-bfac-755c5da942b5")
+	)
+	(wire
+		(pts
+			(xy 163.83 152.4) (xy 168.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3845dc-3bf9-43b6-bc56-d469d768c28f")
+	)
+	(wire
+		(pts
+			(xy 106.68 207.01) (xy 106.68 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04993ff-0661-46fa-b9d8-7bf87443eb6e")
+	)
+	(wire
+		(pts
+			(xy 106.68 153.67) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10c829c-a24f-49b4-bec8-05a9ba4b5c8f")
+	)
+	(wire
+		(pts
+			(xy 361.95 101.6) (xy 361.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12fb7d6-45f2-4d8a-aed9-fd4668db2e52")
+	)
+	(wire
+		(pts
+			(xy 180.34 137.16) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c262f786-5fd1-42d1-b2e3-86f33df18908")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cef610-6e38-4fe9-b1c9-9fdbf4224155")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 116.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94a3443-d990-4aaa-8f0f-0781c8937b3d")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9274d2-efce-40b5-b40b-90eb6907ccea")
+	)
+	(wire
+		(pts
+			(xy 331.47 93.98) (xy 340.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce527f9d-b004-4e3a-90d0-90bd8c743543")
+	)
+	(wire
+		(pts
+			(xy 116.84 199.39) (xy 116.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce97322d-9195-4878-9138-7772ce360a0c")
+	)
+	(wire
+		(pts
+			(xy 316.23 138.43) (xy 316.23 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b82341-53fa-49ea-8dc0-431d64835c02")
+	)
+	(wire
+		(pts
+			(xy 345.44 154.94) (xy 351.79 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aa6bf8-adb5-427c-9fde-8dc22a4ba83e")
+	)
+	(wire
+		(pts
+			(xy 361.95 93.98) (xy 361.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2795797-eebe-47c7-b9b8-a27c04f05f93")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e886c0-56ae-4a14-b38c-63d7867ee692")
+	)
+	(wire
+		(pts
+			(xy 353.06 73.66) (xy 350.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d381d325-db5f-4160-84c3-b44b6d2be06f")
+	)
+	(wire
+		(pts
+			(xy 340.36 76.2) (xy 340.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44e1ca9-9656-4360-8091-72a7d590b5da")
+	)
+	(wire
+		(pts
+			(xy 116.84 175.26) (xy 92.71 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a84cf6-e508-4e3c-95a4-7327be9e298d")
+	)
+	(wire
+		(pts
+			(xy 184.15 154.94) (xy 179.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c31c49-9fac-4128-9d7c-3dc5f1bcd6f1")
+	)
+	(wire
+		(pts
+			(xy 116.84 129.54) (xy 184.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8824dcc-a920-434e-b4be-61fd6fed2125")
+	)
+	(wire
+		(pts
+			(xy 168.91 152.4) (xy 168.91 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2107d4-098d-4a57-8388-3d1a24ae6395")
+	)
+	(wire
+		(pts
+			(xy 353.06 55.88) (xy 350.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db80c3e5-4d8a-4978-92b6-7b62c172a576")
+	)
+	(wire
+		(pts
+			(xy 358.14 73.66) (xy 368.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddda6f04-8052-4c7c-b76a-e4e4326479e6")
+	)
+	(wire
+		(pts
+			(xy 148.59 152.4) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5ece9c-4248-410e-aa0e-5eda1f8ef7b7")
+	)
+	(wire
+		(pts
+			(xy 340.36 58.42) (xy 340.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a99f4b-c57a-4ac6-8b18-289ea34cc021")
+	)
+	(wire
+		(pts
+			(xy 237.49 195.58) (xy 96.52 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24f67af-5d01-45b2-af1c-56be7c75a242")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d6c5cd-32c8-4b5d-8a07-df591de6514b")
+	)
+	(wire
+		(pts
+			(xy 331.47 76.2) (xy 340.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb80f39c-100d-45e9-86f8-72dcda67929f")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd06a87-de56-4448-a890-02e4746d7a98")
+	)
+	(wire
+		(pts
+			(xy 137.16 144.78) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37f645a-3b06-4b18-aa27-ef0c805bc964")
+	)
+	(wire
+		(pts
+			(xy 187.96 49.53) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67e71d2-94ae-4d17-b4a2-c66d579e4294")
+	)
+	(wire
+		(pts
+			(xy 179.07 154.94) (xy 179.07 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68ae68d-0c80-4ec2-92c6-f41f7321504d")
+	)
+	(wire
+		(pts
+			(xy 306.07 144.78) (xy 306.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f842b49a-1e87-46de-8c47-bcf3dd09af86")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8789681-c371-419f-9138-5e34a35d1f77")
+	)
+	(wire
+		(pts
+			(xy 144.78 142.24) (xy 144.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa90bd6b-ac1a-4adb-a563-455b542b48c0")
+	)
+	(wire
+		(pts
+			(xy 358.14 55.88) (xy 368.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda697fb-c991-43cd-a5b8-582b25f00441")
+	)
+	(text_box "Design is compatible with multiple IPM types\nCase: ONSEMI MODGC DIP39, 54.5x31.0\n\nIGBT variants:\nNFAM2065L4B, 20A 650v\nNFAM3065L4B, 30A 650v\nNFAM5065L4B, 50A 650v\nNFAM1512L7B, 15A 1200v\nNFAM2512L7B, 25A 1200v\nNFAM3512L7B, 35A 1200v\nT suffix includes internal thermistor\nL suffix is \"low-speed\" with slightly longer switching times\n\nSiC variants:\nNFAM5312SCBU, 40A 1200v\nNFAM3812SCBU, 50A 1200v\nNFAM2512SCBU, 70A 1200v\nT suffix includes internal thermistor\n\nNote:\nActual RMS current is significantly lower\nthan the peak current rating and depends on\nvoltage, PWM frequency, cooling, and other factors "
+		(exclude_from_sim no)
+		(at 33.02 30.48 0)
+		(size 63.5 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d0c396eb-e8a4-4f07-80b4-5f3560bf752f")
+	)
+	(text "TEMP output is from LVIC\n1.5v @ 40C to 3.75v @ 130C\nlinear (low accuracy, +- 5C)"
+		(exclude_from_sim no)
+		(at 133.858 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30ee7b2e-77d6-4bc7-bc95-7c2fe9d142d1")
+	)
+	(text "CFOD capacitance sets minimum\nFAULT pin pulse width (+- ~30%)\nt = 100,000 * capacitance\n(10nf ~= 1ms)\n"
+		(exclude_from_sim no)
+		(at 287.274 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59fd0611-683f-45a9-812c-322721cfca6b")
+	)
+	(text "Shunts designed for NFAM2512SCBU, 70A\n\nresistance is 2.5mOhm, 2.5mV per amp\nmax cont. current with 1W resistors is ~28A\n\nactual max cont. motor current depends on\nPWM duty cycle, since the shunts are only powered\nwhen the low-side switch is on\n"
+		(exclude_from_sim no)
+		(at 345.44 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "758e7794-db7c-4f30-92ce-60cf5b49d640")
+	)
+	(text "THERM outputs are connected to an internal thermistor\n(only present on IPMs with a \"T\" suffix)\n47kOhm @ 25C to 1.406kOhm @ 125C\nB-constant: 4050K\n-40C - 125C\n"
+		(exclude_from_sim no)
+		(at 243.586 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83eae965-7046-47f1-a07f-3156c69bb699")
+	)
+	(text "FAULT pin gets pulled down\nwhen IPM is in a fault state\n2mA max sink current"
+		(exclude_from_sim no)
+		(at 259.842 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6607b87-159b-476c-98c1-a6a6302a0a42")
+	)
+	(text "PROTECT pin disables power\noutputs when above ~0.48v"
+		(exclude_from_sim no)
+		(at 377.698 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc009487-776e-4fd6-8a76-012c3c326049")
+	)
+	(text "Phase PWM inputs are all active high\nNo built-in shoot-through protection\nRC filters are as specified in the IPM datasheet"
+		(exclude_from_sim no)
+		(at 48.514 159.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d62c8fb5-fa53-4c7f-b360-bc8bd1869317")
+	)
+	(hierarchical_label "LIN_V"
+		(shape input)
+		(at 85.09 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0009d976-f8fe-4125-aced-7cd50f9f1ff6")
+	)
+	(hierarchical_label "THERM_2"
+		(shape passive)
+		(at 234.95 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c0881a6-5c86-416c-9a20-d7533681993b")
+	)
+	(hierarchical_label "NV_SENSE_N"
+		(shape input)
+		(at 368.3 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13b9d8a3-4050-4909-84fc-82d03ed707e6")
+	)
+	(hierarchical_label "NV_SENSE_P"
+		(shape input)
+		(at 331.47 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b731b8f-9cee-4afb-b0ff-1ac82c3ffca5")
+	)
+	(hierarchical_label "NW_SENSE_P"
+		(shape input)
+		(at 331.47 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c66f4cb-0d67-45fc-b43a-97e96a55a6b5")
+	)
+	(hierarchical_label "V"
+		(shape bidirectional)
+		(at 234.95 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a5c2553-598d-43a7-a070-79fc0fc3b9ad")
+	)
+	(hierarchical_label "LIN_W"
+		(shape input)
+		(at 85.09 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50431de2-3dc0-49ac-8c15-e86d571a48c2")
+	)
+	(hierarchical_label "NW_SENSE_N"
+		(shape input)
+		(at 368.3 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dad5120-a5ba-424d-bd59-ddee16599d48")
+	)
+	(hierarchical_label "HIN_U"
+		(shape input)
+		(at 85.09 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61e715a8-5c3a-419b-ac56-85115b2fd43e")
+	)
+	(hierarchical_label "NW_SENSE_P"
+		(shape output)
+		(at 234.95 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "682cd02f-ad5c-409f-9ef5-6b060ac1f662")
+	)
+	(hierarchical_label "NU_SENSE_P"
+		(shape input)
+		(at 331.47 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76760c07-fd37-4a55-860c-d3b603cdca30")
+	)
+	(hierarchical_label "W"
+		(shape bidirectional)
+		(at 234.95 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "795651ed-dfd1-4e1b-85f8-d0b11fdfda89")
+	)
+	(hierarchical_label "FAULT_N"
+		(shape output)
+		(at 234.95 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87f9d29e-6575-4e6f-8462-058ab5de3eef")
+	)
+	(hierarchical_label "U"
+		(shape bidirectional)
+		(at 234.95 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cccc033-d2a6-495c-b1ea-a3d1506c56b4")
+	)
+	(hierarchical_label "HIN_V"
+		(shape input)
+		(at 85.09 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f45981c-884b-459c-9fbf-f6b8a8425f4d")
+	)
+	(hierarchical_label "PROTECT"
+		(shape input)
+		(at 351.79 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "901ad229-8135-4fdc-8ce2-c7635dd9359c")
+	)
+	(hierarchical_label "HIN_W"
+		(shape input)
+		(at 85.09 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "942df5e6-927d-4cbf-a66e-393f74a75ee3")
+	)
+	(hierarchical_label "TEMP"
+		(shape output)
+		(at 137.16 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aadf9313-33d2-4d01-a1e5-aa8718f4ec4f")
+	)
+	(hierarchical_label "NU_SENSE_P"
+		(shape output)
+		(at 234.95 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae47e1d7-3b3c-4d5f-b69a-c26fab373665")
+	)
+	(hierarchical_label "LIN_U"
+		(shape input)
+		(at 85.09 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdc548b9-28d3-404b-bb21-8fe51452968d")
+	)
+	(hierarchical_label "THERM_1"
+		(shape passive)
+		(at 234.95 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e16b045a-0399-49e0-8b99-f4fb33da3dff")
+	)
+	(hierarchical_label "NU_SENSE_N"
+		(shape input)
+		(at 368.3 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5fadbb4-03f1-4665-9d49-81c33cb755d1")
+	)
+	(hierarchical_label "NV_SENSE_P"
+		(shape output)
+		(at 234.95 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e90ad8b9-3505-45d6-bffe-33b78a381028")
+	)
+	(symbol
+		(lib_id "NFAM2512SCBUT:NFAM3065L4BT")
+		(at 184.15 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "081f4d6e-83db-460e-aa82-8960fb83a344")
+		(property "Reference" "U2"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "IPM"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DIP39_54.5X31.0_MODGC_OSI"
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "40526b48-1db6-4750-97c0-d61b3ec1a484")
+		)
+		(pin "20"
+			(uuid "c80df202-57a4-4482-abb9-ce5ff002ba73")
+		)
+		(pin "28"
+			(uuid "bc45c7b1-32ff-4817-9073-40d950441120")
+		)
+		(pin "4"
+			(uuid "f07d2213-18c9-4a67-b6fe-8e13a2008968")
+		)
+		(pin "31"
+			(uuid "a2080f18-31e1-4f0f-8615-f87da64a14b6")
+		)
+		(pin "9"
+			(uuid "bded11ca-ccec-4782-9c48-a9f9f14023d1")
+		)
+		(pin "27"
+			(uuid "4aa1333d-6afb-4b8c-9457-88926cbb3ddd")
+		)
+		(pin "39"
+			(uuid "b5ab2f14-50a5-4873-ab68-5b1b15c8291d")
+		)
+		(pin "35"
+			(uuid "c6fea734-9777-4fe4-b503-9cb7a7f2f2e1")
+		)
+		(pin "15"
+			(uuid "499cf6d6-482b-44f8-ba4e-a8378a0b7f82")
+		)
+		(pin "25"
+			(uuid "64d4ea7f-5a6f-4889-8714-0e3490789d20")
+		)
+		(pin "34"
+			(uuid "8b5a1cdf-4abc-4698-9827-15506dd6bd7a")
+		)
+		(pin "22"
+			(uuid "02a6e81d-7d8e-48ca-bf70-0861c32b27d2")
+		)
+		(pin "16"
+			(uuid "87ff8351-8af6-41c8-b261-5ea84af7b77a")
+		)
+		(pin "21"
+			(uuid "205fcf33-17d1-475e-988c-6701b2a52b63")
+		)
+		(pin "1"
+			(uuid "03bca64b-8ca9-42a8-bdf4-5bc51998e838")
+		)
+		(pin "24"
+			(uuid "b8d1b721-ca3f-4585-9985-b8a206bf7489")
+		)
+		(pin "23"
+			(uuid "cac4acdc-71aa-4531-a6ea-63b30008a229")
+		)
+		(pin "36"
+			(uuid "a081260d-d33f-42e9-aae8-0d77b70e3d0d")
+		)
+		(pin "13"
+			(uuid "f28d0464-aa34-4dc5-b653-ae1b33c57182")
+		)
+		(pin "12"
+			(uuid "e59e4f1c-94c5-4a68-bdf1-f57bfc0e8231")
+		)
+		(pin "3"
+			(uuid "d09a8432-3f58-4a15-be9e-e716387333d4")
+		)
+		(pin "10"
+			(uuid "c56d4d38-66d0-4a79-8744-d4ea5b79d93d")
+		)
+		(pin "32"
+			(uuid "ce2f0163-5f7d-417d-9ac1-7e5958da6ec4")
+		)
+		(pin "33"
+			(uuid "a7e9ee20-763b-48b1-b0ae-2c08c4ac0145")
+		)
+		(pin "18"
+			(uuid "37619527-e8b8-4762-8e5b-93622fb988ca")
+		)
+		(pin "37"
+			(uuid "2963f12d-3e80-492f-8868-48efb00fb4f4")
+		)
+		(pin "38"
+			(uuid "da862470-a389-4afc-840b-604bda2ef025")
+		)
+		(pin "26"
+			(uuid "30bd4df5-ca6c-4726-9e5e-7555fa0cae1f")
+		)
+		(pin "6"
+			(uuid "0bdd51e6-a1f3-4ed3-80f7-c02f0e922de8")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bc772df-bc00-4c2d-a1e7-6736d3f58696")
+		(property "Reference" "C2"
+			(at 109.728 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 109.728 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.6452 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7788df47-cfec-4203-a61b-099db33aa29e")
+		)
+		(pin "2"
+			(uuid "b6141222-bc60-40a7-bb49-9db8b7a1775d")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bf8527b-0010-48ff-994f-317bb061ebe3")
+		(property "Reference" "C6"
+			(at 119.888 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 119.888 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 117.8052 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49df0dbf-d6b3-4a52-bf10-1ef0b9927469")
+		)
+		(pin "2"
+			(uuid "69499618-e540-4c9f-99db-feb6b844bbaf")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 165.1 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f65bb9-c270-4e3e-b0b6-7b0fcf3882f9")
+		(property "Reference" "#PWR06"
+			(at 165.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 165.1 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 165.1 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b45b1e1-ba58-4bce-b19c-0bd0e8280221")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 344.17 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24ef29e9-581e-4d84-b9ae-9d461fe81e25")
+		(property "Reference" "R12"
+			(at 344.17 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 344.17 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 343.916 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 344.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C7419996"
+			(at 344.17 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e215c6-ea75-4e9e-a889-218a40a48fd4")
+		)
+		(pin "2"
+			(uuid "b4e2a271-7d61-449c-baa8-473f2708e9be")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 316.23 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "272c1c6c-8a0b-4d51-895e-4f1c0b8ed5ab")
+		(property "Reference" "#PWR08"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+GATE_SUPPLY"
+			(at 316.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 316.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73844282-475e-4622-b85e-dfa8f51ccd0a")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 344.17 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b81bd57-a824-4c3e-af1f-f9e2523981c7")
+		(property "Reference" "R9"
+			(at 344.17 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 344.17 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 344.424 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C7419996"
+			(at 344.17 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be722855-c273-4609-9e4a-0b0a3fdb43b3")
+		)
+		(pin "2"
+			(uuid "75f8545b-5667-442d-a123-25075b50b460")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 328.93 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39c96499-ac17-432b-8e85-26fa2e025465")
+		(property "Reference" "C19"
+			(at 331.978 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 331.978 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 329.8952 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "162a5c0a-c6ae-4c46-abd9-d854a202c819")
+		)
+		(pin "2"
+			(uuid "edcc3ba2-de25-4d1a-96b8-497ec80b2a5b")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42b58f61-dc8c-4f3c-91c3-0ddab87d05cd")
+		(property "Reference" "C13"
+			(at 185.42 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 185.928 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 187.96 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a07f61a-3266-47c4-88d9-cf0a1eb005d5")
+		)
+		(pin "2"
+			(uuid "1622c6b5-c3da-47a3-8ea1-caef7a68c2fe")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 335.28 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "445a313f-e9c7-4a52-99b9-49ccb88eb20e")
+		(property "Reference" "C129"
+			(at 338.074 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uf"
+			(at 338.074 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+			(at 336.2452 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 335.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C473196"
+			(at 335.28 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79bd6605-b0e9-48b3-a457-c8d5060e1c0b")
+		)
+		(pin "2"
+			(uuid "6a0c0001-ccc1-44dd-9aac-f7318dfb1080")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4891f021-35ea-4570-a046-7943c475c215")
+		(property "Reference" "C5"
+			(at 109.728 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 109.728 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.6452 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816e1d64-5a75-4e12-b6e5-6eb067d74b65")
+		)
+		(pin "2"
+			(uuid "b0102a0c-1cfe-4c09-a083-497892288815")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48b25be0-fd5e-4646-a1ae-9e580e0b5566")
+		(property "Reference" "C14"
+			(at 185.42 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 185.928 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 187.96 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b043888e-8a27-4e61-98d4-5519e8e7210c")
+		)
+		(pin "2"
+			(uuid "f7ce18c4-d371-4508-8525-3c3235d2d4ff")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 344.17 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba9950d-cdfd-4a0a-abe9-cdd42e8c58d5")
+		(property "Reference" "R13"
+			(at 344.17 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 344.17 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 344.424 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C7419996"
+			(at 344.17 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea18ef5c-e27b-46e6-98a3-582019c7d4d7")
+		)
+		(pin "2"
+			(uuid "2506b04d-e6b1-4de4-aaf1-355acd60fe50")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 287.02 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c6e584c-4392-4a0f-b906-8133a3aea8d0")
+		(property "Reference" "#PWR011"
+			(at 287.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 287.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 287.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f9493c-87e6-4883-a265-ae203ac71e80")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5145405e-bbd7-4e9d-899c-19a82bc43c7a")
+		(property "Reference" "R5"
+			(at 88.9 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.154 184.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84d97b6c-ecfa-4ed9-b78c-ac367f6ed784")
+		)
+		(pin "2"
+			(uuid "57020e1e-4f00-4629-aa8f-5bd464aed07d")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "526008a0-b150-451e-a840-5ae91ce00795")
+		(property "Reference" "R138"
+			(at 154.94 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 154.94 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 154.686 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38367b04-0870-4ed7-9dcb-ca1697d663fc")
+		)
+		(pin "2"
+			(uuid "17b87042-bec7-4622-8d95-f39c5de980f8")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a275a5c-e202-4227-8ff3-d8578f97cf80")
+		(property "Reference" "C195"
+			(at 145.415 155.067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 145.288 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 147.6248 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2deee422-1688-498d-a896-4e4d5dfc9ec4")
+		)
+		(pin "2"
+			(uuid "d28e42c3-9b66-4f36-9bb3-f0314e35177f")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e93a15-d585-428c-bb6d-506eb879ce39")
+		(property "Reference" "R3"
+			(at 88.9 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.154 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91773eba-41b3-4ddb-8acd-7b82a0132d0a")
+		)
+		(pin "2"
+			(uuid "9adceb5c-67ee-4a66-b993-dd296b149cdd")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65a3f18e-b3b9-41de-81fb-7388d113d082")
+		(property "Reference" "C12"
+			(at 142.24 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 142.748 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 144.78 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf8f9eb-dcd0-4102-bfa2-c7effed12045")
+		)
+		(pin "2"
+			(uuid "916cd5d3-cca1-450a-91c1-bf2d96804da9")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6866d25a-5545-4212-b0ab-376f0d733f88")
+		(property "Reference" "C15"
+			(at 185.42 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 185.928 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 187.96 61.2648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844f845e-c70a-4fbc-ac3c-9836af44661a")
+		)
+		(pin "2"
+			(uuid "4fafc496-6f42-40dd-ab28-ee125db94354")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 106.68 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6937f9ab-cb97-48e0-bf2e-af2cc40d5580")
+		(property "Reference" "#PWR02"
+			(at 106.68 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 106.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 106.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a646111-00ea-43e2-bd52-3969a5cfe80b")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 176.53 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc5504b-9418-4225-95fb-ee7be10a0ddb")
+		(property "Reference" "#PWR05"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+GATE_SUPPLY"
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968fcf65-5a1a-4093-963c-98c930dfeca5")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 355.6 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e38b7d4-55ee-45b9-9521-1a6875ff51cc")
+		(property "Reference" "NT2"
+			(at 355.6 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 355.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:NetTie-2_SMD_Pad0.2mm"
+			(at 355.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 355.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f720a66f-6004-4912-b377-a0ce23d0661e")
+		)
+		(pin "2"
+			(uuid "9e1a7f70-ec88-4e55-8493-5ad8b0690e16")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 328.93 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e38d73c-87f1-47df-86cb-620cb8873cf6")
+		(property "Reference" "#PWR09"
+			(at 328.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 328.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 328.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fbe4779-26b2-4467-87f3-cb55caea2078")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 163.83 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd6b8a8-4ec8-4968-aebf-19e6dc9b2271")
+		(property "Reference" "D1"
+			(at 163.83 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22v"
+			(at 163.83 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "SMA2Z22A"
+			(at 163.83 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0e81030-eabc-4afd-b32b-d3d053281405")
+		)
+		(pin "1"
+			(uuid "1f870203-bed3-4d9e-b4b1-f5f40f040fdd")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 344.17 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73ab5743-a01e-466e-8376-dedc300b06aa")
+		(property "Reference" "R11"
+			(at 344.17 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 344.17 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 344.424 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 344.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C7419996"
+			(at 344.17 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da79c6be-b778-482c-ae13-05c68eccb834")
+		)
+		(pin "2"
+			(uuid "e41b2393-7d1e-4450-b62a-461f264b3e7e")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76e0ef03-3dfa-470d-8caf-c969a2881721")
+		(property "Reference" "C10"
+			(at 153.67 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 154.178 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 156.21 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7012da4-dfab-4f0f-8c2a-bf8116202987")
+		)
+		(pin "2"
+			(uuid "561e23dd-439a-4ef2-8d3b-fb1f956760f1")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 323.85 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b06f263-b377-4184-9476-601a7916a056")
+		(property "Reference" "C139"
+			(at 328.93 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uf"
+			(at 328.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 324.8152 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C7393943"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03d79750-7897-4e41-ae37-a365667c9228")
+		)
+		(pin "1"
+			(uuid "2ad1be72-1406-451f-a066-72a221ff48d9")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bad2621-e005-4643-99a5-c28f2c28e2c0")
+		(property "Reference" "R4"
+			(at 88.9 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.154 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2ecae95-e3db-43f3-8e83-b08048da9819")
+		)
+		(pin "2"
+			(uuid "2fed9e2a-acae-41ee-afb6-2a7f2b1ddd9d")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 106.68 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80b40c80-7943-4dfb-95c6-a611cbd2b2b8")
+		(property "Reference" "#PWR01"
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 106.68 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b9a8a7b-e2b6-412e-9494-586c0f8a75e3")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 316.23 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84c1897a-a6ef-4312-8692-8826d5ce74c2")
+		(property "Reference" "C18"
+			(at 313.055 142.367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 312.928 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 315.2648 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c136f072-44ce-4c26-abd1-3e1ab646a933")
+		)
+		(pin "2"
+			(uuid "2c5e5297-9322-4343-8df5-87866a431f26")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 187.96 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d211e2-40d7-4a1d-990d-c37b5e93b6f8")
+		(property "Reference" "#PWR03"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 187.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b65f882f-e5f1-4d42-827a-30044fec5d04")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 316.23 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f4f17d-6a13-473c-993c-523d26f20b46")
+		(property "Reference" "FB6"
+			(at 320.04 133.4007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 320.04 135.9407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 318.008 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C963878"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15028f9a-7444-4d59-a65d-24a8627def26")
+		)
+		(pin "2"
+			(uuid "ca3e6233-bc14-4122-abc2-ae8b3b14e697")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91e3e7c9-fe5f-4d5d-8db5-3f910169a337")
+		(property "Reference" "R2"
+			(at 88.9 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.154 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c8692de-d540-4e6e-aecf-6e30834c7841")
+		)
+		(pin "2"
+			(uuid "6bcb74ce-b9d0-4951-beef-732d6a9e194e")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92364702-e2db-48a7-89de-5341a4d9ddd0")
+		(property "Reference" "R7"
+			(at 160.02 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 160.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.814 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1fea203-b0fe-44c1-9444-7c22329d49cf")
+		)
+		(pin "2"
+			(uuid "7bd93a1a-e197-4606-a114-089499a1944d")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 316.23 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9a7a32-6640-4acc-943f-894e2618240e")
+		(property "Reference" "#PWR07"
+			(at 316.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 316.23 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 316.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25ae860b-67ce-437c-aa10-215754ef50dc")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da650aa-45f2-445a-8c1d-38452ec5a668")
+		(property "Reference" "C8"
+			(at 165.1 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 165.608 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 167.64 84.1248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54787a0d-260f-4cca-809f-c3324a8b1895")
+		)
+		(pin "2"
+			(uuid "e40c6a96-9630-4737-afaa-bbe0cb659a29")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 307.34 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0ad579-6d0f-4c32-b271-afdf7090f4cf")
+		(property "Reference" "#PWR010"
+			(at 307.34 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 307.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 307.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca887476-e224-46d0-a735-d009eeb67c98")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5d1aa51-4c6d-4f2f-bc5a-483fda924665")
+		(property "Reference" "C3"
+			(at 99.568 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 99.568 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 97.4852 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0760a5a-f188-478a-bcef-59259f87b6f2")
+		)
+		(pin "2"
+			(uuid "e54bee06-6a30-43d4-91c7-df0f57797e85")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 287.02 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7474e0f-aa52-4cd3-ab67-9dcf4fa67feb")
+		(property "Reference" "#PWR04"
+			(at 287.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 287.02 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e878c4-a8c6-4ac4-89df-8b17645b04e3")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a790c0fd-4bda-45a4-92b0-3a044f41f052")
+		(property "Reference" "C9"
+			(at 152.4 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uf"
+			(at 152.4 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 156.21 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C7393943"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f326d316-230c-41cb-91e0-0685fbc78865")
+		)
+		(pin "1"
+			(uuid "c1396383-bca6-43dc-a656-2e51f3297e29")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 344.17 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8bd2221-05ab-4da4-9e5e-a339147891e3")
+		(property "Reference" "R14"
+			(at 344.17 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 344.17 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 343.916 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 344.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C7419996"
+			(at 344.17 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3702a001-4ac9-42c2-84bb-fbf65f2668eb")
+		)
+		(pin "2"
+			(uuid "b28a2f24-d327-4829-b7e8-629b669fa0e8")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab27013b-7130-4e89-873b-f73b012630cd")
+		(property "Reference" "C7"
+			(at 163.83 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uf"
+			(at 163.83 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 167.64 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C7393943"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02529744-15d3-4e08-bf26-28c072ceb73f")
+		)
+		(pin "1"
+			(uuid "ccf70cbe-f7c2-4f15-ad40-b0abb1dd03fe")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 176.53 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba2c46c6-8cc8-4525-9f04-0b5759eb8f0e")
+		(property "Reference" "FB5"
+			(at 180.34 33.0707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 180.34 35.6107 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 178.308 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C963878"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5fcaac9-dcef-493b-ba14-db448537aa59")
+		)
+		(pin "2"
+			(uuid "9d31d6e6-2593-4d92-9a0e-ef58f0249b34")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb940528-de99-48a4-b24d-5072d586ffde")
+		(property "Reference" "R6"
+			(at 88.9 191.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.154 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afb38ff7-e8ce-4555-8126-df50bb97aa53")
+		)
+		(pin "2"
+			(uuid "4ced315c-d2c5-4821-9b01-201bc39c9d38")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc240933-8bda-455c-aa11-8110034e83f1")
+		(property "Reference" "C4"
+			(at 99.568 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 99.568 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 97.4852 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0040dfd3-feba-4f7d-9c99-242170ae0cfa")
+		)
+		(pin "2"
+			(uuid "8dcbe0bd-5b80-4174-9c1a-5180c2595f34")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 361.95 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ec3255-93aa-4e82-aec0-4632a967b6b1")
+		(property "Reference" "#PWR014"
+			(at 361.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 361.95 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f16f3947-bb2a-4804-91ef-8e43c15a7f93")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0fbe699-d583-45d8-af21-2b29be5f41d6")
+		(property "Reference" "R1"
+			(at 88.9 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 88.9 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.154 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a883ecb1-fe29-42ec-8bd7-94e783fd892d")
+		)
+		(pin "2"
+			(uuid "635507ca-3c4a-4b16-9f44-4c615bbaa940")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 280.67 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c359627b-32ed-4fc7-bcc9-09fed8c4065f")
+		(property "Reference" "C136"
+			(at 284.48 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 284.48 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 281.6352 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C780707"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "451c02ac-d130-4d3f-964e-d8c6a9d287fc")
+		)
+		(pin "2"
+			(uuid "baf418a3-13f6-4696-ba80-49f8f3db78e4")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 355.6 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c36c5b0a-ac8e-429d-b009-454f9a125018")
+		(property "Reference" "NT3"
+			(at 355.6 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 355.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:NetTie-2_SMD_Pad0.2mm"
+			(at 355.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 355.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "008eb078-742e-4cae-b0ab-0fd05efbccba")
+		)
+		(pin "2"
+			(uuid "7ea1035b-9705-4208-bdd3-e2d70a17ac57")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 307.34 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7128b58-8f76-408b-a5a0-9df45a98a7f9")
+		(property "Reference" "C20"
+			(at 310.642 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nf"
+			(at 310.642 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 308.3052 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1671c81b-2af0-4dc4-9c53-bf85bc0b338d")
+		)
+		(pin "2"
+			(uuid "e2ff9e8a-4e4d-49ba-911b-8dd97d80f89b")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca341233-93ad-4031-a603-c439ccbcb77e")
+		(property "Reference" "C11"
+			(at 140.97 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uf"
+			(at 140.97 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 144.78 72.6948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C7393943"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "573f3727-54a7-4017-ab76-3c23a98c538c")
+		)
+		(pin "1"
+			(uuid "4497ad4c-ee27-44df-a289-d2bc883d4162")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca97d378-8cef-46e5-af83-a627b20fdddd")
+		(property "Reference" "C17"
+			(at 172.212 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nf"
+			(at 172.212 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 169.8752 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "302bc82f-f58c-459f-9973-b4ce4ac0d967")
+		)
+		(pin "2"
+			(uuid "b5dd7fe9-79f8-4433-8896-e7ecd8fdee70")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 293.37 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d348266a-9e81-4f25-b55e-d0d52164de9d")
+		(property "Reference" "C16"
+			(at 297.18 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 297.18 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 294.3352 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C780707"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aee99343-7408-4bca-99ad-8a747b3a5220")
+		)
+		(pin "2"
+			(uuid "b47993ee-d39b-4809-babb-c4e9ec94aaee")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 344.17 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d79c75c8-4320-48d5-aaf8-6c01be25abe5")
+		(property "Reference" "R10"
+			(at 344.17 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5m"
+			(at 344.17 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 343.916 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 344.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C7419996"
+			(at 344.17 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3193e244-b54b-42d7-9308-14218b69f827")
+		)
+		(pin "2"
+			(uuid "b7876977-9c75-4721-a606-704d90a1c420")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 350.52 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e013cde6-cbaf-44e0-a2c9-d8f7c1e30fbb")
+		(property "Reference" "D4"
+			(at 354.965 142.621 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22v"
+			(at 354.965 144.907 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "SMA2Z22A"
+			(at 350.52 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fdce256-2915-4c77-90cb-b18ed4d0e8f6")
+		)
+		(pin "1"
+			(uuid "22775b38-f2b3-4b5f-9ffa-599ba993a7b6")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0640231-f05b-4136-b38a-6f1b173dc0c8")
+		(property "Reference" "C1"
+			(at 119.888 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nf"
+			(at 119.888 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 117.8052 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b17a454-6c23-45c6-99d4-631c6d69fc84")
+		)
+		(pin "2"
+			(uuid "667eeaad-f599-4062-96ac-30e3d7850242")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 355.6 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb5d233b-75bd-4f7c-abfe-6676697eaa30")
+		(property "Reference" "NT4"
+			(at 355.6 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 355.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:NetTie-2_SMD_Pad0.2mm"
+			(at 355.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 355.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "050b2a94-7abc-4ab7-b358-f2a00ac75972")
+		)
+		(pin "2"
+			(uuid "b2e0133f-1acd-4f23-8130-81cd9869dc41")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "NT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 152.4 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0d80f68-eb82-40e6-83f6-d7a9493febe8")
+		(property "Reference" "D2"
+			(at 152.4 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22v"
+			(at 152.4 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "SMA2Z22A"
+			(at 152.4 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "905689b8-fdee-4e5e-82af-856bfbea654a")
+		)
+		(pin "1"
+			(uuid "6eac01f5-90f9-4a56-8264-36a0407bfe83")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 140.97 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7911297-5c3f-45d2-8190-54f9572d29c0")
+		(property "Reference" "D3"
+			(at 140.97 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22v"
+			(at 140.97 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "SMA2Z22A"
+			(at 140.97 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d4245be-928a-4054-9392-c802865ff0c3")
+		)
+		(pin "1"
+			(uuid "b49deaf8-eca8-4350-af01-860c9cb2ce7c")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 184.15 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa62b4b-4a94-4908-9b12-3ce6362b8a79")
+		(property "Reference" "C128"
+			(at 183.261 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uf"
+			(at 183.261 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+			(at 187.96 48.5648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C473196"
+			(at 184.15 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbd5d23b-6850-4eb4-84cf-01799ee0411b")
+		)
+		(pin "2"
+			(uuid "ebb0613e-6bb8-41f3-8046-a8a26ba48131")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "C128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 341.63 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "feb91e31-5714-4e66-ac71-c4c4a794d188")
+		(property "Reference" "R8"
+			(at 341.63 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 341.63 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 341.884 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ca8169-6832-43cb-8842-5ed247658560")
+		)
+		(pin "2"
+			(uuid "2948acdb-3b18-4d81-8a4b-b85b3c5de3a3")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/7b2e1e56-2ca1-41be-bdcd-275ac7481d61"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

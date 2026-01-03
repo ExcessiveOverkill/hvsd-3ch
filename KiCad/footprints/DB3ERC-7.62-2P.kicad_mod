@@ -1,0 +1,140 @@
+(footprint "DB3ERC-7.62-2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J5"
+		(at 7.8 -19.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d23fb53-c413-4375-b338-96a38fb5b47a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MOTOR_B"
+		(at 7.8 -17.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0b2e6b4-e03d-4030-96f1-9725384b03e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "footprints:DB3ERC-7.62-2P"
+		(at 0.24 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5511429-a610-4705-9c43-92a2f5a1e0aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aac8183d-8589-4592-a518-e79721f09e48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 2.3 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "384462fc-0828-40ce-b18f-085bf964c31d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.3 -29.47)
+		(end 15.55 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "187a817c-0783-49c4-9bd8-65b1ff11e11e")
+	)
+	(fp_rect
+		(start -0.2 -29.3)
+		(end 15.44 0.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "630cd0e3-38b4-4c15-a166-96a9abb4b6c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.8 -16.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c8e527f-506a-43d3-b8b6-759d6e6be1e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 11.43 -9.62)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ebdf2e53-27f4-498a-bd36-3a68b6da151f")
+	)
+	(pad "1" thru_hole circle
+		(at 11.43 -2)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d58c0434-7825-4411-84cd-8eea810dccd3")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 -9.62)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d5d3924d-2d32-4dac-a93f-241008b61f2e")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 -2)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c1b92452-ec21-4bf0-a92e-01947af429e7")
+	)
+)

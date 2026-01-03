@@ -1,4 +1,4 @@
-23131926334342246
+23153091201385587
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94752,12 +94752,96 @@ Varistor VF
 2
 2
 footprints
+36L-SSOP_RCP
+
+R24C2T25-R 
+0
+36
+36
+footprints
+DB3ERC-7.62-2P
+
+
+0
+4
+2
+footprints
+DB3ERC-7.62-3P
+
+
+0
+6
+3
+footprints
 DIP39_54.5X31.0_MODGC_OSI
 
 NFAM3065L4BT 
 0
 30
 30
+footprints
+KF2EDGSRM-7.62-2P
+
+
+0
+4
+2
+footprints
+KF2EDGSRM-7.62-4P
+
+
+0
+8
+4
+footprints
+MAX MX2EDGRC-2.54-06P-GN01-Cu-A
+
+
+0
+6
+1
+footprints
+MTF1810
+
+Inductor
+0
+2
+2
+footprints
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+footprints
+NetTie-2_SMD_Pad0.2mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
+footprints
+QFP40P1600X1600X160-128N
+
+
+0
+128
+128
+footprints
+RJ45_XDRJ-1609-002
+
+RJ45 8p8c ethernet cat5
+0
+30
+25
+footprints
+SMD-4P,2x1.2mm
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+4
+4
 footprints_EM_SERIAL_MODULE
 EM_serial_module
 

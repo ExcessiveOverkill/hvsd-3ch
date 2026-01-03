@@ -1,0 +1,25 @@
+Circuit: * C:\Users\voids\Documents\GitHub\hvsd-3ch\LTspice\dc vus caps.asc
+
+C6: Increased Cpar to 1e-012
+C5: Increased Cpar to 2e-011
+C4: Increased Cpar to 2e-011
+C2: Increased Cpar to 2e-011
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Dec 15 00:04:42 2025
+Total elapsed time: 3.257 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2004059
+traniter = 2004056
+tranpoints = 1002029
+accept = 1001840
+rejected = 189
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1:       6 opcodes  0.0/[0.0]/0.0
+Matrix Compiler2:      16 opcodes  0.0/[0.0]/0.0
+

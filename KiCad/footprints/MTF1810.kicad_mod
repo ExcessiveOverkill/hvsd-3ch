@@ -1,0 +1,135 @@
+(footprint "MTF1810"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Inductor")
+	(property "Reference" "L7"
+		(at -0.02 -10.85 0)
+		(layer "F.SilkS")
+		(uuid "52b4af4e-fd48-4354-9721-7a7a2551bc7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.2uH"
+		(at -0.02 10.96 0)
+		(layer "F.Fab")
+		(uuid "fc1f78b9-8d6b-4096-978c-c690d25ed561")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Inductor_SMD:L_SXN_SMDRI127"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "def15d1e-9495-42d4-b439-859c5f2adbe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6433cbe-43f4-47fa-a2b0-9d4a043cc65a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ecc5e4-9664-4593-8326-f92b6fddfe1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC#" "C5361010"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47ae2e2d-ae65-4bcf-be78-6fe676902a40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9.97 -9.81)
+		(end 9.98 9.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e7f9e060-1135-499b-bd3c-46e74419c086")
+	)
+	(fp_rect
+		(start -9.75 -9.5)
+		(end 9.75 9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4cc7caa4-95f2-4825-84b3-3aa3d91583d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "20fd5c19-1bb1-45b0-ad59-96c5f2853bd8")
+		(effects
+			(font
+				(size 0.966667 0.966667)
+				(thickness 0.145)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.65 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3bd6221f-8b13-4bb6-a855-8630f882406d")
+	)
+	(pad "2" smd rect
+		(at 6.65 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "06edc861-147d-4a4b-9c15-e678ebe21d48")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SXN_SMDRI127.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

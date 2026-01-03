@@ -1,0 +1,93 @@
+(footprint "NetTie-2_SMD_Pad0.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+	(tags "net tie")
+	(property "Reference" "NT3"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "88a16b9a-0860-4406-ac66-aa33780b7660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie_2"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdab9902-e1ff-48a1-8cb6-78b773b7eb60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "footprints:NetTie-2_SMD_Pad0.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6840d351-bfd8-4b32-ad49-f740fd097f58")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "528156fe-33b6-4897-9a4c-5ff4df920f96")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Net tie, 2 pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22ffaba2-a4d0-4878-81d8-5e182d6e89e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(fp_rect
+		(start -0.2 -0.1)
+		(end 0.2 0.1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "a6cd6c03-1a60-4ed0-8443-73071ae44c38")
+	)
+	(pad "1" smd circle
+		(at -0.2 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(uuid "f45dd610-c93f-477e-af71-9d0d32c1e7a9")
+	)
+	(pad "2" smd circle
+		(at 0.2 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(uuid "e67df519-21a7-4a7a-b075-8bdc3c6cd6b1")
+	)
+)
