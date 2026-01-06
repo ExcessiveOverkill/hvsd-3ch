@@ -1,4 +1,4 @@
-23160161478537083
+23161936919826013
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94769,6 +94769,13 @@ footprints
 CY54_INDUCTOR
 Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm
 inductor taiyo-yuden md smd
+0
+2
+2
+footprints
+C_Rect_L32mm_W16.0mm_P27.50mm
+C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*17mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 27.50mm  length 31.5mm width 17mm Capacitor
 0
 2
 2

@@ -1,0 +1,177 @@
+(footprint "C_Rect_L32mm_W16.0mm_P27.50mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=27.50mm, , length*width=31.5*17mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 27.50mm  length 31.5mm width 17mm Capacitor")
+	(property "Reference" "C21"
+		(at -3.905 0.03 0)
+		(layer "F.SilkS")
+		(uuid "578bc261-946b-4ee7-92cf-d7dfdfa7bd3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10uf"
+		(at 13.75 9.75 0)
+		(layer "F.Fab")
+		(uuid "b2f35bf3-745a-49ed-9df9-b00182d23371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "footprints:C_Rect_L32mm_W18.0mm_P27.50mm_MKS4"
+		(at 15.9 -14.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72cf8f1a-b9a3-43af-8dc2-4d5034e689b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28890842-a955-486f-9e77-34605c5cec2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 8.9 4.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08568acd-e557-4f21-96bf-df69db99bd7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC#" "C48533427"
+		(at 4 -3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81566a97-bd76-4d60-9613-485e0c295ae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "cost" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c12195c5-9f05-42fd-b9db-25e11d207c6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Generic Allowed?" "no"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95b3cff8-c820-4f22-a221-01de38454e07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.4 -8.2)
+		(end 30 8.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1bfbe572-f995-427b-8f6c-95d286eb041b")
+	)
+	(fp_rect
+		(start -2.4 -8.2)
+		(end 30 8.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "246b3dbe-ff9a-4b8c-a992-a2e72a298480")
+	)
+	(fp_rect
+		(start -2.2 -8)
+		(end 29.8 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "aab5b977-9be9-4748-9421-e0c74fb71bbc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.75 0 0)
+		(layer "F.Fab")
+		(uuid "1da211b4-b6e9-4bb5-863d-b2bc1702b946")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77a3be3d-88ee-4c67-a375-2787afcc920f")
+	)
+	(pad "2" thru_hole circle
+		(at 27.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5534b54-0a76-4731-8033-9470a4bfae22")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L31.5mm_W17.0mm_P27.50mm_MKS4.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
