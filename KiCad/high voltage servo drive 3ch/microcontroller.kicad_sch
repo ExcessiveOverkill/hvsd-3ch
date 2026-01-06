@@ -435,164 +435,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D_Dual_Series_AKC"
 			(pin_names
 				(offset 0.762) hide)
@@ -794,309 +636,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1737,12 +1276,23 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:TPS54202DDC"
+		(symbol "Regulator_Linear:TLV75733PDBV"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -3.81 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV75733PDBV"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1750,35 +1300,26 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TPS54202DDC"
-				(at 0 6.35 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54202.pdf"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1787,7 +1328,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switching buck converter power-supply voltage regulator emi spread spectrum"
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1805,10 +1346,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS54202DDC_0_1"
+			(symbol "TLV75733PDBV_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1818,11 +1359,11 @@
 					)
 				)
 			)
-			(symbol "TPS54202DDC_1_1"
+			(symbol "TLV75733PDBV_1_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1837,10 +1378,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 0 180)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "SW"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1855,10 +1396,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 2.54 0)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "VIN"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1873,10 +1414,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1891,10 +1432,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
+				(pin power_out line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "EN"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1902,24 +1443,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4791,6 +4314,126 @@
 				)
 			)
 		)
+		(symbol "power:+5VP"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -5111,6 +4754,12 @@
 		(uuid "03134d50-fc62-4b30-9f21-1b1577b04fdd")
 	)
 	(junction
+		(at 440.69 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061e6710-362f-4ff9-9d22-cafd5e76375b")
+	)
+	(junction
 		(at 379.73 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5129,7 +4778,7 @@
 		(uuid "0d57df61-eb36-4184-b2a1-5eb794990e9e")
 	)
 	(junction
-		(at 538.48 99.06)
+		(at 510.54 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0dbd2015-c211-401e-90b1-31e103418e53")
@@ -5139,12 +4788,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10ca875d-c416-43fd-87c4-21c65be6f4c1")
-	)
-	(junction
-		(at 403.86 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11de3977-da54-41fd-b86d-4005d665997b")
 	)
 	(junction
 		(at 323.85 336.55)
@@ -5159,10 +4802,10 @@
 		(uuid "143da15c-ae01-4ab7-989e-bce2e7e2b7c6")
 	)
 	(junction
-		(at 459.74 71.12)
+		(at 356.87 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18837597-30dc-422c-a3e2-d897d5ac341c")
+		(uuid "1664d03f-91d1-4450-9981-846b4b6ce1e9")
 	)
 	(junction
 		(at 157.48 213.36)
@@ -5189,7 +4832,7 @@
 		(uuid "30b247d6-ca1a-474f-95b1-80e64500259b")
 	)
 	(junction
-		(at 538.48 55.88)
+		(at 483.87 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "371ad372-e669-404d-93cf-d5eadd7c9918")
@@ -5219,12 +4862,6 @@
 		(uuid "418f11b3-5340-4cda-bb80-a263f4b17349")
 	)
 	(junction
-		(at 519.43 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ab2110f-a55b-4e37-9952-cdd087f87b15")
-	)
-	(junction
 		(at 351.79 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5235,6 +4872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d0ede23-2e03-4eeb-8139-49eed08c4581")
+	)
+	(junction
+		(at 458.47 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d92cc33-5a4e-404a-ba7e-34203b057b28")
 	)
 	(junction
 		(at 33.02 161.29)
@@ -5255,28 +4898,10 @@
 		(uuid "57345872-1ba7-45a4-b13b-e64933100dd1")
 	)
 	(junction
-		(at 454.66 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57c64065-e12b-4a8c-9b5b-583e9f904ef5")
-	)
-	(junction
-		(at 416.56 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5865438a-f600-46d2-ac78-ca7497c54d66")
-	)
-	(junction
 		(at 83.82 387.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5907c5ce-a238-464d-8135-2d4b2d9dd4a0")
-	)
-	(junction
-		(at 472.44 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "590c303d-36f2-4609-ae7c-c404bce7697c")
 	)
 	(junction
 		(at 48.26 109.22)
@@ -5297,7 +4922,7 @@
 		(uuid "62a4b349-6f27-41cc-8871-7dc6258d63f2")
 	)
 	(junction
-		(at 525.78 99.06)
+		(at 497.84 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63ebea3c-7bb1-4309-a34a-ac25a189de9b")
@@ -5309,10 +4934,10 @@
 		(uuid "6404a15a-bbf9-41e5-97bd-ba8f396cd31f")
 	)
 	(junction
-		(at 525.78 55.88)
+		(at 458.47 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b13677d-b28f-4b30-9b02-08dbfa13bb54")
+		(uuid "66ed4cf7-5867-4670-9602-f9c98dc4dec7")
 	)
 	(junction
 		(at 370.84 363.22)
@@ -5333,28 +4958,16 @@
 		(uuid "7504530e-5ad6-43c5-a89f-5cb3a8d38ea2")
 	)
 	(junction
-		(at 403.86 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7740a551-c245-4c6b-ab96-60e2a9a208e6")
-	)
-	(junction
-		(at 472.44 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7878c11e-0b56-401b-84ba-b999b229eaa3")
-	)
-	(junction
 		(at 323.85 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "787eedcc-0952-487e-821e-b2ea901b4f27")
 	)
 	(junction
-		(at 393.7 55.88)
+		(at 436.88 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79e0bd0f-3513-4852-beb0-e75e4cf6053d")
+		(uuid "7b2d07e1-ac22-4de4-a71b-e9b8e1e6e2a3")
 	)
 	(junction
 		(at 58.42 148.59)
@@ -5373,6 +4986,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "809db437-0728-4b47-8c3c-b8d9e59294d9")
+	)
+	(junction
+		(at 466.09 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826e4c77-1080-47ff-8c97-852f6bd94ee7")
 	)
 	(junction
 		(at 177.8 57.15)
@@ -5397,6 +5016,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d99d511-679d-4557-85b8-12bd742b29af")
+	)
+	(junction
+		(at 440.69 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f227a1f-f55d-4153-a243-8828ba081829")
 	)
 	(junction
 		(at 177.8 81.28)
@@ -5429,22 +5054,10 @@
 		(uuid "b5ad5820-25fa-4e99-aee8-19ad33b448db")
 	)
 	(junction
-		(at 416.56 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc71363c-561a-4cab-8f8d-d96b0f640414")
-	)
-	(junction
 		(at 323.85 377.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bca69ce0-2eb4-48f4-9b52-a951cefb55d5")
-	)
-	(junction
-		(at 485.14 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd729395-4ba5-450a-8642-263628f4ac5b")
 	)
 	(junction
 		(at 177.8 91.44)
@@ -5457,12 +5070,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c263da6f-8ef6-4062-a3c1-bfee350a0378")
-	)
-	(junction
-		(at 382.27 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6e40586-94c3-440b-8dd2-cc57024bc03f")
 	)
 	(junction
 		(at 355.6 363.22)
@@ -5489,10 +5096,10 @@
 		(uuid "d179aa62-3a47-418b-87b4-d1805ef9a72f")
 	)
 	(junction
-		(at 497.84 55.88)
+		(at 466.09 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d33c74af-9033-44bc-a8dd-b53f04d74f8b")
+		(uuid "d3a9d003-1476-472e-8eef-10743ec43178")
 	)
 	(junction
 		(at 33.02 153.67)
@@ -5519,28 +5126,16 @@
 		(uuid "dcead880-f1bb-435e-b26b-cd4b6698b39c")
 	)
 	(junction
-		(at 382.27 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfd378cb-015f-4720-8f07-70c6b1a343ea")
-	)
-	(junction
 		(at 537.21 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e02df297-0d3f-42af-8f92-48a9e4f882f0")
 	)
 	(junction
-		(at 491.49 68.58)
+		(at 421.64 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0d890ee-528c-4c9e-b633-3196942ffb70")
-	)
-	(junction
-		(at 472.44 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e78bd57d-73fa-4d66-9160-9e5e35983c1e")
+		(uuid "e26f7cbe-63b9-4bd8-9167-6ae70cd21427")
 	)
 	(junction
 		(at 405.13 337.82)
@@ -5553,12 +5148,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb8bf472-9b90-4848-b6ac-578eda1e0b1f")
-	)
-	(junction
-		(at 431.8 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec6f9cdd-beff-4a2d-bed2-add409b4ecff")
 	)
 	(junction
 		(at 323.85 346.71)
@@ -5585,54 +5174,16 @@
 		(uuid "f43660ed-9915-4686-a83a-f5d3980dde6f")
 	)
 	(junction
-		(at 416.56 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4ac448d-9043-4507-9cfd-39b690b98649")
-	)
-	(junction
 		(at 323.85 364.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5df94fb-dc50-472d-b330-2500773cc937")
 	)
 	(junction
-		(at 360.68 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7577b63-d625-45cc-a426-db5d14c64229")
-	)
-	(junction
-		(at 393.7 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb4a6fc2-2801-46b8-8d57-b083a219c675")
-	)
-	(junction
 		(at 323.85 341.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc39c4f8-def4-4dec-94fb-359b48bd176c")
-	)
-	(wire
-		(pts
-			(xy 416.56 55.88) (xy 416.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ffdb23-4076-4ea6-a24f-8f8c7e449cc7")
-	)
-	(wire
-		(pts
-			(xy 382.27 67.31) (xy 382.27 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019a5c40-0376-4ea5-9e02-4e32e2b1503e")
 	)
 	(wire
 		(pts
@@ -5643,16 +5194,6 @@
 			(type default)
 		)
 		(uuid "02a9eb2d-1a50-4f1c-a56a-c78b2d868aa2")
-	)
-	(wire
-		(pts
-			(xy 525.78 55.88) (xy 519.43 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04503ba3-7f8a-4583-b7f9-948b32658f23")
 	)
 	(wire
 		(pts
@@ -5686,16 +5227,6 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 67.31) (xy 403.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061ff8dc-6aa8-437b-badd-379647aa0f35")
-	)
-	(wire
-		(pts
 			(xy 59.69 93.98) (xy 88.9 93.98)
 		)
 		(stroke
@@ -5713,16 +5244,6 @@
 			(type default)
 		)
 		(uuid "0a260690-7a2a-4b96-be69-33381682f937")
-	)
-	(wire
-		(pts
-			(xy 441.96 62.23) (xy 447.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a786e6b-eaf2-4b07-91f7-f44652151606")
 	)
 	(wire
 		(pts
@@ -5746,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 101.6) (xy 525.78 99.06)
+			(xy 497.84 100.33) (xy 497.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5776,6 +5297,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 60.96) (xy 440.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0c822c-6cc5-4f57-971b-0896cadffaa4")
+	)
+	(wire
+		(pts
 			(xy 73.66 207.01) (xy 73.66 193.04)
 		)
 		(stroke
@@ -5793,16 +5324,6 @@
 			(type default)
 		)
 		(uuid "0f1b6a18-22f9-44fd-a201-a7335fbf6cc2")
-	)
-	(wire
-		(pts
-			(xy 420.37 64.77) (xy 420.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6977f3-b37d-4719-b7a0-a871690665de")
 	)
 	(wire
 		(pts
@@ -5836,16 +5357,6 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 55.88) (xy 497.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1833b0a2-a602-4784-8fc3-edca114743c1")
-	)
-	(wire
-		(pts
 			(xy 323.85 341.63) (xy 323.85 344.17)
 		)
 		(stroke
@@ -5853,16 +5364,6 @@
 			(type default)
 		)
 		(uuid "18bd6014-1dc6-49bf-b664-0680f88979f6")
-	)
-	(wire
-		(pts
-			(xy 525.78 66.04) (xy 525.78 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb7f88e-eb8b-47b6-a0e5-c25daeb1c064")
 	)
 	(wire
 		(pts
@@ -5883,16 +5384,6 @@
 			(type default)
 		)
 		(uuid "20ad3c3e-8911-4bcd-91a3-27af59665122")
-	)
-	(wire
-		(pts
-			(xy 459.74 63.5) (xy 472.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240689fa-6bfe-4e88-86d6-1a0533963d9e")
 	)
 	(wire
 		(pts
@@ -5926,33 +5417,13 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 99.06) (xy 525.78 99.06)
+			(xy 510.54 97.79) (xy 497.84 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "270d9784-6204-47c4-8518-fe9630ca4e5f")
-	)
-	(wire
-		(pts
-			(xy 454.66 59.69) (xy 454.66 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "297e3290-1a62-4315-9c6b-488963ec448d")
-	)
-	(wire
-		(pts
-			(xy 416.56 57.15) (xy 421.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f798f6-8da9-4881-8efd-0657026d3b9e")
 	)
 	(wire
 		(pts
@@ -5966,23 +5437,13 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 68.58) (xy 485.14 66.04)
+			(xy 441.96 100.33) (xy 440.69 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3031f9dc-a1c8-4ee2-937c-deaafa054b5e")
-	)
-	(wire
-		(pts
-			(xy 393.7 55.88) (xy 403.86 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "317291dd-902f-455c-98ac-37418e29ab46")
+		(uuid "2f7d94b0-5f3d-4737-a145-67402849f79d")
 	)
 	(wire
 		(pts
@@ -6026,16 +5487,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 55.88) (xy 393.7 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e88367-beb8-4f14-8d01-64bd40628ff8")
-	)
-	(wire
-		(pts
 			(xy 323.85 361.95) (xy 323.85 364.49)
 		)
 		(stroke
@@ -6046,13 +5497,13 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 72.39) (xy 431.8 73.66)
+			(xy 440.69 100.33) (xy 440.69 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35e5ddbf-af96-4a7f-94d4-6f3121d96b62")
+		(uuid "365d593d-4f4c-4e78-a986-5a111c95297a")
 	)
 	(wire
 		(pts
@@ -6076,6 +5527,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 58.42) (xy 440.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3819f585-920a-4a0d-9af8-2d78ec8a5170")
+	)
+	(wire
+		(pts
 			(xy 187.96 78.74) (xy 182.88 78.74)
 		)
 		(stroke
@@ -6096,16 +5557,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 55.88) (xy 467.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f183ab1-a49a-4310-a216-017ebebea16e")
-	)
-	(wire
-		(pts
 			(xy 392.43 330.2) (xy 405.13 330.2)
 		)
 		(stroke
@@ -6113,6 +5564,16 @@
 			(type default)
 		)
 		(uuid "3fae56af-19fd-4c03-8006-62f2a8583870")
+	)
+	(wire
+		(pts
+			(xy 356.87 72.39) (xy 360.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a4ff04-a589-4ead-a454-2bf893e3c9fb")
 	)
 	(wire
 		(pts
@@ -6176,16 +5637,6 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 67.31) (xy 431.8 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "447a934b-c9e9-4512-a807-a139a6b01739")
-	)
-	(wire
-		(pts
 			(xy 379.73 330.2) (xy 392.43 330.2)
 		)
 		(stroke
@@ -6206,16 +5657,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 53.34) (xy 393.7 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c2f0da-1ef1-41f1-a4f0-eff719579aef")
-	)
-	(wire
-		(pts
 			(xy 177.8 81.28) (xy 172.72 81.28)
 		)
 		(stroke
@@ -6226,43 +5667,13 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 55.88) (xy 485.14 55.88)
+			(xy 466.09 58.42) (xy 483.87 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48c36240-bc67-47ec-a209-04ca4fb2125c")
-	)
-	(wire
-		(pts
-			(xy 416.56 64.77) (xy 420.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49dc8119-7bf2-4381-87e7-d745defc847f")
-	)
-	(wire
-		(pts
-			(xy 403.86 55.88) (xy 416.56 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e51d05-8da5-4e8c-8ae4-dcb770d43307")
-	)
-	(wire
-		(pts
-			(xy 459.74 71.12) (xy 472.44 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3cdd98-600e-421d-a817-f4ff0abbfd35")
+		(uuid "4a8d48af-3f89-4d8e-b28b-f08a39357f13")
 	)
 	(wire
 		(pts
@@ -6306,16 +5717,6 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 62.23) (xy 421.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b6b5d2-0d36-4bad-9840-dfdac485768b")
-	)
-	(wire
-		(pts
 			(xy 52.07 130.81) (xy 52.07 129.54)
 		)
 		(stroke
@@ -6336,16 +5737,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 55.88) (xy 444.5 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5417c214-570f-4250-b2b9-e22c942d30af")
-	)
-	(wire
-		(pts
 			(xy 177.8 125.73) (xy 177.8 127)
 		)
 		(stroke
@@ -6356,16 +5747,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 57.15) (xy 441.96 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f306c5-a9ec-445d-b7ea-166a7b575b14")
-	)
-	(wire
-		(pts
 			(xy 355.6 363.22) (xy 355.6 356.87)
 		)
 		(stroke
@@ -6373,16 +5754,6 @@
 			(type default)
 		)
 		(uuid "5664695b-7a5b-4cdf-a0bf-960d83632742")
-	)
-	(wire
-		(pts
-			(xy 454.66 55.88) (xy 459.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567cccfa-e680-47df-8133-4fa7b9705044")
 	)
 	(wire
 		(pts
@@ -6406,13 +5777,13 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 58.42) (xy 485.14 55.88)
+			(xy 458.47 69.85) (xy 466.09 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58e3654f-250f-4a06-b71b-a132d623fed6")
+		(uuid "5911c3e6-c18c-45cf-9c98-16d8118cac0b")
 	)
 	(wire
 		(pts
@@ -6433,16 +5804,6 @@
 			(type default)
 		)
 		(uuid "5b3f817e-3768-475e-9953-1e12d81fc2fd")
-	)
-	(wire
-		(pts
-			(xy 497.84 58.42) (xy 497.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0bc795-1b52-4fba-bd75-b3f7abf708f8")
 	)
 	(wire
 		(pts
@@ -6496,16 +5857,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 72.39) (xy 393.7 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6901d1e4-bef8-4145-b60d-ca00ece95162")
-	)
-	(wire
-		(pts
 			(xy 323.85 336.55) (xy 323.85 339.09)
 		)
 		(stroke
@@ -6543,26 +5894,6 @@
 			(type default)
 		)
 		(uuid "6cf665d2-f6bb-4b67-afbf-f03e965d5e88")
-	)
-	(wire
-		(pts
-			(xy 403.86 59.69) (xy 403.86 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e1e9d32-a498-41f5-87fb-2601b2c82871")
-	)
-	(wire
-		(pts
-			(xy 447.04 71.12) (xy 459.74 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec4b3c3-70e3-460d-ab4b-442e4b068d29")
 	)
 	(wire
 		(pts
@@ -6606,16 +5937,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 67.31) (xy 393.7 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b66a61-fc62-4c7e-8d2b-25e5d671f617")
-	)
-	(wire
-		(pts
 			(xy 537.21 262.89) (xy 537.21 265.43)
 		)
 		(stroke
@@ -6633,6 +5954,36 @@
 			(type default)
 		)
 		(uuid "74b8929c-61ca-47cf-b90c-24f1e25a0bbb")
+	)
+	(wire
+		(pts
+			(xy 466.09 107.95) (xy 466.09 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7570b4ec-2315-4a38-b0ee-8a38767725a2")
+	)
+	(wire
+		(pts
+			(xy 457.2 97.79) (xy 466.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758a2300-0915-418d-a77c-c96140cd9132")
+	)
+	(wire
+		(pts
+			(xy 466.09 69.85) (xy 466.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76736317-110e-4ad6-b774-7512d6062172")
 	)
 	(wire
 		(pts
@@ -6656,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 99.06) (xy 525.78 93.98)
+			(xy 497.84 97.79) (xy 497.84 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6676,6 +6027,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 69.85) (xy 458.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab81238-82e1-499b-99bb-99ed1ddeda84")
+	)
+	(wire
+		(pts
 			(xy 191.77 116.84) (xy 191.77 115.57)
 		)
 		(stroke
@@ -6683,6 +6044,16 @@
 			(type default)
 		)
 		(uuid "7ae7173f-a547-4783-a22b-b612da51daf7")
+	)
+	(wire
+		(pts
+			(xy 440.69 60.96) (xy 440.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de91057-1c5f-43f5-9103-391f053126b2")
 	)
 	(wire
 		(pts
@@ -6746,6 +6117,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 50.8) (xy 421.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86294acc-10fc-4fea-bae7-1d5534803cdf")
+	)
+	(wire
+		(pts
 			(xy 45.72 109.22) (xy 48.26 109.22)
 		)
 		(stroke
@@ -6753,6 +6134,26 @@
 			(type default)
 		)
 		(uuid "87fddea4-4a97-4827-81e9-cc9cc41152f0")
+	)
+	(wire
+		(pts
+			(xy 449.58 68.58) (xy 449.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89986c7b-bc48-4385-a2d1-f283b4cb9549")
+	)
+	(wire
+		(pts
+			(xy 436.88 58.42) (xy 421.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a41a494-0045-4e79-8dff-96b4f57e8e70")
 	)
 	(wire
 		(pts
@@ -6806,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 72.39) (xy 360.68 72.39)
+			(xy 351.79 72.39) (xy 356.87 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6856,13 +6257,13 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 72.39) (xy 403.86 72.39)
+			(xy 440.69 58.42) (xy 436.88 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99dd0c1e-3a54-499c-b11a-512fc2b10f5f")
+		(uuid "98de5fcd-2f4a-4e05-9d85-701f5c1fae19")
 	)
 	(wire
 		(pts
@@ -6886,6 +6287,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 97.79) (xy 436.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c387cbe-190d-4d45-82b8-e11055ad42d4")
+	)
+	(wire
+		(pts
 			(xy 323.85 377.19) (xy 323.85 379.73)
 		)
 		(stroke
@@ -6906,6 +6317,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 107.95) (xy 466.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed6e29a-1990-4994-b045-6fa8bb299ad0")
+	)
+	(wire
+		(pts
 			(xy 33.02 153.67) (xy 50.8 153.67)
 		)
 		(stroke
@@ -6916,7 +6337,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 114.3) (xy 538.48 116.84)
+			(xy 510.54 113.03) (xy 510.54 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6946,16 +6367,6 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 69.85) (xy 491.49 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6bd46de-f275-4fed-a206-aa233b5457d8")
-	)
-	(wire
-		(pts
 			(xy 370.84 363.22) (xy 370.84 369.57)
 		)
 		(stroke
@@ -6976,16 +6387,6 @@
 	)
 	(wire
 		(pts
-			(xy 445.77 55.88) (xy 444.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e475b3-1a9e-4d48-bc3b-8b149b9ccac7")
-	)
-	(wire
-		(pts
 			(xy 323.85 369.57) (xy 323.85 372.11)
 		)
 		(stroke
@@ -7003,6 +6404,26 @@
 			(type default)
 		)
 		(uuid "aaa3b823-feed-4fc5-89bd-847a50a3de91")
+	)
+	(wire
+		(pts
+			(xy 440.69 97.79) (xy 436.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbf3d98-ee90-4791-a47a-ece4353d3ac0")
+	)
+	(wire
+		(pts
+			(xy 449.58 107.95) (xy 458.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb719c4-82ec-4b65-8e19-4d1f6042e0c3")
 	)
 	(wire
 		(pts
@@ -7033,26 +6454,6 @@
 			(type default)
 		)
 		(uuid "b228e57f-b950-46ec-89f2-c4ac7ca0fa64")
-	)
-	(wire
-		(pts
-			(xy 497.84 68.58) (xy 491.49 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36298fc-ccf0-477b-99bd-967dcc8b2568")
-	)
-	(wire
-		(pts
-			(xy 525.78 58.42) (xy 525.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b41cba-b554-4b0a-badb-a9a11cd199de")
 	)
 	(wire
 		(pts
@@ -7096,16 +6497,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 55.88) (xy 453.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83af6a5-4482-4930-bfc4-2bd566f2b25e")
-	)
-	(wire
-		(pts
 			(xy 370.84 351.79) (xy 383.54 351.79)
 		)
 		(stroke
@@ -7113,26 +6504,6 @@
 			(type default)
 		)
 		(uuid "b9c8d44f-548f-4811-8258-30061f8f0fb3")
-	)
-	(wire
-		(pts
-			(xy 382.27 55.88) (xy 382.27 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd9e19f-06b3-46bb-aabb-ea69c4ef7869")
-	)
-	(wire
-		(pts
-			(xy 538.48 55.88) (xy 525.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd3466b3-e557-4b9f-b888-d95732725bea")
 	)
 	(wire
 		(pts
@@ -7166,16 +6537,6 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 68.58) (xy 485.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c14c94b0-5e45-4a85-b21b-fbb5ec213291")
-	)
-	(wire
-		(pts
 			(xy 417.83 337.82) (xy 430.53 337.82)
 		)
 		(stroke
@@ -7183,16 +6544,6 @@
 			(type default)
 		)
 		(uuid "c239e415-69f4-401d-b02f-088a64c67e29")
-	)
-	(wire
-		(pts
-			(xy 360.68 55.88) (xy 382.27 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48ba701-0447-430b-93d9-5e6da5276635")
 	)
 	(wire
 		(pts
@@ -7266,6 +6617,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 109.22) (xy 458.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93099c2-4f5f-46f7-98df-05c68d5754e0")
+	)
+	(wire
+		(pts
 			(xy 367.03 330.2) (xy 379.73 330.2)
 		)
 		(stroke
@@ -7296,7 +6657,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 99.06) (xy 525.78 99.06)
+			(xy 485.14 97.79) (xy 497.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7313,16 +6674,6 @@
 			(type default)
 		)
 		(uuid "cf98a477-dfeb-4665-a36d-7edbdc006b1b")
-	)
-	(wire
-		(pts
-			(xy 472.44 55.88) (xy 472.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfeb04f3-c327-40ba-8889-f1bb0bccb77a")
 	)
 	(wire
 		(pts
@@ -7343,26 +6694,6 @@
 			(type default)
 		)
 		(uuid "d27347cd-9b56-4bec-a4fa-c7adaa51952a")
-	)
-	(wire
-		(pts
-			(xy 416.56 72.39) (xy 431.8 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d52a0a-a3e6-46a2-872a-24d40b2b437e")
-	)
-	(wire
-		(pts
-			(xy 403.86 72.39) (xy 416.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e6bd5a-33bb-4f7e-ac01-2eda54d755ac")
 	)
 	(wire
 		(pts
@@ -7416,17 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 62.23) (xy 447.04 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd47b466-41fe-47e7-826e-2ff2a90fb55f")
-	)
-	(wire
-		(pts
-			(xy 525.78 109.22) (xy 525.78 116.84)
+			(xy 497.84 107.95) (xy 497.84 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7436,43 +6757,13 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 59.69) (xy 454.66 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9935cb-f038-4f86-bfb5-d2028bce7a89")
-	)
-	(wire
-		(pts
-			(xy 538.48 71.12) (xy 538.48 73.66)
+			(xy 483.87 73.66) (xy 483.87 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de211054-7078-4ea8-b5d5-60e5364cfafb")
-	)
-	(wire
-		(pts
-			(xy 501.65 93.98) (xy 501.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea320db-7148-434b-babf-3a6fc53f198d")
-	)
-	(wire
-		(pts
-			(xy 501.65 99.06) (xy 509.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1e4c3e-fc6d-4243-a62b-da3c02cf2d8a")
 	)
 	(wire
 		(pts
@@ -7493,16 +6784,6 @@
 			(type default)
 		)
 		(uuid "e3a11487-7588-4c5d-98ca-49fa92f5c5dd")
-	)
-	(wire
-		(pts
-			(xy 504.19 55.88) (xy 497.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fbd1c5-371b-44d1-bd80-b2438edc0524")
 	)
 	(wire
 		(pts
@@ -7536,13 +6817,23 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 55.88) (xy 393.7 55.88)
+			(xy 441.96 97.79) (xy 440.69 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb1cf2ee-2ac2-4681-bd57-058019a916be")
+		(uuid "ec096ba0-ce58-44d4-8d12-2c622c035a99")
+	)
+	(wire
+		(pts
+			(xy 421.64 58.42) (xy 421.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4bb1a2-4f57-41c6-abd0-1703a0fac819")
 	)
 	(wire
 		(pts
@@ -7556,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 53.34) (xy 519.43 55.88)
+			(xy 466.09 55.88) (xy 466.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7566,7 +6857,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 55.88) (xy 511.81 55.88)
+			(xy 457.2 58.42) (xy 466.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7626,16 +6917,6 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 66.04) (xy 497.84 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1fb3be2-feb4-487c-9994-03e8a74413cc")
-	)
-	(wire
-		(pts
 			(xy 170.18 213.36) (xy 173.99 213.36)
 		)
 		(stroke
@@ -7643,6 +6924,16 @@
 			(type default)
 		)
 		(uuid "f277289b-adec-4c48-a0b9-a078cb5e9537")
+	)
+	(wire
+		(pts
+			(xy 466.09 97.79) (xy 477.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35d8bfe-8b2c-4658-a889-efed42e732d7")
 	)
 	(wire
 		(pts
@@ -7703,16 +6994,6 @@
 			(type default)
 		)
 		(uuid "fdabd41c-fe71-4022-8958-d2b6d38c9c90")
-	)
-	(wire
-		(pts
-			(xy 360.68 72.39) (xy 382.27 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe82234a-3e8e-4d0f-a87c-7ece9750e80a")
 	)
 	(wire
 		(pts
@@ -10391,7 +9672,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 417.83 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 417.83 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 417.83 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 417.83 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 417.83 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 417.83 334.01 0)
 			(effects
 				(font
@@ -10526,7 +9852,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 455.93 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 455.93 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 455.93 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 455.93 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 455.93 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 455.93 334.01 0)
 			(effects
 				(font
@@ -10595,7 +9966,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 355.6 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 355.6 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 355.6 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 355.6 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 355.6 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 355.6 373.38 0)
 			(effects
 				(font
@@ -10614,6 +10030,120 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75733PDBV")
+		(at 449.58 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "090f5413-2826-4d3c-acbb-18793351d901")
+		(property "Reference" "U6"
+			(at 449.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75733PDBV"
+			(at 449.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 449.58 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+			(at 449.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 449.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C485517"
+			(at 449.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.17"
+			(at 449.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 449.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "TLV75733PDBVR"
+			(at 449.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38c55bf9-6ff9-4f68-adea-ff36bca54da8")
+		)
+		(pin "5"
+			(uuid "fa1b40a4-1db6-4c67-92ec-c007df59d3ad")
+		)
+		(pin "3"
+			(uuid "5d4269e0-0e5f-4897-95e6-a6278e2e8081")
+		)
+		(pin "4"
+			(uuid "33af3f95-c7a8-49d6-b1eb-aed17afeae94")
+		)
+		(pin "2"
+			(uuid "015f47a1-e103-4f85-88bc-8f6011a2752e")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -10820,76 +10350,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 472.44 74.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ee88421-059d-49fa-a66e-2991d96615de")
-		(property "Reference" "R28"
-			(at 469.9 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "13.3k"
-			(at 469.9 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 473.456 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 472.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 472.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5886ff62-dd19-498e-8d2b-29e990d7398b")
-		)
-		(pin "1"
-			(uuid "2e9ae9d0-99be-4e93-8857-e682bcb4ceb6")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 33.02 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10943,6 +10403,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C132157"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0712K1L"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c131205b-b2fc-42d6-a235-b2892711677c")
 		)
@@ -10953,151 +10458,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 449.58 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18c2a3d2-0f29-4b0a-bfdd-e616a65e521e")
-		(property "Reference" "C47"
-			(at 450.85 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1uf"
-			(at 451.358 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 453.39 54.9148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 449.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 449.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4963ae56-ed70-420d-8ac5-7b4f91b8d58b")
-		)
-		(pin "2"
-			(uuid "f898a9b2-0fce-4cc9-887b-b0e4ebfce22d")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 393.7 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18f593f0-68fe-42e2-8d4b-ccda96e4b9a3")
-		(property "Reference" "C137"
-			(at 388.62 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2uf"
-			(at 388.62 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 392.7348 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 393.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C7393943"
-			(at 393.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58209166-7f64-4cd1-8f4a-6fbb9d61a526")
-		)
-		(pin "1"
-			(uuid "5656230a-47e4-4f71-8f74-6ddf0f151a49")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -11150,6 +10510,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
 			(at 537.21 259.08 0)
 			(effects
 				(font
@@ -11351,6 +10756,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 140.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 140.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 140.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 140.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106235"
+			(at 140.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-071KL"
 			(at 140.97 213.36 0)
 			(effects
 				(font
@@ -11626,6 +11076,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 363.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 363.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106231"
+			(at 363.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 363.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-070RL"
+			(at 363.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b344d1b-86b7-47e3-855a-29d6d0812628")
 		)
@@ -11687,7 +11182,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -11713,77 +11253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 416.56 68.58 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ba7c990-0b9f-4b9a-99a0-f7ec8dc1d2f2")
-		(property "Reference" "R26"
-			(at 414.02 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 414.02 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 417.576 68.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 416.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 416.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6871db9e-628b-473b-b670-53ba8a24f1ce")
-		)
-		(pin "1"
-			(uuid "c12d6f59-839d-4560-9d8b-30177eaae03e")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 538.48 102.87 180)
+		(at 510.54 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11792,7 +11262,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f61d5fb-b1cb-4c84-a1d5-36745d40b468")
 		(property "Reference" "R78"
-			(at 541.02 101.5999 0)
+			(at 513.08 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,7 +11271,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 541.02 104.1399 0)
+			(at 513.08 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,7 +11280,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 537.464 102.616 90)
+			(at 509.524 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +11289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 538.48 102.87 0)
+			(at 510.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +11298,52 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 538.48 102.87 0)
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106235"
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-071KL"
+			(at 510.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +11411,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 405.13 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 405.13 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 405.13 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 405.13 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 405.13 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 405.13 334.01 0)
 			(effects
 				(font
@@ -11921,74 +11481,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 501.65 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3176b088-3bcc-4638-943c-fca00aa8391e")
-		(property "Reference" "#PWR0162"
-			(at 501.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 501.65 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 501.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 501.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 501.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddd7f540-eec9-4263-adbd-2525fedebd91")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "#PWR0162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 538.48 67.31 90)
+		(at 483.87 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11997,7 +11491,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a46322-fd3a-44fe-ad2c-f13de4a5d8e5")
 		(property "Reference" "D12"
-			(at 542.29 67.6274 90)
+			(at 487.68 70.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,8 +11499,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3V_ON"
-			(at 542.29 70.1674 90)
+		(property "Value" "LED"
+			(at 487.68 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,7 +11509,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 538.48 67.31 0)
+			(at 483.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +11518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 538.48 67.31 0)
+			(at 483.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +11527,52 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 538.48 67.31 0)
+			(at 483.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 483.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 483.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C965807"
+			(at 483.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 483.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "XL-1608UBC-04"
+			(at 483.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,6 +11642,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
 			(at 48.26 113.03 0)
 			(effects
 				(font
@@ -12304,7 +11888,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 191.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -12330,7 +11959,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 525.78 116.84 0)
+		(at 497.84 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12339,7 +11968,7 @@
 		(fields_autoplaced yes)
 		(uuid "39732cb8-8f17-4fc2-865c-9916a1895afc")
 		(property "Reference" "#PWR0164"
-			(at 525.78 123.19 0)
+			(at 497.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +11977,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 525.78 121.92 0)
+			(at 497.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +11985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 525.78 116.84 0)
+			(at 497.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +11994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 525.78 116.84 0)
+			(at 497.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 525.78 116.84 0)
+			(at 497.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,16 +12025,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 538.48 99.06 0)
+		(at 510.54 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "39b1b82c-1ea4-4603-9660-f584bf996a5a")
 		(property "Reference" "TP7"
-			(at 541.02 94.4879 0)
+			(at 513.08 93.2179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12043,7 @@
 			)
 		)
 		(property "Value" "3.3VA"
-			(at 541.02 97.0279 0)
+			(at 513.08 95.7579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +12052,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 543.56 99.06 0)
+			(at 515.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 543.56 99.06 0)
+			(at 515.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +12070,16 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 538.48 99.06 0)
+			(at 510.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" ""
+			(at 510.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,6 +12233,120 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 421.64 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3df30e82-4ac0-43ed-8d0c-4a660c0dc675")
+		(property "Reference" "C24"
+			(at 418.465 70.231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uf"
+			(at 418.338 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 420.6748 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25v"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.04"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12891"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31A226KAHNNNE"
+			(at 421.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e05723a-3109-4e21-b122-8c7acba54a08")
+		)
+		(pin "2"
+			(uuid "da5de7ca-0e66-4b3b-b01e-828f6b9c755a")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 58.42 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12638,7 +12390,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 58.42 142.24 0)
 			(effects
 				(font
@@ -12755,6 +12552,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 100.33 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 100.33 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 100.33 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13158,7 +12982,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "480c2b94-b25f-430e-98a9-ec9f532d3e24")
 		(property "Reference" "NT12"
@@ -13204,6 +13028,15 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65b39865-966b-42c5-a213-2dcc653a5c7f")
 		)
@@ -13214,72 +13047,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "NT12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 472.44 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d650f9e-c499-4ae1-9ed7-7d705b366fd3")
-		(property "Reference" "#PWR073"
-			(at 472.44 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 472.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 472.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 472.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 472.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "225d6d7b-045a-42e7-836e-c7b412dc8ce6")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -13328,7 +13095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
 			(at 157.48 217.17 0)
 			(effects
 				(font
@@ -13337,7 +13104,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7393943"
+		(property "LCSC#" "C50254"
+			(at 157.48 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.03"
+			(at 157.48 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 157.48 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 157.48 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31B225KBHNNNE"
 			(at 157.48 217.17 0)
 			(effects
 				(font
@@ -13368,7 +13171,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e16d14d-d20b-48c8-80a5-e8cf5c80d845")
 		(property "Reference" "NT11"
@@ -13414,6 +13217,15 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 180.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f7572a4-bb52-4235-b801-32d8e263b623")
 		)
@@ -13431,16 +13243,16 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 538.48 73.66 0)
+		(at 458.47 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59c7840e-15cd-48c3-9afd-5f96938c0f52")
-		(property "Reference" "#PWR079"
-			(at 538.48 80.01 0)
+		(uuid "5521669e-6f10-4692-9568-1717f43a2100")
+		(property "Reference" "#PWR073"
+			(at 458.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,7 +13261,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 538.48 78.74 0)
+			(at 458.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,7 +13269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 538.48 73.66 0)
+			(at 458.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,7 +13278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 538.48 73.66 0)
+			(at 458.47 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13475,7 +13287,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 538.48 73.66 0)
+			(at 458.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d21279f-e314-4b33-825b-384b4d41f1df")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 483.87 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59c7840e-15cd-48c3-9afd-5f96938c0f52")
+		(property "Reference" "#PWR079"
+			(at 483.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 483.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 483.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 483.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,7 +13419,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 161.29 177.8 0)
 			(effects
 				(font
@@ -13611,7 +13534,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "200v"
+			(at 537.21 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 537.21 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1%, 200v"
+			(at 537.21 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C137235"
+			(at 537.21 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 537.21 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
 			(at 537.21 227.33 0)
 			(effects
 				(font
@@ -13637,7 +13605,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 538.48 110.49 90)
+		(at 510.54 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13646,7 +13614,7 @@
 		(fields_autoplaced yes)
 		(uuid "61e31d6e-c680-4394-9df0-16df64dfba60")
 		(property "Reference" "D31"
-			(at 542.29 110.8074 90)
+			(at 514.35 109.5374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,8 +13622,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3VA_ON"
-			(at 542.29 113.3474 90)
+		(property "Value" "LED"
+			(at 514.35 112.0774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +13632,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 538.48 110.49 0)
+			(at 510.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +13641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 538.48 110.49 0)
+			(at 510.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +13650,52 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 538.48 110.49 0)
+			(at 510.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 510.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 510.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C965807"
+			(at 510.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 510.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "XL-1608UBC-04"
+			(at 510.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13712,7 +13725,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "63f56443-f255-4f82-a875-f3324aa5e3f7")
 		(property "Reference" "NT10"
@@ -13758,6 +13771,15 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8da6d0a-e4f7-4fd1-8eed-ada1bd806bd0")
 		)
@@ -13775,7 +13797,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 519.43 53.34 0)
+		(at 466.09 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13784,7 +13806,7 @@
 		(fields_autoplaced yes)
 		(uuid "64fce099-4fb6-4dce-9995-f668a1eb45e9")
 		(property "Reference" "#PWR071"
-			(at 519.43 57.15 0)
+			(at 466.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13793,7 +13815,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 519.43 48.26 0)
+			(at 466.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13801,7 +13823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 519.43 53.34 0)
+			(at 466.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13810,7 +13832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 519.43 53.34 0)
+			(at 466.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13819,7 +13841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 519.43 53.34 0)
+			(at 466.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,76 +13856,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 472.44 67.31 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65f6358d-6770-4ffa-bf2a-df11d92784f1")
-		(property "Reference" "R27"
-			(at 469.9 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 469.9 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 473.456 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 472.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 472.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8842af61-f76d-44aa-ab7a-fe48c0541c35")
-		)
-		(pin "1"
-			(uuid "caac1903-71df-48c2-b943-e699456856bc")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13954,7 +13906,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10v"
+			(at 370.84 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0017"
+			(at 370.84 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 370.84 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14445"
+			(at 370.84 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 370.84 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL05A105KP5NNNC"
 			(at 370.84 373.38 0)
 			(effects
 				(font
@@ -14137,6 +14134,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 99.06 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 99.06 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 99.06 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14578,7 +14602,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 379.73 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 379.73 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 379.73 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 379.73 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 379.73 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 379.73 334.01 0)
 			(effects
 				(font
@@ -14597,72 +14666,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "C113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 491.49 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7328d512-318a-4b73-93db-fef21243dd91")
-		(property "Reference" "#PWR074"
-			(at 491.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 491.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 491.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 491.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 491.49 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcf75c69-ecb3-4b1f-9006-127b5c78397d")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -14761,6 +14764,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15202,7 +15232,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "25v"
+			(at 354.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.04"
+			(at 354.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 354.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12891"
+			(at 354.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 354.33 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31A226KAHNNNE"
 			(at 354.33 334.01 0)
 			(effects
 				(font
@@ -15271,7 +15346,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 502.92 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0011"
+			(at 502.92 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 502.92 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106200"
+			(at 502.92 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 502.92 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402JRNPO9BN101"
 			(at 502.92 260.35 0)
 			(effects
 				(font
@@ -15388,6 +15508,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 100.33 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 100.33 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 100.33 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15839,6 +15986,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C132157"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0712K1L"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb159b8f-d850-4186-9fb2-0596d6b8a2ed")
 		)
@@ -15966,6 +16158,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
 			(at 177.8 52.07 0)
 			(effects
 				(font
@@ -16149,6 +16386,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16600,7 +16864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
+		(property "Manufacturer" "LRC"
 			(at 486.41 256.54 0)
 			(effects
 				(font
@@ -16609,7 +16873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "BAT54SLT1G"
+		(property "Part number" "LBAT54SLT1G"
 			(at 486.41 256.54 0)
 			(effects
 				(font
@@ -16619,6 +16883,24 @@
 			)
 		)
 		(property "Generic Allowed?" "yes"
+			(at 486.41 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.01"
+			(at 486.41 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12765"
 			(at 486.41 256.54 0)
 			(effects
 				(font
@@ -16646,8 +16928,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV75733PDBV")
+		(at 449.58 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef649cc-a755-42dd-bc5c-8a7371a256f7")
+		(property "Reference" "U21"
+			(at 449.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75733PDBV"
+			(at 449.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 449.58 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+			(at 449.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C485517"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.17"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "TLV75733PDBVR"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27d8ab47-4e9b-427d-82fe-9f8f7e46ddb7")
+		)
+		(pin "5"
+			(uuid "6839235c-8859-453c-9d09-6ae8ec80415a")
+		)
+		(pin "3"
+			(uuid "f8e9c3d4-cd35-49a4-9e62-d1fa6faad8ec")
+		)
+		(pin "4"
+			(uuid "14797f1e-9608-42e5-bdbc-1403c4a34a9e")
+		)
+		(pin "2"
+			(uuid "90984446-b1fc-47d0-9b75-372f8299fb3f")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
-		(at 538.48 59.69 180)
+		(at 483.87 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16656,7 +17052,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8b801c-044a-461c-9d99-e1d8db99c427")
 		(property "Reference" "R32"
-			(at 541.02 58.4199 0)
+			(at 486.41 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +17061,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 541.02 60.9599 0)
+			(at 486.41 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +17070,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 537.464 59.436 90)
+			(at 482.854 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +17079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 538.48 59.69 0)
+			(at 483.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +17088,52 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 538.48 59.69 0)
+			(at 483.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 483.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 483.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 483.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106235"
+			(at 483.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-071KL"
+			(at 483.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,6 +17151,120 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 466.09 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9281fe2c-917a-403d-911d-236bb7e97a6d")
+		(property "Reference" "C41"
+			(at 462.915 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uf"
+			(at 462.788 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 465.1248 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25v"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.04"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12891"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31A226KAHNNNE"
+			(at 466.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47567093-0c2b-4852-a0e6-83ce5932e777")
+		)
+		(pin "2"
+			(uuid "0d413666-b1aa-406f-970f-9b6aec624671")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -16760,7 +17315,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 367.03 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 367.03 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 367.03 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 367.03 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 367.03 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 367.03 334.01 0)
 			(effects
 				(font
@@ -16837,6 +17437,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106231"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-070RL"
+			(at 166.37 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f86c437c-e28e-48ad-a91f-865bba2f3daa")
 		)
@@ -16854,16 +17499,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 538.48 55.88 0)
+		(at 483.87 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ab7e65f-4231-4880-ba31-b32aadb12d8f")
 		(property "Reference" "TP6"
-			(at 541.02 51.3079 0)
+			(at 486.41 53.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16872,7 +17517,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 541.02 53.8479 0)
+			(at 486.41 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16881,7 +17526,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 543.56 55.88 0)
+			(at 488.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16890,7 +17535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 543.56 55.88 0)
+			(at 488.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16899,7 +17544,16 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 538.48 55.88 0)
+			(at 483.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" ""
+			(at 483.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,43 +17640,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS54202DDC")
-		(at 431.8 59.69 0)
+		(lib_id "Device:R_US")
+		(at 481.33 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c283dc0-2166-4336-b599-821ec0168485")
-		(property "Reference" "U11"
-			(at 431.8 49.53 0)
+		(uuid "9b0f59bb-32c7-4e57-96b6-71595ce5f88c")
+		(property "Reference" "R151"
+			(at 481.33 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPS54202DDC"
-			(at 431.8 52.07 0)
+		(property "Value" "120"
+			(at 481.33 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 433.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54202.pdf"
-			(at 424.18 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 481.584 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,8 +17673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
-			(at 431.8 59.69 0)
+		(property "Datasheet" "~"
+			(at 481.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17039,8 +17682,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C191884"
-			(at 431.8 59.69 0)
+		(property "Description" "Resistor, US symbol"
+			(at 481.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17048,28 +17691,61 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5148ffb6-9855-4923-981a-245a5a981fa3")
+		(property "cost" "0.0008"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "709cb033-55cf-4865-9b4f-c4608bf0cba5")
+		(property "Generic Allowed?" "yes"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "1d612e3c-2995-4645-94ad-6b0795350901")
+			(uuid "d13c3379-dfe6-4672-a3e9-8278eac53d79")
 		)
-		(pin "6"
-			(uuid "61cbe684-8b10-4e98-8c14-6398e65fb47d")
-		)
-		(pin "3"
-			(uuid "09be5514-7269-446f-a2d5-fdd625b3a444")
-		)
-		(pin "5"
-			(uuid "5d2f53ba-a5e3-4fdf-b2e8-2a92a4f4515b")
+		(pin "2"
+			(uuid "6334a268-5533-40c5-975a-3acf05294a73")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "U11")
+					(reference "R151")
 					(unit 1)
 				)
 			)
@@ -17120,7 +17796,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 50.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 50.8 157.48 0)
 			(effects
 				(font
@@ -17146,7 +17867,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 538.48 116.84 0)
+		(at 510.54 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17155,7 +17876,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e237e05-36ee-4b29-89f7-b882130403f1")
 		(property "Reference" "#PWR0165"
-			(at 538.48 123.19 0)
+			(at 510.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,7 +17885,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 538.48 121.92 0)
+			(at 510.54 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17172,7 +17893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 538.48 116.84 0)
+			(at 510.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17181,7 +17902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 538.48 116.84 0)
+			(at 510.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17190,7 +17911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 538.48 116.84 0)
+			(at 510.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,90 +17932,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 508 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f392dcf-f516-4ab0-9c51-82f35f744ce4")
-		(property "Reference" "FB3"
-			(at 507.9492 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 507.9492 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 508 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 508 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 508 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C963878"
-			(at 508 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd92140a-d2b2-4719-9d32-f3f57ddbec2e")
-		)
-		(pin "2"
-			(uuid "1b28a73c-34db-4a53-9ee4-ecdcf8cdf7ae")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")
 		(at 525.78 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a26f161b-b445-422b-beea-5b307b792220")
 		(property "Reference" "J3"
@@ -17334,6 +17978,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+			(at 525.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" ""
 			(at 525.78 181.61 0)
 			(effects
 				(font
@@ -17424,6 +18077,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106235"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-071KL"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92b6375a-2b9f-4e41-ae7f-a3f520fefb81")
 		)
@@ -17434,84 +18132,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "R144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 382.27 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a447256a-cbb0-47db-84c2-dd3ea923075c")
-		(property "Reference" "C45"
-			(at 374.904 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uf"
-			(at 374.904 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
-			(at 383.2352 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 382.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C473196"
-			(at 382.27 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "093e183c-ac0f-430b-ad58-00b6abe03547")
-		)
-		(pin "2"
-			(uuid "e45390cf-1a34-4f27-a834-c406f02ba627")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -17677,6 +18297,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18207,6 +18854,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 421.64 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b527afa3-85a4-466f-ad4b-84e3d41f996c")
+		(property "Reference" "#PWR075"
+			(at 421.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 421.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 421.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 421.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaa747fb-7f30-4631-8dc3-8f4d07b766d2")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 537.21 242.57 0)
 		(unit 1)
@@ -18252,7 +18965,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "200v"
+			(at 537.21 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 537.21 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1%, 200v"
+			(at 537.21 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C137235"
+			(at 537.21 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 537.21 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
 			(at 537.21 242.57 0)
 			(effects
 				(font
@@ -18321,7 +19079,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 383.54 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 383.54 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 383.54 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 383.54 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 383.54 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 383.54 373.38 0)
 			(effects
 				(font
@@ -18340,83 +19143,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "C122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 513.08 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9b87613-0898-4938-b718-e80d6b215206")
-		(property "Reference" "FB4"
-			(at 513.0292 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 513.0292 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 513.08 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 513.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 513.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C963878"
-			(at 513.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d503611f-d181-47ac-91eb-0202072e27e2")
-		)
-		(pin "2"
-			(uuid "d87e8e52-971a-4014-a7a0-1efa7b4a130e")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -18467,7 +19193,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10v"
+			(at 342.9 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0017"
+			(at 342.9 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 342.9 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14445"
+			(at 342.9 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 342.9 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL05A105KP5NNNC"
 			(at 342.9 373.38 0)
 			(effects
 				(font
@@ -18576,7 +19347,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_0"
+		(property "Value" "LED"
 			(at 247.65 167.9574 90)
 			(effects
 				(font
@@ -18604,6 +19375,51 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C965807"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 243.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "XL-1608UBC-04"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -18674,6 +19490,51 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
 			(at 360.68 60.96 0)
 			(effects
 				(font
@@ -18831,72 +19692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 525.78 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c29621ac-0894-4428-a9e2-4bdf4bd67e78")
-		(property "Reference" "#PWR075"
-			(at 525.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 525.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 525.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 525.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 525.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb43faa2-5cf4-4e82-a5e7-905f0f9f1402")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 261.62 157.48 180)
 		(unit 1)
@@ -18951,6 +19746,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 261.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 261.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 261.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106235"
+			(at 261.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-071KL"
+			(at 261.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ae3ef3a-08c3-486c-a8e9-5b4431665cf9")
 		)
@@ -18967,77 +19807,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 485.14 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c621190c-4ded-4d4f-b488-e7fe91ee32da")
-		(property "Reference" "C49"
-			(at 481.965 61.341 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uf"
-			(at 481.838 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 484.1748 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 485.14 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 485.14 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f742004e-927a-436a-95d9-34a0a697018b")
-		)
-		(pin "2"
-			(uuid "933e5621-f37e-48a5-b1d6-564f1eab6c48")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
-		(at 525.78 93.98 0)
+		(at 497.84 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19046,7 +19817,7 @@
 		(fields_autoplaced yes)
 		(uuid "c824f3d6-21fd-4f6b-b489-c99afa5be89c")
 		(property "Reference" "#PWR0163"
-			(at 525.78 97.79 0)
+			(at 497.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19055,7 +19826,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 525.78 88.9 0)
+			(at 497.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19063,7 +19834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 525.78 93.98 0)
+			(at 497.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19072,7 +19843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 525.78 93.98 0)
+			(at 497.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19081,7 +19852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 525.78 93.98 0)
+			(at 497.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19194,6 +19965,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 99.06 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 99.06 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 99.06 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19636,7 +20434,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 191.77 120.65 0)
 			(effects
 				(font
@@ -19678,7 +20521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75pf"
+		(property "Value" "100pf"
 			(at 348.488 70.104 0)
 			(effects
 				(font
@@ -19705,7 +20548,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 351.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0011"
+			(at 351.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 351.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106200"
+			(at 351.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 351.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402JRNPO9BN101"
 			(at 351.79 68.58 0)
 			(effects
 				(font
@@ -19730,152 +20618,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 463.55 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc4c44b0-d36b-401f-bcd7-a468afe3688f")
-		(property "Reference" "L6"
-			(at 463.55 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15uH"
-			(at 463.55 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-4040"
-			(at 463.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 463.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 463.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C7427097"
-			(at 463.55 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "713733e5-5bb6-4838-b05c-f6451588a3e4")
-		)
-		(pin "2"
-			(uuid "d9139ac2-cfba-4a45-9b3b-efd15b0d2f8b")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 497.84 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cee4fc93-e3b0-468d-99b4-dcb353d7ec3d")
-		(property "Reference" "C50"
-			(at 494.665 61.341 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uf"
-			(at 494.538 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 496.8748 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 497.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 497.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1ecc511-c6b9-4c25-8fa7-a8485e8185a7")
-		)
-		(pin "2"
-			(uuid "9576e0a0-d4ac-46a7-85fa-e3cc92b3cd60")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Oscillator:SG-8002CE")
 		(at 152.4 190.5 0)
 		(mirror y)
@@ -19894,7 +20636,7 @@
 				)
 			)
 		)
-		(property "Value" "SG-8002CE"
+		(property "Value" "16Mhz"
 			(at 138.43 186.7214 0)
 			(effects
 				(font
@@ -19929,6 +20671,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C390318"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "EPSON"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SG-8002CE 16.000000MHz PHM"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "1.41"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78b8ba36-fd0a-45b6-b45f-a5e6361d767c")
 		)
@@ -19945,6 +20723,72 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 356.87 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf85414a-0a53-40a7-82e1-416de24795c8")
+		(property "Reference" "#PWR0162"
+			(at 356.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 356.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 356.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4922cc5a-d6e3-4eaf-98c9-95c3453ac3f6")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -19996,7 +20840,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "200v"
+			(at 537.21 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 537.21 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1%, 200v"
+			(at 537.21 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C137235"
+			(at 537.21 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 537.21 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC1206FR-07750KL"
 			(at 537.21 234.95 0)
 			(effects
 				(font
@@ -20141,6 +21030,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 360.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 360.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 360.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106235"
+			(at 360.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-071KL"
+			(at 360.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ea4ebaf-d271-49a9-af68-e411944ee178")
 		)
@@ -20211,6 +21145,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8205fdf7-7d68-4d9a-b5eb-659d83ef0106")
 		)
@@ -20221,76 +21200,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "R142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 416.56 60.96 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8bd14ba-b4a0-432b-8ed1-c1d1210227f6")
-		(property "Reference" "R25"
-			(at 414.02 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500k"
-			(at 414.02 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 417.576 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 416.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 416.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbeca0f5-8ef7-47af-ab53-a8b8c316be22")
-		)
-		(pin "1"
-			(uuid "e90886ee-699d-4caa-a427-e78fbf830765")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -20430,75 +21339,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 403.86 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc854ba8-2e70-4f99-bef8-d46d41cb89a7")
-		(property "Reference" "C46"
-			(at 400.685 62.611 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1uf"
-			(at 400.558 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 402.8948 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 403.86 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 403.86 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d11b19af-7d1e-4bc0-a07e-c0219dac4570")
-		)
-		(pin "2"
-			(uuid "474a795e-cd02-4ead-985d-ff76eed677b0")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 392.43 334.01 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20542,7 +21382,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 392.43 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 392.43 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 392.43 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 392.43 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 392.43 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 392.43 334.01 0)
 			(effects
 				(font
@@ -20567,77 +21452,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 525.78 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e002469a-a334-4ab4-ac74-af782ba28a3a")
-		(property "Reference" "C51"
-			(at 522.605 61.341 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uf"
-			(at 522.478 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 524.8148 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 525.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 525.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81dbd1ea-3426-4713-ba2c-cc3946a28eed")
-		)
-		(pin "2"
-			(uuid "74914d42-d861-49c0-9f53-cbe161886bc4")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
-		(at 393.7 53.34 0)
+		(at 360.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20646,7 +21462,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3797e2a-2907-4640-a8ac-305a2c0501d5")
 		(property "Reference" "#PWR076"
-			(at 393.7 57.15 0)
+			(at 360.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20655,7 +21471,7 @@
 			)
 		)
 		(property "Value" "+GATE_SUPPLY"
-			(at 393.7 48.26 0)
+			(at 360.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20663,7 +21479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 393.7 53.34 0)
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +21488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 393.7 53.34 0)
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20681,7 +21497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 393.7 53.34 0)
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20696,6 +21512,72 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 458.47 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e385c6b4-3a2e-48eb-89e1-269588501bc0")
+		(property "Reference" "#PWR074"
+			(at 458.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 458.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 458.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "063368fd-2271-4671-bba1-7c439d79a97c")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -20746,7 +21628,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 430.53 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 430.53 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 430.53 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 430.53 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 430.53 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 430.53 334.01 0)
 			(effects
 				(font
@@ -20815,7 +21742,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 443.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 443.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 443.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 443.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 443.23 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 443.23 334.01 0)
 			(effects
 				(font
@@ -20834,6 +21806,72 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "C118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 421.64 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f6506e-05c4-464a-b2d7-f89ba0fa8811")
+		(property "Reference" "#PWR072"
+			(at 421.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 421.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 421.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 421.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c788be-4aaa-415e-a807-1220fe5b9470")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -20930,6 +21968,33 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "cost" "7.51"
+			(at 311.15 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STM"
+			(at 311.15 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "STM32G473QET6"
+			(at 311.15 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -21437,7 +22502,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 83.82 391.16 0)
 			(effects
 				(font
@@ -21463,15 +22573,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 459.74 67.31 180)
+		(at 466.09 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f442fea1-ec51-4f8e-aac1-e25f8ccfb93f")
-		(property "Reference" "C48"
-			(at 456.565 66.421 0)
+		(uuid "f3b8efe7-82a1-43de-9ec9-61f43f1c38b6")
+		(property "Reference" "C39"
+			(at 462.915 100.711 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21479,8 +22589,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75pf"
-			(at 456.438 68.834 0)
+		(property "Value" "22uf"
+			(at 462.788 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21488,8 +22598,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 458.7748 63.5 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 465.1248 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21498,7 +22608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 459.74 67.31 0)
+			(at 466.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21506,8 +22616,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 459.74 67.31 0)
+		(property "Description" "25v"
+			(at 466.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.04"
+			(at 466.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 466.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12891"
+			(at 466.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 466.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31A226KAHNNNE"
+			(at 466.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21516,15 +22671,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "48e863d0-e0c2-4638-a2b2-eae56d71a622")
+			(uuid "325f67c0-b9eb-4c6a-a5f1-023ed20b4463")
 		)
 		(pin "2"
-			(uuid "be8b251d-9e50-4478-af3c-7315d0dd79ed")
+			(uuid "8cf27330-efb2-469a-8775-2ec946304659")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "C48")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -21549,7 +22704,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_1"
+		(property "Value" "LED"
 			(at 265.43 167.9574 90)
 			(effects
 				(font
@@ -21577,6 +22732,51 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.004"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C965807"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 261.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "XL-1608UBC-04"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -21646,7 +22846,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -21665,72 +22910,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "C193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 431.8 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9d762fc-738a-4dc5-920c-9e88ff7c487e")
-		(property "Reference" "#PWR072"
-			(at 431.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 431.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 431.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 431.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 431.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93e0b744-d881-49c8-985b-0cd310361adf")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -21791,6 +22970,51 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0007"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8144daaf-fa23-4bf2-be57-5ba0e70e9114")
 		)
@@ -21808,7 +23032,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 525.78 105.41 180)
+		(at 497.84 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21816,7 +23040,7 @@
 		(dnp no)
 		(uuid "fce76103-ee48-4203-b994-0cce20e10661")
 		(property "Reference" "C110"
-			(at 522.605 104.521 0)
+			(at 494.665 103.251 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21825,7 +23049,7 @@
 			)
 		)
 		(property "Value" "22uf"
-			(at 522.478 106.68 0)
+			(at 494.538 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21834,7 +23058,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 524.8148 101.6 0)
+			(at 496.8748 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21843,7 +23067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 525.78 105.41 0)
+			(at 497.84 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21851,8 +23075,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 525.78 105.41 0)
+		(property "Description" "25v"
+			(at 497.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.04"
+			(at 497.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 497.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12891"
+			(at 497.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 497.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31A226KAHNNNE"
+			(at 497.84 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

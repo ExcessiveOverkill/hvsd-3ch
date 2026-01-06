@@ -1,4 +1,4 @@
-23153091201385587
+23160161478537083
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55677,6 +55677,13 @@ EO logo
 0
 0
 0
+EO logos
+Symbol_HighVoltage_Triangle_8x7mm_Silk
+High voltage symbol, in triangle, 8x7mm, copper layer
+warning graphic
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -94759,6 +94766,20 @@ R24C2T25-R
 36
 36
 footprints
+CY54_INDUCTOR
+Inductor, Taiyo Yuden, MD series, Taiyo-Yuden_MD-4040, 4.0mmx4.0mm
+inductor taiyo-yuden md smd
+0
+2
+2
+footprints
+Converter_DCDC_FXXS-1W
+DCDC-Converter, TRACO, TBA1-xxxxE, Single, 1W, Rev. October 31. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tba1e.pdf)
+DCDC-Converter TRACO TBA1E THT SIP-7 1W
+0
+4
+4
+footprints
 DB3ERC-7.62-2P
 
 
@@ -94800,6 +94821,13 @@ MAX MX2EDGRC-2.54-06P-GN01-Cu-A
 0
 6
 1
+footprints
+MS1050
+Sorede 10x10x5mm Power Inductor, https://datasheet.lcsc.com/lcsc/2201141530_SOREDE-SNR-1050-TYD4R7MT00_C2942304.pdf
+Inductor Sorede SNR 
+0
+2
+2
 footprints
 MTF1810
 

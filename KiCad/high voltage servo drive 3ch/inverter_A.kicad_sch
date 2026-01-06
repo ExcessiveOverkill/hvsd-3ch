@@ -4020,7 +4020,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "081f4d6e-83db-460e-aa82-8960fb83a344")
 		(property "Reference" "U2"
@@ -4049,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "IPM"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -4068,95 +4068,113 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ONSEMI"
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "40526b48-1db6-4750-97c0-d61b3ec1a484")
+			(uuid "0dbf0dff-ff04-45c1-99f5-391b630c5031")
 		)
 		(pin "20"
-			(uuid "c80df202-57a4-4482-abb9-ce5ff002ba73")
+			(uuid "18aef979-794c-46e8-b0ef-51fcb8c85a44")
 		)
 		(pin "28"
-			(uuid "bc45c7b1-32ff-4817-9073-40d950441120")
+			(uuid "33fd61eb-c703-439c-8f1d-311bc805ed2e")
 		)
 		(pin "4"
-			(uuid "f07d2213-18c9-4a67-b6fe-8e13a2008968")
+			(uuid "2a6577b7-a4a4-46df-8d6b-7b194e6dcab3")
 		)
 		(pin "31"
-			(uuid "a2080f18-31e1-4f0f-8615-f87da64a14b6")
+			(uuid "e8d3e463-429e-4031-b4b8-400b956d2eca")
 		)
 		(pin "9"
-			(uuid "bded11ca-ccec-4782-9c48-a9f9f14023d1")
+			(uuid "00be2757-0a18-4c6e-9dc4-9876db9ce61c")
 		)
 		(pin "27"
-			(uuid "4aa1333d-6afb-4b8c-9457-88926cbb3ddd")
+			(uuid "6f37142b-9fd3-44e1-965d-7d0d739d640a")
 		)
 		(pin "39"
-			(uuid "b5ab2f14-50a5-4873-ab68-5b1b15c8291d")
+			(uuid "44a90f87-22af-46f3-8cfa-4d86b7b62bc8")
 		)
 		(pin "35"
-			(uuid "c6fea734-9777-4fe4-b503-9cb7a7f2f2e1")
+			(uuid "3ea53018-bdae-4da8-b421-9510f4ed5ebe")
 		)
 		(pin "15"
-			(uuid "499cf6d6-482b-44f8-ba4e-a8378a0b7f82")
+			(uuid "dd04c197-a79f-4e14-8ce0-f1d38fbeffd4")
 		)
 		(pin "25"
-			(uuid "64d4ea7f-5a6f-4889-8714-0e3490789d20")
+			(uuid "877eb085-51fd-41f0-9d8b-557dda928273")
 		)
 		(pin "34"
-			(uuid "8b5a1cdf-4abc-4698-9827-15506dd6bd7a")
+			(uuid "2d514c8f-7983-4354-b9f5-527b08a65c89")
 		)
 		(pin "22"
-			(uuid "02a6e81d-7d8e-48ca-bf70-0861c32b27d2")
+			(uuid "8c9f2096-10c3-490c-8ffa-b6ca1d220a28")
 		)
 		(pin "16"
-			(uuid "87ff8351-8af6-41c8-b261-5ea84af7b77a")
+			(uuid "fc246e4d-ed41-478f-bc51-1788c7cd5503")
 		)
 		(pin "21"
-			(uuid "205fcf33-17d1-475e-988c-6701b2a52b63")
+			(uuid "9ce1ee80-6bc6-426b-8580-d788919845aa")
 		)
 		(pin "1"
-			(uuid "03bca64b-8ca9-42a8-bdf4-5bc51998e838")
+			(uuid "11224ec3-1c63-4111-9867-397d1164f8fd")
 		)
 		(pin "24"
-			(uuid "b8d1b721-ca3f-4585-9985-b8a206bf7489")
+			(uuid "67607639-96b2-4ecc-8cb3-da9a9b1b0c33")
 		)
 		(pin "23"
-			(uuid "cac4acdc-71aa-4531-a6ea-63b30008a229")
+			(uuid "180caa89-4b77-4fa8-8ff8-ee412160c86d")
 		)
 		(pin "36"
-			(uuid "a081260d-d33f-42e9-aae8-0d77b70e3d0d")
+			(uuid "c9993dc3-98dc-46e8-9aad-bcd64f61604f")
 		)
 		(pin "13"
-			(uuid "f28d0464-aa34-4dc5-b653-ae1b33c57182")
+			(uuid "8ef77fc4-d8bc-43af-96b4-a64d879ec279")
 		)
 		(pin "12"
-			(uuid "e59e4f1c-94c5-4a68-bdf1-f57bfc0e8231")
+			(uuid "3bf9c1c3-f9b2-4cd0-b166-f237e3c7cd34")
 		)
 		(pin "3"
-			(uuid "d09a8432-3f58-4a15-be9e-e716387333d4")
+			(uuid "c08acd2e-ba31-4fe0-8bc6-8ac50eaf0998")
 		)
 		(pin "10"
-			(uuid "c56d4d38-66d0-4a79-8744-d4ea5b79d93d")
+			(uuid "4b343033-74a0-42b3-a74b-df035ec86960")
 		)
 		(pin "32"
-			(uuid "ce2f0163-5f7d-417d-9ac1-7e5958da6ec4")
+			(uuid "21487a73-5f6a-466e-a549-bee0f48960a0")
 		)
 		(pin "33"
-			(uuid "a7e9ee20-763b-48b1-b0ae-2c08c4ac0145")
+			(uuid "2b0ecb9b-4971-4e5b-8a8a-a730d1c6b087")
 		)
 		(pin "18"
-			(uuid "37619527-e8b8-4762-8e5b-93622fb988ca")
+			(uuid "5b47f842-33cb-4222-b053-c39fcc2d9bce")
 		)
 		(pin "37"
-			(uuid "2963f12d-3e80-492f-8868-48efb00fb4f4")
+			(uuid "d0b08b3c-99cf-4d4d-91fe-995c4d0458fe")
 		)
 		(pin "38"
-			(uuid "da862470-a389-4afc-840b-604bda2ef025")
+			(uuid "666181b0-ac85-4bda-92f3-5472ad747abc")
 		)
 		(pin "26"
-			(uuid "30bd4df5-ca6c-4726-9e5e-7555fa0cae1f")
+			(uuid "c2476d72-ef32-4bfd-99e7-f0fb0ad74334")
 		)
 		(pin "6"
-			(uuid "0bdd51e6-a1f3-4ed3-80f7-c02f0e922de8")
+			(uuid "055a2818-f974-4bfa-b7a9-846ad40aa7b7")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4212,7 +4230,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 106.68 157.48 0)
 			(effects
 				(font
@@ -4222,10 +4285,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7788df47-cfec-4203-a61b-099db33aa29e")
+			(uuid "c4de0f84-2fe1-4fb5-b772-b2dc3b4a0304")
 		)
 		(pin "2"
-			(uuid "b6141222-bc60-40a7-bb49-9db8b7a1775d")
+			(uuid "b4f923d6-47e5-4246-8264-11b9df94cd28")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4281,7 +4344,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 116.84 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 116.84 203.2 0)
 			(effects
 				(font
@@ -4291,10 +4399,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49df0dbf-d6b3-4a52-bf10-1ef0b9927469")
+			(uuid "d2b1a7c9-c033-416a-9940-b8123a40d0f6")
 		)
 		(pin "2"
-			(uuid "69499618-e540-4c9f-99db-feb6b844bbaf")
+			(uuid "490d8692-21b7-47e0-8940-6cdf7bf2cf1e")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4360,7 +4468,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b45b1e1-ba58-4bce-b19c-0bd0e8280221")
+			(uuid "703d834c-f34a-45fc-9b1d-81e6354488e7")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4414,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "low inductance type"
 			(at 344.17 80.01 0)
 			(effects
 				(font
@@ -4423,7 +4531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C7419996"
+		(property "LCSC#" "C7419996"
 			(at 344.17 80.01 90)
 			(effects
 				(font
@@ -4432,11 +4540,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.03"
+			(at 344.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 344.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRM121WFR005TM"
+			(at 344.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 344.17 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "86e215c6-ea75-4e9e-a889-218a40a48fd4")
+			(uuid "4a353326-5033-4f8c-8e07-baaaf7e965c6")
 		)
 		(pin "2"
-			(uuid "b4e2a271-7d61-449c-baa8-473f2708e9be")
+			(uuid "9d7e7d9d-be45-4cc3-a55d-19e6a93fcbfc")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4502,7 +4646,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "73844282-475e-4622-b85e-dfa8f51ccd0a")
+			(uuid "0e26c722-2dea-4bfd-bbd3-f0e770d19490")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4556,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "low inductance type"
 			(at 344.17 58.42 0)
 			(effects
 				(font
@@ -4565,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C7419996"
+		(property "LCSC#" "C7419996"
 			(at 344.17 58.42 90)
 			(effects
 				(font
@@ -4574,11 +4718,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.03"
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRM121WFR005TM"
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 344.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "be722855-c273-4609-9e4a-0b0a3fdb43b3")
+			(uuid "efed2299-fdec-497d-ac9d-f220a4cf43f0")
 		)
 		(pin "2"
-			(uuid "75f8545b-5667-442d-a123-25075b50b460")
+			(uuid "addf4bb6-03ba-47a2-a144-dd37114f109a")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4634,7 +4814,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 328.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 328.93 158.75 0)
 			(effects
 				(font
@@ -4644,10 +4869,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "162a5c0a-c6ae-4c46-abd9-d854a202c819")
+			(uuid "4b028713-5b1a-42ed-af4c-df7e9e9882b3")
 		)
 		(pin "2"
-			(uuid "edcc3ba2-de25-4d1a-96b8-497ec80b2a5b")
+			(uuid "6ceacff6-def9-49a8-a6be-451806ab23e0")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4703,7 +4928,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -4713,10 +4983,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a07f61a-3266-47c4-88d9-cf0a1eb005d5")
+			(uuid "9096e244-d5ea-4d17-af11-067b3ab90773")
 		)
 		(pin "2"
-			(uuid "1622c6b5-c3da-47a3-8ea1-caef7a68c2fe")
+			(uuid "aa25e5c1-7c76-487c-a91b-5869aedc4888")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4772,7 +5042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "63v"
 			(at 335.28 143.51 0)
 			(effects
 				(font
@@ -4781,7 +5051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C473196"
+		(property "LCSC#" "C7471876"
 			(at 335.28 143.51 90)
 			(effects
 				(font
@@ -4790,11 +5060,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.05"
+			(at 335.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 335.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KNSCHA"
+			(at 335.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "189RV0014"
+			(at 335.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "79bd6605-b0e9-48b3-a457-c8d5060e1c0b")
+			(uuid "c837d113-285a-450d-bee8-e8089451e792")
 		)
 		(pin "2"
-			(uuid "6a0c0001-ccc1-44dd-9aac-f7318dfb1080")
+			(uuid "166be29e-d678-40d9-ab4f-e3fe9fdd148f")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4850,7 +5156,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 106.68 203.2 0)
 			(effects
 				(font
@@ -4860,10 +5211,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "816e1d64-5a75-4e12-b6e5-6eb067d74b65")
+			(uuid "e4cc0573-fd4f-4572-ad0d-04dae49816c7")
 		)
 		(pin "2"
-			(uuid "b0102a0c-1cfe-4c09-a083-497892288815")
+			(uuid "b8f1f806-41b5-4f4e-8b34-bb6006bef5da")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4919,7 +5270,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -4929,10 +5325,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b043888e-8a27-4e61-98d4-5519e8e7210c")
+			(uuid "034a9087-1923-493a-a2f5-ba67a523d1a9")
 		)
 		(pin "2"
-			(uuid "f7ce18c4-d371-4508-8525-3c3235d2d4ff")
+			(uuid "d35c02af-7be6-4eca-83c2-81155c8a8b8b")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -4986,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "low inductance type"
 			(at 344.17 93.98 0)
 			(effects
 				(font
@@ -4995,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C7419996"
+		(property "LCSC#" "C7419996"
 			(at 344.17 93.98 90)
 			(effects
 				(font
@@ -5004,11 +5400,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.03"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRM121WFR005TM"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 344.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "ea18ef5c-e27b-46e6-98a3-582019c7d4d7")
+			(uuid "9e63d706-b324-4ca1-a510-ed9a6328f0c7")
 		)
 		(pin "2"
-			(uuid "2506b04d-e6b1-4de4-aaf1-355acd60fe50")
+			(uuid "1a0a3b5e-852d-449e-846a-df0c0c73dc42")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5074,7 +5506,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6f9493c-87e6-4883-a265-ae203ac71e80")
+			(uuid "82f928be-28e1-436b-ad41-b59a0f825f85")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5102,7 +5534,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 88.9 182.88 90)
 			(effects
 				(font
@@ -5137,11 +5569,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 88.9 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "84d97b6c-ecfa-4ed9-b78c-ac367f6ed784")
+			(uuid "88738e71-05fa-4592-a8d6-031bcf0c826d")
 		)
 		(pin "2"
-			(uuid "57020e1e-4f00-4629-aa8f-5bd464aed07d")
+			(uuid "85ce29ba-7e28-4e74-b245-fa3060be0e7f")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5204,11 +5681,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0006"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105873"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402JR-075K1L"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "38367b04-0870-4ed7-9dcb-ca1697d663fc")
+			(uuid "00a2b0ca-a8e5-469d-8594-b6ad46b1591c")
 		)
 		(pin "2"
-			(uuid "17b87042-bec7-4622-8d95-f39c5de980f8")
+			(uuid "ed2b7204-1dc1-4307-9f0c-e9367099c32b")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5264,7 +5786,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 148.59 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 148.59 156.21 0)
 			(effects
 				(font
@@ -5274,10 +5841,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2deee422-1688-498d-a896-4e4d5dfc9ec4")
+			(uuid "b36f8c07-b9a1-493a-a57a-db15c89d2702")
 		)
 		(pin "2"
-			(uuid "d28e42c3-9b66-4f36-9bb3-f0314e35177f")
+			(uuid "09f23d26-3d22-4df7-ab73-05c277801495")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5305,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 88.9 147.32 90)
 			(effects
 				(font
@@ -5340,11 +5907,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "91773eba-41b3-4ddb-8acd-7b82a0132d0a")
+			(uuid "4aa2a7ea-77ac-404b-bbf5-915994ebb097")
 		)
 		(pin "2"
-			(uuid "9adceb5c-67ee-4a66-b993-dd296b149cdd")
+			(uuid "6037b868-0798-436b-a864-8294484c29eb")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5400,7 +6012,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 140.97 85.09 0)
 			(effects
 				(font
@@ -5410,10 +6067,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "faf8f9eb-dcd0-4102-bfa2-c7effed12045")
+			(uuid "f8753278-5c77-4f68-9472-8ca2525a919f")
 		)
 		(pin "2"
-			(uuid "916cd5d3-cca1-450a-91c1-bf2d96804da9")
+			(uuid "a98a9bed-1aff-43a8-8b46-691495a4b98c")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5469,7 +6126,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 184.15 62.23 0)
 			(effects
 				(font
@@ -5479,10 +6181,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "844f845e-c70a-4fbc-ac3c-9836af44661a")
+			(uuid "128ebcab-00fa-4b80-8950-d596baca5810")
 		)
 		(pin "2"
-			(uuid "4fafc496-6f42-40dd-ab28-ee125db94354")
+			(uuid "683a3a48-a6a8-4445-ad7d-4b8143f61f89")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5548,7 +6250,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a646111-00ea-43e2-bd52-3969a5cfe80b")
+			(uuid "b43c05a7-9e12-4251-81f4-b89a74f68ce8")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5614,7 +6316,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "968fcf65-5a1a-4093-963c-98c930dfeca5")
+			(uuid "e3838c33-c6fb-445e-977d-c397a07b61b0")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5632,7 +6334,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6e38b7d4-55ee-45b9-9521-1a6875ff51cc")
 		(property "Reference" "NT2"
 			(at 355.6 72.136 0)
@@ -5678,11 +6380,20 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 355.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "f720a66f-6004-4912-b377-a0ce23d0661e")
+			(uuid "da0333a0-6bbd-4a4b-b45d-2cd048ae5856")
 		)
 		(pin "2"
-			(uuid "9e1a7f70-ec88-4e55-8493-5ad8b0690e16")
+			(uuid "5db7bb5b-5150-44f7-b007-05ec26de62f9")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5748,7 +6459,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fbe4779-26b2-4467-87f3-cb55caea2078")
+			(uuid "80af2879-8a90-4f24-b9f5-ca790e02bafa")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5811,7 +6522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "SMA2Z22A"
+		(property "LCSC#" "C7440711"
 			(at 163.83 62.23 90)
 			(effects
 				(font
@@ -5820,11 +6531,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.07"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XCH"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SMA2Z22A"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "f0e81030-eabc-4afd-b32b-d3d053281405")
+			(uuid "9a12d0d1-7243-4bb9-b90e-b91d204bc368")
 		)
 		(pin "1"
-			(uuid "1f870203-bed3-4d9e-b4b1-f5f40f040fdd")
+			(uuid "899452a4-eec1-4776-b51b-3cc294cb0da6")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5878,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "low inductance type"
 			(at 344.17 76.2 0)
 			(effects
 				(font
@@ -5887,7 +6634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C7419996"
+		(property "LCSC#" "C7419996"
 			(at 344.17 76.2 90)
 			(effects
 				(font
@@ -5896,11 +6643,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.03"
+			(at 344.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 344.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRM121WFR005TM"
+			(at 344.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 344.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "da79c6be-b778-482c-ae13-05c68eccb834")
+			(uuid "91a24bc3-a8fd-4b74-b43d-60b73b618d50")
 		)
 		(pin "2"
-			(uuid "e41b2393-7d1e-4450-b62a-461f264b3e7e")
+			(uuid "64d55bd5-99ca-4106-8975-c793e4d5d42a")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -5956,7 +6739,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -5966,10 +6794,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7012da4-dfab-4f0f-8c2a-bf8116202987")
+			(uuid "b9136142-a0b7-49b2-aa45-f23c7c11eb5c")
 		)
 		(pin "2"
-			(uuid "561e23dd-439a-4ef2-8d3b-fb1f956760f1")
+			(uuid "9f82c022-abb0-424a-9b84-059fb9b46c18")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6023,7 +6851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
 			(at 323.85 143.51 0)
 			(effects
 				(font
@@ -6032,7 +6860,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7393943"
+		(property "LCSC#" "C50254"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.03"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 323.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31B225KBHNNNE"
 			(at 323.85 143.51 0)
 			(effects
 				(font
@@ -6042,10 +6906,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "03d79750-7897-4e41-ae37-a365667c9228")
+			(uuid "f0df9952-7bbd-45b5-89ad-3d327df5aad5")
 		)
 		(pin "1"
-			(uuid "2ad1be72-1406-451f-a066-72a221ff48d9")
+			(uuid "4b9c900d-f4c6-455d-8476-67112c9296eb")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6073,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 88.9 172.72 90)
 			(effects
 				(font
@@ -6108,11 +6972,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e2ecae95-e3db-43f3-8e83-b08048da9819")
+			(uuid "8562086f-21ba-4c9d-8c35-a942dd356e7b")
 		)
 		(pin "2"
-			(uuid "2fed9e2a-acae-41ee-afb6-2a7f2b1ddd9d")
+			(uuid "790b9577-2eab-44f0-9d3b-df24f554ef2e")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6178,7 +7087,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b9a8a7b-e2b6-412e-9494-586c0f8a75e3")
+			(uuid "617e789b-c243-419d-90aa-f2aa244a3899")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6234,7 +7143,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 316.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 316.23 143.51 0)
 			(effects
 				(font
@@ -6244,10 +7198,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c136f072-44ce-4c26-abd1-3e1ab646a933")
+			(uuid "849522c2-5392-46f4-ae93-7f4dbf9a2191")
 		)
 		(pin "2"
-			(uuid "2c5e5297-9322-4343-8df5-87866a431f26")
+			(uuid "2a0e920b-1e6a-429a-9d57-f8c460e669be")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6313,7 +7267,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b65f882f-e5f1-4d42-827a-30044fec5d04")
+			(uuid "e5d168d5-b408-4d1e-a59b-1c881359c80c")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6343,7 +7297,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0"
 			(at 320.04 135.9407 0)
 			(effects
 				(font
@@ -6379,7 +7333,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C963878"
+		(property "LCSC#" "C2907406"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0015"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 316.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRC1206P000 TS"
 			(at 316.23 134.62 0)
 			(effects
 				(font
@@ -6389,10 +7379,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "15028f9a-7444-4d59-a65d-24a8627def26")
+			(uuid "ca9de248-32f9-4455-92ed-c1f6fc7c13d0")
 		)
 		(pin "2"
-			(uuid "ca3e6233-bc14-4122-abc2-ae8b3b14e697")
+			(uuid "75a3373f-de79-477e-ab76-3455f5ed186f")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6420,7 +7410,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 88.9 137.16 90)
 			(effects
 				(font
@@ -6455,11 +7445,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "4c8692de-d540-4e6e-aecf-6e30834c7841")
+			(uuid "c26b1d1e-1f18-4a89-8f88-a89087ff770c")
 		)
 		(pin "2"
-			(uuid "6bcb74ce-b9d0-4951-beef-732d6a9e194e")
+			(uuid "1150e13f-4705-4d64-ad8f-fe4625d8cead")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6522,11 +7557,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0006"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105873"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402JR-075K1L"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "f1fea203-b0fe-44c1-9444-7c22329d49cf")
+			(uuid "beabed00-fe48-4c3a-a534-14b365f4d271")
 		)
 		(pin "2"
-			(uuid "7bd93a1a-e197-4606-a114-089499a1944d")
+			(uuid "4eba58cb-7bd6-4cd2-a9b4-d0ccaa2fdf50")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6592,7 +7672,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "25ae860b-67ce-437c-aa10-215754ef50dc")
+			(uuid "8ec57088-0dd1-48a6-af00-c528fdab448b")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6648,7 +7728,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.003"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105882"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX5R9BB104"
 			(at 163.83 85.09 0)
 			(effects
 				(font
@@ -6658,10 +7783,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "54787a0d-260f-4cca-809f-c3324a8b1895")
+			(uuid "38b55b66-dd9d-471f-abb8-bc719530afb9")
 		)
 		(pin "2"
-			(uuid "e40c6a96-9630-4737-afaa-bbe0cb659a29")
+			(uuid "be6ff849-0de8-44e1-8d95-3f81b0d3da16")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6727,7 +7852,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca887476-e224-46d0-a735-d009eeb67c98")
+			(uuid "42400798-d768-4560-8df9-1099d2b9a27e")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6783,7 +7908,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 96.52 157.48 0)
 			(effects
 				(font
@@ -6793,10 +7963,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0760a5a-f188-478a-bcef-59259f87b6f2")
+			(uuid "449586d7-8f27-48f0-ba39-d6b71af1ffd2")
 		)
 		(pin "2"
-			(uuid "e54bee06-6a30-43d4-91c7-df0f57797e85")
+			(uuid "034f2ce2-da40-4eb6-9036-938244175b04")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6861,7 +8031,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "33e878c4-a8c6-4ac4-89df-8b17645b04e3")
+			(uuid "99f487c7-aba2-4b0c-ba21-f3236db978e6")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6915,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -6924,7 +8094,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7393943"
+		(property "LCSC#" "C50254"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.03"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31B225KBHNNNE"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -6934,10 +8140,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f326d316-230c-41cb-91e0-0685fbc78865")
+			(uuid "b26d102a-278d-48a5-b4c0-27b61b7f44bb")
 		)
 		(pin "1"
-			(uuid "c1396383-bca6-43dc-a656-2e51f3297e29")
+			(uuid "66d2840c-44e7-47ec-b204-1205a9de64e8")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -6991,7 +8197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "low inductance type"
 			(at 344.17 97.79 0)
 			(effects
 				(font
@@ -7000,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C7419996"
+		(property "LCSC#" "C7419996"
 			(at 344.17 97.79 90)
 			(effects
 				(font
@@ -7009,11 +8215,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.03"
+			(at 344.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 344.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRM121WFR005TM"
+			(at 344.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 344.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "3702a001-4ac9-42c2-84bb-fbf65f2668eb")
+			(uuid "57973f31-0be4-4c57-8c79-9372e69644d1")
 		)
 		(pin "2"
-			(uuid "b28a2f24-d327-4829-b7e8-629b669fa0e8")
+			(uuid "0530d6b0-82ea-4eb5-bc98-a13c9256302d")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7067,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -7076,7 +8318,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7393943"
+		(property "LCSC#" "C50254"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.03"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31B225KBHNNNE"
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -7086,10 +8364,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "02529744-15d3-4e08-bf26-28c072ceb73f")
+			(uuid "b945c48c-c35e-4831-b3a8-cbe27f780bc0")
 		)
 		(pin "1"
-			(uuid "ccf70cbe-f7c2-4f15-ad40-b0abb1dd03fe")
+			(uuid "daef0429-fd43-4b9e-a5d0-169c017c7c29")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7119,7 +8397,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "0"
 			(at 180.34 35.6107 0)
 			(effects
 				(font
@@ -7155,7 +8433,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C963878"
+		(property "LCSC#" "C2907406"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0015"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRC1206P000 TS"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -7165,10 +8479,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5fcaac9-dcef-493b-ba14-db448537aa59")
+			(uuid "56b07b1b-f84b-4f18-801a-3de2ad1bb73d")
 		)
 		(pin "2"
-			(uuid "9d31d6e6-2593-4d92-9a0e-ef58f0249b34")
+			(uuid "7e33ace9-6365-460d-a645-bccc9542ff7b")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7196,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 88.9 193.04 90)
 			(effects
 				(font
@@ -7231,11 +8545,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 88.9 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "afb38ff7-e8ce-4555-8126-df50bb97aa53")
+			(uuid "aff94d6e-7f8e-4a39-b6e9-5374471fdf27")
 		)
 		(pin "2"
-			(uuid "4ced315c-d2c5-4821-9b01-201bc39c9d38")
+			(uuid "83e10917-2e2f-44fd-a7e0-77d0e31f12f1")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7291,7 +8650,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 96.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 96.52 203.2 0)
 			(effects
 				(font
@@ -7301,10 +8705,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0040dfd3-feba-4f7d-9c99-242170ae0cfa")
+			(uuid "bd1ff6f1-1c37-4069-b070-e4baab3b8e8c")
 		)
 		(pin "2"
-			(uuid "8dcbe0bd-5b80-4174-9c1a-5180c2595f34")
+			(uuid "7c1d93c1-17e3-4943-9506-7b3d491d1510")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7369,7 +8773,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f16f3947-bb2a-4804-91ef-8e43c15a7f93")
+			(uuid "60beae5a-21bd-495a-8bfd-9fd3ca0c52bb")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7397,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 88.9 127 90)
 			(effects
 				(font
@@ -7432,11 +8836,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 88.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "a883ecb1-fe29-42ec-8bd7-94e783fd892d")
+			(uuid "cf049e0e-03dd-42eb-b085-10c7ea983197")
 		)
 		(pin "2"
-			(uuid "635507ca-3c4a-4b16-9f44-4c615bbaa940")
+			(uuid "ecaff7fe-4b0a-48c7-b0bc-36cbe3ecfb00")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7493,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1kv"
 			(at 280.67 124.46 0)
 			(effects
 				(font
@@ -7511,11 +8960,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.1447"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HUI JU"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "NV1812B104K102CEMN"
+			(at 280.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "451c02ac-d130-4d3f-964e-d8c6a9d287fc")
+			(uuid "847851ed-e905-488f-980a-d1b1e3a1f9f7")
 		)
 		(pin "2"
-			(uuid "baf418a3-13f6-4696-ba80-49f8f3db78e4")
+			(uuid "4406c715-1044-46f9-86ee-81366cb9de02")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7533,7 +9018,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c36c5b0a-ac8e-429d-b009-454f9a125018")
 		(property "Reference" "NT3"
 			(at 355.6 89.916 0)
@@ -7579,11 +9064,20 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 355.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "008eb078-742e-4cae-b0ab-0fd05efbccba")
+			(uuid "16b2906c-4d29-49e8-b334-2acc17cc4512")
 		)
 		(pin "2"
-			(uuid "7ea1035b-9705-4208-bdd3-e2d70a17ac57")
+			(uuid "06611b0a-53cc-433e-9135-c4865c6408cb")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7639,7 +9133,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60133"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 307.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB103"
 			(at 307.34 168.91 0)
 			(effects
 				(font
@@ -7649,10 +9188,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1671c81b-2af0-4dc4-9c53-bf85bc0b338d")
+			(uuid "f33c3556-68a4-4e92-9c52-315a3536a087")
 		)
 		(pin "2"
-			(uuid "e2ff9e8a-4e4d-49ba-911b-8dd97d80f89b")
+			(uuid "0b0e6223-69e0-41f3-b6fb-ef199fe41e3f")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7706,7 +9245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -7715,7 +9254,43 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7393943"
+		(property "LCSC#" "C50254"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.03"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CL31B225KBHNNNE"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -7725,10 +9300,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "573f3727-54a7-4017-ab76-3c23a98c538c")
+			(uuid "6d8a608a-1f7e-4576-8236-2cb7bfa04616")
 		)
 		(pin "1"
-			(uuid "4497ad4c-ee27-44df-a289-d2bc883d4162")
+			(uuid "d34c9235-eb09-48e3-8675-69b0bc483c69")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7784,7 +9359,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60133"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB103"
 			(at 168.91 158.75 0)
 			(effects
 				(font
@@ -7794,10 +9414,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "302bc82f-f58c-459f-9973-b4ce4ac0d967")
+			(uuid "81b777b1-df83-4af7-bc0c-41b656857866")
 		)
 		(pin "2"
-			(uuid "b5dd7fe9-79f8-4433-8896-e7ecd8fdee70")
+			(uuid "508a4f49-3989-436e-b06a-f464275c84ef")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7854,7 +9474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1kv"
 			(at 293.37 124.46 0)
 			(effects
 				(font
@@ -7872,11 +9492,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.1447"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HUI JU"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "NV1812B104K102CEMN"
+			(at 293.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "aee99343-7408-4bca-99ad-8a747b3a5220")
+			(uuid "230d7cc2-7c96-499a-bc3c-b3f7553d405b")
 		)
 		(pin "2"
-			(uuid "b47993ee-d39b-4809-babb-c4e9ec94aaee")
+			(uuid "2c326b92-0175-465d-a628-7e4d5e6de3e3")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -7930,7 +9586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "low inductance type"
 			(at 344.17 62.23 0)
 			(effects
 				(font
@@ -7939,7 +9595,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C7419996"
+		(property "LCSC#" "C7419996"
 			(at 344.17 62.23 90)
 			(effects
 				(font
@@ -7948,11 +9604,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.03"
+			(at 344.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 344.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "FRM121WFR005TM"
+			(at 344.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 344.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "3193e244-b54b-42d7-9308-14218b69f827")
+			(uuid "44cea739-1f19-4e7f-8f30-b8e097726845")
 		)
 		(pin "2"
-			(uuid "b7876977-9c75-4721-a606-704d90a1c420")
+			(uuid "04f9cd6a-f1f1-4de6-a633-7040002a98ee")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8015,7 +9707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "SMA2Z22A"
+		(property "LCSC#" "C7440711"
 			(at 350.52 143.51 90)
 			(effects
 				(font
@@ -8024,11 +9716,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.07"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XCH"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SMA2Z22A"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "6fdce256-2915-4c77-90cb-b18ed4d0e8f6")
+			(uuid "3bb36e19-2c3f-4d1a-b8c8-a776e56159d5")
 		)
 		(pin "1"
-			(uuid "22775b38-f2b3-4b5f-9ffa-599ba993a7b6")
+			(uuid "6ba222e9-3702-4051-bc85-8a1d30f1fa52")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8084,7 +9812,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50v"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.001"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C106205"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CC0402KRX7R9BB102"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -8094,10 +9867,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b17a454-6c23-45c6-99d4-631c6d69fc84")
+			(uuid "220098e1-8358-446f-9b40-e22e28ff52e6")
 		)
 		(pin "2"
-			(uuid "667eeaad-f599-4062-96ac-30e3d7850242")
+			(uuid "b1dae6ea-910b-4320-906f-fab98497238b")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8115,7 +9888,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb5d233b-75bd-4f7c-abfe-6676697eaa30")
 		(property "Reference" "NT4"
 			(at 355.6 54.356 0)
@@ -8161,11 +9934,20 @@
 				(hide yes)
 			)
 		)
+		(property "cost" ""
+			(at 355.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "050b2a94-7abc-4ab7-b358-f2a00ac75972")
+			(uuid "6064202f-f8f6-41ca-83f9-e258f02139f5")
 		)
 		(pin "2"
-			(uuid "b2e0133f-1acd-4f23-8130-81cd9869dc41")
+			(uuid "e3a1d671-24e2-4fcd-82f5-688eefa9031e")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8228,7 +10010,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "SMA2Z22A"
+		(property "LCSC#" "C7440711"
 			(at 152.4 62.23 90)
 			(effects
 				(font
@@ -8237,11 +10019,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.07"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XCH"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SMA2Z22A"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "905689b8-fdee-4e5e-82af-856bfbea654a")
+			(uuid "548e199e-aff6-47b6-9f42-0a54f04e8595")
 		)
 		(pin "1"
-			(uuid "6eac01f5-90f9-4a56-8264-36a0407bfe83")
+			(uuid "ad07948e-63b9-4e2d-a797-f0381f930ab0")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8304,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "SMA2Z22A"
+		(property "LCSC#" "C7440711"
 			(at 140.97 62.23 90)
 			(effects
 				(font
@@ -8313,11 +10131,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.07"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XCH"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SMA2Z22A"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "1d4245be-928a-4054-9392-c802865ff0c3")
+			(uuid "15cf5dff-6b16-4bd1-bd13-30758f1826d6")
 		)
 		(pin "1"
-			(uuid "b49deaf8-eca8-4350-af01-860c9cb2ce7c")
+			(uuid "6874a2bd-bdae-4559-b232-2e87a83329cf")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8372,7 +10226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "63v"
 			(at 184.15 49.53 0)
 			(effects
 				(font
@@ -8381,7 +10235,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C473196"
+		(property "LCSC#" "C7471876"
 			(at 184.15 49.53 90)
 			(effects
 				(font
@@ -8390,11 +10244,47 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.05"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KNSCHA"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "189RV0014"
+			(at 184.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "bbd5d23b-6850-4eb4-84cf-01799ee0411b")
+			(uuid "c5ea0808-832b-476a-95dc-4f6e9bb80701")
 		)
 		(pin "2"
-			(uuid "ebb0613e-6bb8-41f3-8046-a8a26ba48131")
+			(uuid "0b790cdb-03e9-4b8e-b72e-58d1567f03e6")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
@@ -8422,7 +10312,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "120"
 			(at 341.63 152.4 90)
 			(effects
 				(font
@@ -8457,11 +10347,56 @@
 				(hide yes)
 			)
 		)
+		(property "cost" "0.0008"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 341.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "c1ca8169-6832-43cb-8842-5ed247658560")
+			(uuid "43742108-7630-4836-97f7-6cd55bc00c8f")
 		)
 		(pin "2"
-			(uuid "2948acdb-3b18-4d81-8a4b-b85b3c5de3a3")
+			(uuid "c07b4ddd-41ef-4ea7-95e6-b77c0b49d109")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"

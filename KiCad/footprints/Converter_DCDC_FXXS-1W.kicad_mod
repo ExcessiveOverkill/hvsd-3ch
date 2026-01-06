@@ -1,0 +1,284 @@
+(footprint "Converter_DCDC_FXXS-1W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, TRACO, TBA1-xxxxE, Single, 1W, Rev. October 31. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tba1e.pdf)")
+	(tags "DCDC-Converter TRACO TBA1E THT SIP-7 1W")
+	(property "Reference" "PS1"
+		(at -2.15 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "83a38aa2-c5f5-4050-b8f6-1b1bad4e8a92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "F0505S-1W"
+		(at -1.7 19 0)
+		(layer "F.Fab")
+		(uuid "016d0bd9-48c2-4edc-acdd-654d2bdcc0af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Converter_DCDC:Converter_DCDC_FXXS-1W"
+		(at -1.72 16.31 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e81b3a4d-1183-44cc-9089-bbef480ee672")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0b7f9ea-6f9f-4e1b-93ea-5cc99fc9811b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc788033-ec4b-4720-b589-4e104907255c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC#" "C20617254"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fcbdfa7-f929-44e8-9b8d-be5e64ce68e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.15 -2.9)
+		(end -3.15 -2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76fe3c53-983f-46f7-9ecb-e81b0e7eb841")
+	)
+	(fp_line
+		(start -5.15 -0.9)
+		(end -5.15 -2.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a7c9fce-357b-41b7-a77b-daa5a1021488")
+	)
+	(fp_line
+		(start -4.77 -2.52)
+		(end -4.77 17.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6612cdd-4727-4a6d-a666-e196da444eeb")
+	)
+	(fp_line
+		(start -4.77 -2.52)
+		(end 1.8 -2.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64c73493-0e25-4760-9212-04fa1be06e58")
+	)
+	(fp_line
+		(start -4.77 17.22)
+		(end 1.8 17.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67d12907-0e57-4820-9816-6c48ad12a7a9")
+	)
+	(fp_line
+		(start 1.8 -2.52)
+		(end 1.8 17.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a320b082-3323-4267-b0fc-b6f24be8d42e")
+	)
+	(fp_line
+		(start -4.9 -2.65)
+		(end -4.9 17.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd909dd2-b968-4858-a7fb-6710a0b036a9")
+	)
+	(fp_line
+		(start -4.9 -2.65)
+		(end 1.9 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fe17f2d-6f67-41c1-af80-d0b6c3aca0bd")
+	)
+	(fp_line
+		(start -4.9 17.35)
+		(end 1.9 17.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98fade14-dd01-4020-b3e6-cc18dfa303a1")
+	)
+	(fp_line
+		(start 1.9 -2.65)
+		(end 1.9 17.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb6db98e-c6b2-4c62-82fb-aa156f544bbd")
+	)
+	(fp_line
+		(start -4.65 -1.4)
+		(end -3.65 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ca2d017-a0c2-4bb9-8cf3-b540be15e0de")
+	)
+	(fp_line
+		(start -4.65 17.1)
+		(end -4.65 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eab38cc3-280f-4a42-9376-2da56bd7c688")
+	)
+	(fp_line
+		(start -3.65 -2.4)
+		(end 1.7 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed6498b3-566f-4bff-b187-8c1607566158")
+	)
+	(fp_line
+		(start 1.7 -2.4)
+		(end 1.7 17.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0ceadda-69ea-472c-a515-cd221baa5ab6")
+	)
+	(fp_line
+		(start 1.7 17.1)
+		(end -4.65 17.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0eb709d4-76b3-49cc-8ead-1195c1a3c2fa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.65 7.35 0)
+		(layer "F.Fab")
+		(uuid "9450a753-9d26-4b53-8b10-2f1ef8ccd55a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "004d82fb-1425-4f82-a38f-b4cee8cea097")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af401bca-ddae-4cf7-928a-a46a40eaf837")
+	)
+	(pad "5" thru_hole circle
+		(at 0 10.16)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b5a4a55-9af2-41c0-8194-567f9f1e0a43")
+	)
+	(pad "7" thru_hole circle
+		(at 0 15.24)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0dee0bb5-ed7e-4fc1-bdb4-c63116385229")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
