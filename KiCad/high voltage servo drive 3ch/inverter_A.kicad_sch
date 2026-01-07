@@ -4020,7 +4020,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "081f4d6e-83db-460e-aa82-8960fb83a344")
 		(property "Reference" "U2"
@@ -4039,7 +4039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DIP39_54.5X31.0_MODGC_OSI"
+		(property "Footprint" "DIP39_54.5X31.0_MODGC_OSI"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -4049,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "IPM"
+		(property "Datasheet" "NFAM3065L4BT"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -4230,7 +4230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 106.68 157.48 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 116.84 203.2 0)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "low inductance type"
+		(property "Description" "Resistor, US symbol"
 			(at 344.17 80.01 0)
 			(effects
 				(font
@@ -4700,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "low inductance type"
+		(property "Description" "Resistor, US symbol"
 			(at 344.17 58.42 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 328.93 158.75 0)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 184.15 85.09 0)
 			(effects
 				(font
@@ -5042,7 +5042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63v"
+		(property "Description" "Polarized capacitor"
 			(at 335.28 143.51 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 106.68 203.2 0)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "low inductance type"
+		(property "Description" "Resistor, US symbol"
 			(at 344.17 93.98 0)
 			(effects
 				(font
@@ -5786,7 +5786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 148.59 156.21 0)
 			(effects
 				(font
@@ -6012,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 140.97 85.09 0)
 			(effects
 				(font
@@ -6126,7 +6126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 184.15 62.23 0)
 			(effects
 				(font
@@ -6625,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "low inductance type"
+		(property "Description" "Resistor, US symbol"
 			(at 344.17 76.2 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -6851,7 +6851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 323.85 143.51 0)
 			(effects
 				(font
@@ -7143,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 316.23 143.51 0)
 			(effects
 				(font
@@ -7333,7 +7333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907406"
+		(property "LCSC#" "C2907288"
 			(at 316.23 134.62 0)
 			(effects
 				(font
@@ -7369,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "FRC1206P000 TS"
+		(property "Part number" "FRC0805P000 TS"
 			(at 316.23 134.62 0)
 			(effects
 				(font
@@ -7728,7 +7728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 163.83 85.09 0)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 96.52 157.48 0)
 			(effects
 				(font
@@ -8085,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -8197,7 +8197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "low inductance type"
+		(property "Description" "Resistor, US symbol"
 			(at 344.17 97.79 0)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -8433,7 +8433,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907406"
+		(property "LCSC#" "C2907288"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -8469,7 +8469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "FRC1206P000 TS"
+		(property "Part number" "FRC0805P000 TS"
 			(at 176.53 34.29 0)
 			(effects
 				(font
@@ -8650,7 +8650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 96.52 203.2 0)
 			(effects
 				(font
@@ -8942,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kv"
+		(property "Description" "Unpolarized capacitor"
 			(at 280.67 124.46 0)
 			(effects
 				(font
@@ -9133,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 307.34 168.91 0)
 			(effects
 				(font
@@ -9245,7 +9245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -9359,7 +9359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 168.91 158.75 0)
 			(effects
 				(font
@@ -9474,7 +9474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kv"
+		(property "Description" "Unpolarized capacitor"
 			(at 293.37 124.46 0)
 			(effects
 				(font
@@ -9586,7 +9586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "low inductance type"
+		(property "Description" "Resistor, US symbol"
 			(at 344.17 62.23 0)
 			(effects
 				(font
@@ -9812,7 +9812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -10226,7 +10226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63v"
+		(property "Description" "Polarized capacitor"
 			(at 184.15 49.53 0)
 			(effects
 				(font

@@ -1336,8 +1336,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U20"
-				(at 0 -7.62 0)
+			(property "Reference" "U"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1345,7 +1345,7 @@
 				)
 			)
 			(property "Value" "LNK306D"
-				(at 0 -10.16 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1372,15 +1372,6 @@
 				)
 			)
 			(property "Description" "LinkSwitch-TN Family, 360mA Output Current, SO-8C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC#" "C394187"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3343,7 +3334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 193.04 148.59 0)
 			(effects
 				(font
@@ -3458,7 +3449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kv"
+		(property "Description" "Unpolarized capacitor"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -4690,7 +4681,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aafc28dc-bdd7-4397-90ab-cc89049a202a")
 		(property "Reference" "C130"
@@ -5070,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:PowerIntegrations_SO-8C"
+		(property "Footprint" "Package_SO:PowerIntegrations_SO-8B"
 			(at 106.68 142.24 0)
 			(effects
 				(font
@@ -5126,6 +5117,15 @@
 			)
 		)
 		(property "cost" "0.62"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 106.68 142.24 0)
 			(effects
 				(font
@@ -5389,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 157.48 134.62 0)
 			(effects
 				(font
@@ -5687,7 +5687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 121.92 135.89 0)
 			(effects
 				(font

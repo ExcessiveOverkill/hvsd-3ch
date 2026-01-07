@@ -3136,485 +3136,6 @@
 				)
 			)
 		)
-		(symbol "Interface_UART:MAX13433EESD"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MAX13433EESD"
-				(at 2.54 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf"
-				(at 0 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rs485 transceiver"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MAX13433EESD_0_0"
-				(text "D"
-					(at -1.27 -5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(bold yes)
-						)
-					)
-				)
-				(text "R"
-					(at 1.27 7.62 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(bold yes)
-						)
-					)
-				)
-			)
-			(symbol "MAX13433EESD_0_1"
-				(rectangle
-					(start -10.16 15.24)
-					(end 10.16 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy -5.08 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 5.08) (xy 3.81 5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 10.16) (xy 3.81 10.16) (xy 3.81 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.16) (xy -1.27 -10.16) (xy -1.27 -7.62) (xy -1.27 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 2.54) (xy -2.54 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -7.62) (xy 1.27 -7.62) (xy 1.27 -6.35) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 1.27 -2.54) (xy 1.27 -3.81) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -3.81 -8.89) (xy 3.81 -5.08) (xy -3.81 -1.27) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 11.43) (xy 3.81 3.81) (xy -3.81 7.62) (xy 3.81 11.43) (xy 3.81 11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MAX13433EESD_1_1"
-				(pin power_in line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "Vlogic"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "~{Z}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "~{B}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 17.78 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "RO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "DE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "~{RE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 2.54 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Isolator:ISO6741"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4641,6 +4162,494 @@
 				)
 			)
 		)
+		(symbol "THVD1452:THVD1452"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 7.366 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "THVD1452"
+				(at 10.922 18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 0 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 31.496 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RS485 transceiver, full duplex, receiver/driver enable, 50Mbps, SOIC-14 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "cost" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rs485 transceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "THVD1452_0_0"
+				(text "D"
+					(at -1.27 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+				(text "R"
+					(at 1.27 7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "THVD1452_0_1"
+				(rectangle
+					(start -10.16 15.24)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.08) (xy 3.81 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 10.16) (xy 3.81 10.16) (xy 3.81 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -1.27 -10.16) (xy -1.27 -7.62) (xy -1.27 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 2.54) (xy -2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.62) (xy 1.27 -7.62) (xy 1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 1.27 -2.54) (xy 1.27 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 -8.89) (xy 3.81 -5.08) (xy -3.81 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 11.43) (xy 3.81 3.81) (xy -3.81 7.62) (xy 3.81 11.43) (xy 3.81 11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "THVD1452_1_1"
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "~{Z}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~{B}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 17.78 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "RO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "DE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -5447,6 +5456,18 @@
 		)
 	)
 	(junction
+		(at 297.18 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01028b99-4884-4e80-a86e-1049ac9d4141")
+	)
+	(junction
+		(at 297.18 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0395abc1-4096-45ec-8862-525dca0c0904")
+	)
+	(junction
 		(at 504.19 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5501,12 +5522,6 @@
 		(uuid "15a7b549-2703-42c4-b34a-fa9c53427075")
 	)
 	(junction
-		(at 289.56 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "164c6ae4-b9e2-468e-9bb2-3ef65991bda8")
-	)
-	(junction
 		(at 273.05 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5543,6 +5558,12 @@
 		(uuid "341260e4-b6a4-452d-b880-a35bc71231d6")
 	)
 	(junction
+		(at 297.18 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c089716-9cb7-4832-8975-88bde5b188ba")
+	)
+	(junction
 		(at 273.05 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5553,12 +5574,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45246dc7-bafd-417a-b271-5184e914337d")
-	)
-	(junction
-		(at 312.42 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "490f7d8b-e046-4922-891c-6f0c8c721294")
 	)
 	(junction
 		(at 504.19 289.56)
@@ -5621,16 +5636,16 @@
 		(uuid "8661f329-e37a-4988-a171-5400536ba4fe")
 	)
 	(junction
+		(at 297.18 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88685336-4345-43f3-a4a3-648b8fe6d053")
+	)
+	(junction
 		(at 222.25 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "894acb31-2310-4aa2-bb7a-90a5879bb0cb")
-	)
-	(junction
-		(at 294.64 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a735c89-7314-41eb-b0c7-5ef89fbe9221")
 	)
 	(junction
 		(at 196.85 118.11)
@@ -5643,12 +5658,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "983d23d5-654b-406e-865c-f9b10296cdf8")
-	)
-	(junction
-		(at 312.42 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9869bab9-f10b-4ebe-9c34-c76d9078d2c0")
 	)
 	(junction
 		(at 443.23 146.05)
@@ -5699,12 +5708,6 @@
 		(uuid "b0cb8582-556d-4f00-9e5e-7827c4acb4b8")
 	)
 	(junction
-		(at 294.64 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b20622b1-d5e1-47d4-b2b4-d7e7ad4e83c9")
-	)
-	(junction
 		(at 198.12 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5723,16 +5726,16 @@
 		(uuid "b92ec6d8-6796-422b-9f03-800ffefc7986")
 	)
 	(junction
+		(at 289.56 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5718ce-8c86-44f6-be3e-52bec88c4075")
+	)
+	(junction
 		(at 455.93 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bccb9a54-407f-4f68-9d1d-ec7c219afdc4")
-	)
-	(junction
-		(at 289.56 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be6545ee-aa27-4403-bcd3-a30871bec9ab")
 	)
 	(junction
 		(at 314.96 129.54)
@@ -5865,6 +5868,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6a549b4-c557-4387-9a1c-b3ea76897894")
+	)
+	(junction
+		(at 289.56 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f946c5ea-79d6-4895-97a2-a3d9a77d1b36")
 	)
 	(junction
 		(at 290.83 280.67)
@@ -6050,16 +6059,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 152.4) (xy 297.18 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d9cfa62-1c96-47bd-a427-ccc9db585ad2")
-	)
-	(wire
-		(pts
 			(xy 510.54 302.26) (xy 516.89 302.26)
 		)
 		(stroke
@@ -6190,7 +6189,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 111.76) (xy 312.42 134.62)
+			(xy 312.42 99.06) (xy 312.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6267,16 +6266,6 @@
 			(type default)
 		)
 		(uuid "205935c1-5c8d-4a87-b67a-9feac4b6f462")
-	)
-	(wire
-		(pts
-			(xy 312.42 163.83) (xy 312.42 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206ffa18-2091-4aa4-a483-ece5e37ab918")
 	)
 	(wire
 		(pts
@@ -6410,7 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 100.33) (xy 294.64 106.68)
+			(xy 297.18 100.33) (xy 297.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6490,16 +6479,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 99.06) (xy 312.42 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38424e70-9f75-4e7f-a66c-e2737a7fdbe2")
-	)
-	(wire
-		(pts
 			(xy 243.84 154.94) (xy 243.84 179.07)
 		)
 		(stroke
@@ -6520,7 +6499,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 152.4) (xy 294.64 158.75)
+			(xy 297.18 152.4) (xy 297.18 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6737,16 +6716,6 @@
 			(type default)
 		)
 		(uuid "4c9b1d1b-caae-4dd4-9b29-ca4f8f4ecd60")
-	)
-	(wire
-		(pts
-			(xy 307.34 111.76) (xy 312.42 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cbf5ed4-2d65-404b-bb8e-0d348dae9407")
 	)
 	(wire
 		(pts
@@ -7250,6 +7219,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 158.75) (xy 299.72 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777643de-bec5-4a92-b9da-ce3ac1b54b8f")
+	)
+	(wire
+		(pts
 			(xy 424.18 102.87) (xy 427.99 102.87)
 		)
 		(stroke
@@ -7420,6 +7399,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 100.33) (xy 294.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83654357-a0e3-4753-9231-b644f2434c4f")
+	)
+	(wire
+		(pts
 			(xy 420.37 283.21) (xy 420.37 285.75)
 		)
 		(stroke
@@ -7547,6 +7536,16 @@
 			(type default)
 		)
 		(uuid "92fe1a78-1875-4ba4-9dfe-3a2dc3887c0e")
+	)
+	(wire
+		(pts
+			(xy 297.18 152.4) (xy 294.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c55103-11c0-429e-8927-05e336a9ac84")
 	)
 	(wire
 		(pts
@@ -7730,16 +7729,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 100.33) (xy 297.18 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8684284-3c9c-4d64-852a-085e2fe009f2")
-	)
-	(wire
-		(pts
 			(xy 306.07 228.6) (xy 297.18 228.6)
 		)
 		(stroke
@@ -7747,16 +7736,6 @@
 			(type default)
 		)
 		(uuid "a9b66827-2367-41d1-a474-a8409dc34506")
-	)
-	(wire
-		(pts
-			(xy 307.34 163.83) (xy 312.42 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6d29c1-69ca-4442-bd26-adc554463391")
 	)
 	(wire
 		(pts
@@ -7877,6 +7856,16 @@
 			(type default)
 		)
 		(uuid "b6df2f30-a5a4-489b-8553-ff817fda24ac")
+	)
+	(wire
+		(pts
+			(xy 297.18 106.68) (xy 299.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6faa660-ef04-4178-9785-1ddfe82b1b47")
 	)
 	(wire
 		(pts
@@ -9767,6 +9756,16 @@
 		)
 		(uuid "c2012884-0258-45ae-ad77-fe70b2dfed4f")
 	)
+	(text "THVD1452 is pin compatible with SP491EEN-L/TR\nTHVD1452: 50 Mbit\nSP491EEN-L/TR: 10Mbit"
+		(exclude_from_sim no)
+		(at 294.132 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1bf329e-0c57-4528-bd7e-9c053098352f")
+	)
 	(text "ISOLATED SAFE AREA"
 		(exclude_from_sim no)
 		(at 273.304 57.404 0)
@@ -10176,122 +10175,6 @@
 		(uuid "f33240c5-5f1b-4045-baad-afa46762ff8b")
 	)
 	(symbol
-		(lib_id "Interface_UART:MAX13433EESD")
-		(at 294.64 176.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "031b9f02-db25-43b1-acc1-ced28e600a82")
-		(property "Reference" "U4"
-			(at 292.4459 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX13433EESD"
-			(at 292.4459 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 294.64 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf"
-			(at 294.64 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package"
-			(at 294.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" ""
-			(at 294.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "af02ee0e-99fe-421e-a661-8befcdcfcd28")
-		)
-		(pin "12"
-			(uuid "0a1d205f-a21e-4535-b1e3-7311d93edc7e")
-		)
-		(pin "4"
-			(uuid "30497f06-2080-4238-a7e6-ecf18c60503c")
-		)
-		(pin "11"
-			(uuid "97d6bab7-f064-4dcf-b794-b38f9d07bc22")
-		)
-		(pin "14"
-			(uuid "01634723-d6dc-4916-ac7e-8fdb29421bb8")
-		)
-		(pin "3"
-			(uuid "24e72ad5-3707-4586-bcbb-90d8b9bc0fc2")
-		)
-		(pin "5"
-			(uuid "49ea3e2e-891e-4a22-9032-0b4fdbdcf4f1")
-		)
-		(pin "7"
-			(uuid "90f15a25-faa5-4225-b357-368a79311812")
-		)
-		(pin "10"
-			(uuid "febca22a-9b0e-49f5-84d2-517aab3fd784")
-		)
-		(pin "9"
-			(uuid "8aafa347-1a9d-401c-b5c5-5ef196883a86")
-		)
-		(pin "13"
-			(uuid "9360e179-b90c-42f3-a89b-ad92d57633d0")
-		)
-		(pin "1"
-			(uuid "17eeab3b-8bec-4cb2-b1cb-d89b42183b17")
-		)
-		(pin "2"
-			(uuid "3dde39cd-9202-4e43-a3d0-035960143ffa")
-		)
-		(pin "6"
-			(uuid "c187d700-bb3c-4417-ade9-ba7633d2bc2a")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/47b85991-b5ef-4222-bf9a-57130fce0dbd"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 345.44 243.84 0)
 		(unit 1)
@@ -10544,7 +10427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 300.99 152.4 0)
 			(effects
 				(font
@@ -11090,7 +10973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 345.44 240.03 0)
 			(effects
 				(font
@@ -11669,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63v"
+		(property "Description" "Polarized capacitor"
 			(at 306.07 234.95 0)
 			(effects
 				(font
@@ -11849,7 +11732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 265.43 292.1 0)
 			(effects
 				(font
@@ -11979,6 +11862,159 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/47b85991-b5ef-4222-bf9a-57130fce0dbd"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "THVD1452:THVD1452")
+		(lib_id "THVD1452:THVD1452")
+		(at 294.64 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "243a4b8b-de59-4c4b-bfad-7a22a9d9e2b0")
+		(property "Reference" "U3"
+			(at 287.274 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SP491EEN-L/TR"
+			(at 283.718 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 294.64 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.894 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS485 transceiver, full duplex, receiver/driver enable, 50Mbps, SOIC-14 package"
+			(at 294.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.47"
+			(at 294.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 294.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C32476"
+			(at 294.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MaxLinear"
+			(at 294.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SP491EEN-L/TR"
+			(at 294.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "32884090-7c94-477a-9c36-5b63b7f7f551")
+		)
+		(pin "10"
+			(uuid "163fd5e7-7337-4bf4-9ef5-db0e8b3c4de2")
+		)
+		(pin "12"
+			(uuid "eb27f36d-826b-452e-9a1f-179f986ef8fe")
+		)
+		(pin "4"
+			(uuid "5b6bc3ac-824a-4025-a5d4-5d12d2056089")
+		)
+		(pin "3"
+			(uuid "e9f66fea-f3c6-48a2-a613-aaf5c393d0c1")
+		)
+		(pin "11"
+			(uuid "4e2b2124-aac2-4dec-83ca-a8f59f8797d4")
+		)
+		(pin "6"
+			(uuid "b250f9d8-aaac-45bc-b51c-6c8e23cb8953")
+		)
+		(pin "13"
+			(uuid "810435d8-a796-46a0-989e-cfe1310f9471")
+		)
+		(pin "14"
+			(uuid "914ea469-c9e9-4413-8ac7-236d5a30b0e2")
+		)
+		(pin "9"
+			(uuid "5d17fbad-5d29-41fd-8a07-26b2e70478d1")
+		)
+		(pin "2"
+			(uuid "980cc8dd-37f2-49dc-963c-39a2e1bc8711")
+		)
+		(pin "7"
+			(uuid "fb937d3d-02d5-47d0-be05-3b4e87d62b11")
+		)
+		(pin "13"
+			(uuid "ce8bf5b4-889e-4fa4-8990-2250583fb4e3")
+		)
+		(pin "7"
+			(uuid "c3f05fed-2267-4fb7-886d-81700a0ef495")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/47b85991-b5ef-4222-bf9a-57130fce0dbd"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12280,7 +12316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 449.58 80.01 0)
 			(effects
 				(font
@@ -12641,7 +12677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 449.58 146.05 0)
 			(effects
 				(font
@@ -13298,7 +13334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 255.27 280.67 0)
 			(effects
 				(font
@@ -13452,6 +13488,15 @@
 			)
 		)
 		(property "Part number" "CA-IS3741HW"
+			(at 438.15 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 438.15 238.76 0)
 			(effects
 				(font
@@ -13812,7 +13857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 426.72 146.05 0)
 			(effects
 				(font
@@ -13992,7 +14037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 300.99 100.33 0)
 			(effects
 				(font
@@ -14513,7 +14558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 198.12 288.29 0)
 			(effects
 				(font
@@ -14812,7 +14857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 462.28 295.91 0)
 			(effects
 				(font
@@ -15183,7 +15228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907406"
+		(property "LCSC#" "C2907288"
 			(at 196.85 105.41 0)
 			(effects
 				(font
@@ -15219,7 +15264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "FRC1206P000 TS"
+		(property "Part number" "FRC0805P000 TS"
 			(at 196.85 105.41 0)
 			(effects
 				(font
@@ -15373,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907406"
+		(property "LCSC#" "C2907288"
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -15409,7 +15454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "FRC1206P000 TS"
+		(property "Part number" "FRC0805P000 TS"
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -15504,122 +15549,6 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/47b85991-b5ef-4222-bf9a-57130fce0dbd"
 					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_UART:MAX13433EESD")
-		(at 294.64 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67914528-4109-4060-af7e-283d60008b79")
-		(property "Reference" "U3"
-			(at 292.4459 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX13433EESD"
-			(at 292.4459 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 294.64 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf"
-			(at 294.64 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package"
-			(at 294.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" ""
-			(at 294.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "a719ade9-3652-4b30-8d3c-44c42f74583f")
-		)
-		(pin "12"
-			(uuid "362df991-cadf-4755-9f76-b356829159ae")
-		)
-		(pin "4"
-			(uuid "7a05d330-f731-4370-a098-0bf19523b309")
-		)
-		(pin "11"
-			(uuid "5f28ed39-16d7-4de1-9540-c413687d35ac")
-		)
-		(pin "14"
-			(uuid "0a3f6c5d-18af-4b77-9874-5f3514acdd96")
-		)
-		(pin "3"
-			(uuid "3fff7ce0-c991-4c32-9d2a-97c77c46a312")
-		)
-		(pin "5"
-			(uuid "ac227cdb-a44a-431c-96dd-f79b472db457")
-		)
-		(pin "7"
-			(uuid "a8aa8988-47b4-4726-99be-045156d48105")
-		)
-		(pin "10"
-			(uuid "caa0bf8f-d673-44b3-9c55-8a06027194e7")
-		)
-		(pin "9"
-			(uuid "9dce39ea-a600-4559-a463-9d9bd2d123b6")
-		)
-		(pin "13"
-			(uuid "755282a2-e626-47ec-b049-845c8f324080")
-		)
-		(pin "1"
-			(uuid "3388f839-0aab-4132-bda6-186dab1ba52b")
-		)
-		(pin "2"
-			(uuid "84ba1a5c-c9b2-4cd6-9da4-b0f0d0687ea8")
-		)
-		(pin "6"
-			(uuid "4854b239-d3d3-47c5-a534-d36bc3e7ca0d")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/47b85991-b5ef-4222-bf9a-57130fce0dbd"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -16043,7 +15972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63v"
+		(property "Description" "Polarized capacitor"
 			(at 185.42 288.29 0)
 			(effects
 				(font
@@ -16689,7 +16618,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7adafbf9-eb45-4d66-87d6-bc69fc016f4d")
 		(property "Reference" "J1"
@@ -17092,6 +17021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 438.15 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f9108633-7639-40ff-8d64-38e90d36cf81")
 		)
@@ -17194,7 +17132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 449.58 213.36 0)
 			(effects
 				(font
@@ -17309,7 +17247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "63v"
+		(property "Description" "Polarized capacitor"
 			(at 229.87 236.22 0)
 			(effects
 				(font
@@ -17669,6 +17607,15 @@
 			)
 		)
 		(property "Manufacturer" "GR"
+			(at 340.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 340.36 129.54 0)
 			(effects
 				(font
@@ -18069,7 +18016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 209.55 288.29 0)
 			(effects
 				(font
@@ -18295,6 +18242,15 @@
 			)
 		)
 		(property "cost" "0.10"
+			(at 237.49 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 237.49 284.48 0)
 			(effects
 				(font
@@ -19765,6 +19721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 438.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "47867803-ab19-447a-9748-7868d5c85849")
 		)
@@ -20000,7 +19965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 426.72 213.36 0)
 			(effects
 				(font
@@ -20233,7 +20198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 290.83 287.02 0)
 			(effects
 				(font
@@ -20347,7 +20312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 354.33 119.38 0)
 			(effects
 				(font
@@ -20954,7 +20919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 303.53 287.02 0)
 			(effects
 				(font
@@ -21578,7 +21543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 415.29 293.37 0)
 			(effects
 				(font
@@ -22315,6 +22280,159 @@
 		)
 	)
 	(symbol
+		(lib_name "THVD1452:THVD1452")
+		(lib_id "THVD1452:THVD1452")
+		(at 294.64 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1de2f80-b276-4f70-a875-b7ca8657f57d")
+		(property "Reference" "U4"
+			(at 286.512 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SP491EEN-L/TR"
+			(at 282.956 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 294.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf"
+			(at 294.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS485 transceiver, full duplex, receiver/driver enable, 50Mbps, SOIC-14 package"
+			(at 294.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.47"
+			(at 294.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 294.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C32476"
+			(at 294.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MaxLinear"
+			(at 294.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SP491EEN-L/TR"
+			(at 294.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d5c54561-5a81-4c85-8aa0-e19a9de6db7e")
+		)
+		(pin "10"
+			(uuid "e7fc3b5f-2454-4395-9567-fcb955892bf4")
+		)
+		(pin "12"
+			(uuid "df9629ca-f170-43b6-93fa-547f3192006e")
+		)
+		(pin "4"
+			(uuid "c047b242-a5d7-4e11-a318-01e1e85c57dc")
+		)
+		(pin "3"
+			(uuid "4a0e7b10-4e87-4f9b-ab72-d917a6f1b873")
+		)
+		(pin "11"
+			(uuid "5c681feb-6502-4d6d-a886-950c7659b96f")
+		)
+		(pin "6"
+			(uuid "da3167dc-1d2e-4c70-8be2-604b6f189c04")
+		)
+		(pin "13"
+			(uuid "1edcc7f3-315a-4109-9976-9ab97f559dd9")
+		)
+		(pin "14"
+			(uuid "526e14f4-b89d-4513-b3ca-c89aaad61e1e")
+		)
+		(pin "9"
+			(uuid "78835772-e121-4693-9cf0-139ad900c204")
+		)
+		(pin "2"
+			(uuid "4e6a18f3-9046-4d20-9538-4c01c38b53e7")
+		)
+		(pin "7"
+			(uuid "5a4174bd-deb1-4172-8929-788033a33ee8")
+		)
+		(pin "7"
+			(uuid "7668fb2a-5600-4578-b832-f47663048d9a")
+		)
+		(pin "13"
+			(uuid "6afa060a-d5a3-45cf-8b33-a86a653395de")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/47b85991-b5ef-4222-bf9a-57130fce0dbd"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 198.12 278.13 0)
 		(unit 1)
@@ -22529,7 +22647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f424e2-3783-426b-a2c4-5b16144c44da")
 		(property "Reference" "J1"
@@ -22753,7 +22871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 426.72 80.01 0)
 			(effects
 				(font

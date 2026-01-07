@@ -8766,7 +8766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 478.79 295.91 0)
 			(effects
 				(font
@@ -9013,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 478.79 182.88 0)
 			(effects
 				(font
@@ -9538,7 +9538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 276.86 0)
 			(effects
 				(font
@@ -9836,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 176.53 0)
 			(effects
 				(font
@@ -10017,7 +10017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 553.72 140.97 0)
 			(effects
 				(font
@@ -10373,6 +10373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 130.81 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bcd")
 		)
@@ -10536,7 +10545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 553.72 29.21 0)
 			(effects
 				(font
@@ -10991,6 +11000,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 508 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bce")
 		)
@@ -11220,7 +11238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 163.83 0)
 			(effects
 				(font
@@ -11335,7 +11353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 553.72 254 0)
 			(effects
 				(font
@@ -11448,7 +11466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 128.27 30.48 0)
 			(effects
 				(font
@@ -11860,7 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -12039,7 +12057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 505.46 255.27 0)
 			(effects
 				(font
@@ -12154,7 +12172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 182.88 0)
 			(effects
 				(font
@@ -12269,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 275.59 0)
 			(effects
 				(font
@@ -12449,7 +12467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10v"
+		(property "Description" "Unpolarized capacitor"
 			(at 542.29 29.21 0)
 			(effects
 				(font
@@ -12564,7 +12582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 162.56 0)
 			(effects
 				(font
@@ -12810,7 +12828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 549.91 289.56 0)
 			(effects
 				(font
@@ -12962,6 +12980,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 563.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 563.88 140.97 0)
 			(effects
 				(font
@@ -13132,7 +13159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10v"
+		(property "Description" "Unpolarized capacitor"
 			(at 542.29 254 0)
 			(effects
 				(font
@@ -13538,7 +13565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 191.77 0)
 			(effects
 				(font
@@ -14154,7 +14181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 295.91 0)
 			(effects
 				(font
@@ -14304,6 +14331,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 34.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 34.29 138.43 0)
 			(effects
 				(font
@@ -14474,7 +14510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 64.77 0)
 			(effects
 				(font
@@ -14832,7 +14868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 505.46 142.24 0)
 			(effects
 				(font
@@ -14947,7 +14983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -15194,7 +15230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 523.24 191.77 0)
 			(effects
 				(font
@@ -16103,7 +16139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 549.91 64.77 0)
 			(effects
 				(font
@@ -17065,6 +17101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 34.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bd0")
 		)
@@ -17582,7 +17627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 314.96 143.51 0)
 			(effects
 				(font
@@ -17763,7 +17808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 478.79 50.8 0)
 			(effects
 				(font
@@ -18470,7 +18515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 72.39 0)
 			(effects
 				(font
@@ -18815,7 +18860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 359.41 66.04 0)
 			(effects
 				(font
@@ -18995,7 +19040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10v"
+		(property "Description" "Unpolarized capacitor"
 			(at 542.29 140.97 0)
 			(effects
 				(font
@@ -19108,7 +19153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 505.46 30.48 0)
 			(effects
 				(font
@@ -19289,7 +19334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 297.18 0)
 			(effects
 				(font
@@ -19715,7 +19760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 478.79 71.12 0)
 			(effects
 				(font
@@ -19865,6 +19910,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 317.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 317.5 62.23 0)
 			(effects
 				(font
@@ -20418,6 +20472,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 34.29 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bd3")
 		)
@@ -20812,7 +20875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 332.74 306.07 0)
 			(effects
 				(font
@@ -21040,7 +21103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 332.74 193.04 0)
 			(effects
 				(font
@@ -21153,7 +21216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 128.27 255.27 0)
 			(effects
 				(font
@@ -21644,7 +21707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 359.41 177.8 0)
 			(effects
 				(font
@@ -21759,7 +21822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -21873,7 +21936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 289.56 0)
 			(effects
 				(font
@@ -22166,7 +22229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 549.91 176.53 0)
 			(effects
 				(font
@@ -22394,7 +22457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 52.07 0)
 			(effects
 				(font
@@ -22693,7 +22756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 332.74 81.28 0)
 			(effects
 				(font
@@ -22806,7 +22869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 128.27 142.24 0)
 			(effects
 				(font
@@ -23143,6 +23206,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 508 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bd4")
 		)
@@ -23306,7 +23378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 523.24 304.8 0)
 			(effects
 				(font
@@ -23537,7 +23609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 314.96 31.75 0)
 			(effects
 				(font
@@ -23866,6 +23938,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 130.81 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 130.81 285.75 0)
 			(effects
 				(font
@@ -24347,7 +24428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 359.41 290.83 0)
 			(effects
 				(font
@@ -25131,6 +25212,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 508 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bd5")
 		)
@@ -25228,7 +25318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 304.8 0)
 			(effects
 				(font
@@ -25567,6 +25657,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 563.88 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c196405-a335-4dd3-94a2-2680ab400bd6")
 		)
@@ -25812,6 +25911,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 317.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 317.5 173.99 0)
 			(effects
 				(font
@@ -26676,7 +26784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 523.24 80.01 0)
 			(effects
 				(font
@@ -26791,7 +26899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 478.79 275.59 0)
 			(effects
 				(font
@@ -27054,6 +27162,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 317.5 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 317.5 287.02 0)
 			(effects
 				(font
@@ -27338,7 +27455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 478.79 162.56 0)
 			(effects
 				(font
@@ -27451,7 +27568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 314.96 256.54 0)
 			(effects
 				(font
@@ -27566,7 +27683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 184.15 0)
 			(effects
 				(font
@@ -27903,6 +28020,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 130.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1f0b27b-6492-47d1-b42b-2d84a832f50e")
 		)
@@ -28037,6 +28163,15 @@
 			)
 		)
 		(property "cost" "0.87"
+			(at 563.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 563.88 29.21 0)
 			(effects
 				(font

@@ -9672,7 +9672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 417.83 334.01 0)
 			(effects
 				(font
@@ -9852,7 +9852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 455.93 334.01 0)
 			(effects
 				(font
@@ -9966,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 355.6 373.38 0)
 			(effects
 				(font
@@ -10117,6 +10117,15 @@
 			)
 		)
 		(property "Part number" "TLV75733PDBVR"
+			(at 449.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 449.58 100.33 0)
 			(effects
 				(font
@@ -11182,7 +11191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -11411,7 +11420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 405.13 334.01 0)
 			(effects
 				(font
@@ -11888,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -12276,7 +12285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 421.64 71.12 0)
 			(effects
 				(font
@@ -12390,7 +12399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 58.42 142.24 0)
 			(effects
 				(font
@@ -12487,7 +12496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 273.05 0)
 			(effects
 				(font
@@ -13095,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 157.48 217.17 0)
 			(effects
 				(font
@@ -13419,7 +13428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 161.29 177.8 0)
 			(effects
 				(font
@@ -13534,7 +13543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200v"
+		(property "Description" "Resistor, US symbol"
 			(at 537.21 227.33 0)
 			(effects
 				(font
@@ -13906,7 +13915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10v"
+		(property "Description" "Unpolarized capacitor"
 			(at 370.84 373.38 0)
 			(effects
 				(font
@@ -14069,7 +14078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 99.06 326.39 0)
 			(effects
 				(font
@@ -14602,7 +14611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 379.73 334.01 0)
 			(effects
 				(font
@@ -14699,7 +14708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -15232,7 +15241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 354.33 334.01 0)
 			(effects
 				(font
@@ -15346,7 +15355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 502.92 260.35 0)
 			(effects
 				(font
@@ -15443,7 +15452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 217.17 0)
 			(effects
 				(font
@@ -16321,7 +16330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -17017,6 +17026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27d8ab47-4e9b-427d-82fe-9f8f7e46ddb7")
 		)
@@ -17201,7 +17219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 466.09 62.23 0)
 			(effects
 				(font
@@ -17315,7 +17333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 367.03 334.01 0)
 			(effects
 				(font
@@ -17796,7 +17814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 50.8 157.48 0)
 			(effects
 				(font
@@ -18232,7 +18250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 374.65 0)
 			(effects
 				(font
@@ -18965,7 +18983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200v"
+		(property "Description" "Resistor, US symbol"
 			(at 537.21 242.57 0)
 			(effects
 				(font
@@ -19079,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 383.54 373.38 0)
 			(effects
 				(font
@@ -19193,7 +19211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10v"
+		(property "Description" "Unpolarized capacitor"
 			(at 342.9 373.38 0)
 			(effects
 				(font
@@ -19900,7 +19918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -20434,7 +20452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 191.77 120.65 0)
 			(effects
 				(font
@@ -20548,7 +20566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 351.79 68.58 0)
 			(effects
 				(font
@@ -20707,6 +20725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "no"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78b8ba36-fd0a-45b6-b45f-a5e6361d767c")
 		)
@@ -20840,7 +20867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200v"
+		(property "Description" "Resistor, US symbol"
 			(at 537.21 234.95 0)
 			(effects
 				(font
@@ -21382,7 +21409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 392.43 334.01 0)
 			(effects
 				(font
@@ -21628,7 +21655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 430.53 334.01 0)
 			(effects
 				(font
@@ -21742,7 +21769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 443.23 334.01 0)
 			(effects
 				(font
@@ -21903,7 +21930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 311.15 336.55 0)
 			(effects
 				(font
@@ -22502,7 +22529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 83.82 391.16 0)
 			(effects
 				(font
@@ -22616,7 +22643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 466.09 101.6 0)
 			(effects
 				(font
@@ -22846,7 +22873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 166.37 194.31 0)
 			(effects
 				(font
@@ -23075,7 +23102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25v"
+		(property "Description" "Unpolarized capacitor"
 			(at 497.84 104.14 0)
 			(effects
 				(font

@@ -3403,7 +3403,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ab21eb-acf8-42f3-b2b3-7a1cfa02fac4")
 		(property "Reference" "J8"
@@ -3640,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 227.33 177.8 0)
 			(effects
 				(font
@@ -4208,7 +4208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 256.54 100.33 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -4229,7 +4229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -4266,6 +4266,15 @@
 			)
 		)
 		(property "cost" "0.03"
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -4521,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 198.12 81.28 0)
 			(effects
 				(font
@@ -4865,7 +4874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50v"
+		(property "Description" "Unpolarized capacitor"
 			(at 198.12 133.35 0)
 			(effects
 				(font
@@ -5375,7 +5384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 256.54 152.4 0)
 			(effects
 				(font
@@ -5386,7 +5395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -5396,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -5433,6 +5442,15 @@
 			)
 		)
 		(property "cost" "0.03"
+			(at 261.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -5554,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -5565,7 +5583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
 			(at 261.62 198.12 0)
 			(effects
 				(font
@@ -5575,7 +5593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
 			(at 261.62 198.12 0)
 			(effects
 				(font
@@ -5612,6 +5630,15 @@
 			)
 		)
 		(property "cost" "0.03"
+			(at 261.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 261.62 198.12 0)
 			(effects
 				(font
