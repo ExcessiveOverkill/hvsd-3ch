@@ -2,7 +2,7 @@
 ### Printed by KiCad version 8.0.1
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val                   Package                                                 PosX       PosY       Rot  Side
+# Ref     Val                   Package                                                 MidX       PosY       Rot  Side
 C21       10uf                  C_Rect_L32mm_W16.0mm_P27.50mm                       163.0550   -78.1800    0.0000  bottom
 C130      1uf                   C_Rect_L26.5mm_W10.5mm_P22.50mm_MKS4                182.6500  -269.9000  180.0000  bottom
 C131      10uf                  C_Rect_L32mm_W16.0mm_P27.50mm                       190.5100  -119.7700  180.0000  bottom
