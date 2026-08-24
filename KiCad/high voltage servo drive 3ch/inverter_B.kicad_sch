@@ -1979,12 +1979,6 @@
 		(uuid "0e389574-7f28-4b8d-94ca-10dec643c5cd")
 	)
 	(junction
-		(at 163.83 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a0ab24e-16a5-454a-92f8-f4043da61868")
-	)
-	(junction
 		(at 350.52 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2003,16 +1997,16 @@
 		(uuid "2ac4afef-733f-4e97-89a6-b2ac5d5079f6")
 	)
 	(junction
-		(at 168.91 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c33a4c1-b016-405a-9faa-2aa2a6401f3d")
-	)
-	(junction
 		(at 340.36 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "313692d1-35d3-4133-a6b5-a56ea41dac86")
+	)
+	(junction
+		(at 154.94 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348ebf37-fa06-488e-83f1-993c9f166302")
 	)
 	(junction
 		(at 316.23 139.7)
@@ -2039,10 +2033,10 @@
 		(uuid "3c989b4d-167d-4797-b6cd-67bd717f5058")
 	)
 	(junction
-		(at 148.59 152.4)
+		(at 154.94 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d0bdffd-999d-4a05-915d-b574584772c9")
+		(uuid "3cca4831-b2fe-4307-8d6d-3ca280429f71")
 	)
 	(junction
 		(at 328.93 154.94)
@@ -2195,10 +2189,10 @@
 		(uuid "b90817ef-2097-40ff-9f15-6e65b882da64")
 	)
 	(junction
-		(at 163.83 165.1)
+		(at 142.24 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf78bb17-7b53-4bdf-9433-62d4181de109")
+		(uuid "bbe2b6d0-6320-43a1-8d72-7bff352c770f")
 	)
 	(junction
 		(at 279.4 115.57)
@@ -2211,6 +2205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c692ccfe-5c8a-4aa5-8eab-d25e5f5bfdf6")
+	)
+	(junction
+		(at 168.91 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c795633e-6b17-4f49-8fae-eab44647d7d7")
 	)
 	(junction
 		(at 335.28 139.7)
@@ -2310,16 +2310,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 154.94) (xy 163.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "095c64e9-3e81-43cd-ba84-31bfafad32d7")
-	)
-	(wire
-		(pts
 			(xy 340.36 93.98) (xy 340.36 97.79)
 		)
 		(stroke
@@ -2327,16 +2317,6 @@
 			(type default)
 		)
 		(uuid "0a5747bb-5579-4d50-9e5e-55a687a528b9")
-	)
-	(wire
-		(pts
-			(xy 163.83 152.4) (xy 168.91 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b76bd2b-20b4-404c-8323-b4fee2ee992e")
 	)
 	(wire
 		(pts
@@ -2430,13 +2410,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 152.4) (xy 151.13 152.4)
+			(xy 154.94 165.1) (xy 165.1 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "146cf2b8-693d-4ee9-9914-f04841231f60")
+		(uuid "13ea5d2c-5f91-4bb1-a995-b4d3f47e4229")
 	)
 	(wire
 		(pts
@@ -2447,6 +2427,16 @@
 			(type default)
 		)
 		(uuid "16c7761a-d523-4708-956b-602d466ad0b7")
+	)
+	(wire
+		(pts
+			(xy 163.83 152.4) (xy 168.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174056cb-1caf-47d0-9743-fb9e8d288938")
 	)
 	(wire
 		(pts
@@ -2810,16 +2800,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 165.1) (xy 163.83 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6165e950-ce79-4e3f-93cc-6614bad3c5e4")
-	)
-	(wire
-		(pts
 			(xy 180.34 137.16) (xy 184.15 137.16)
 		)
 		(stroke
@@ -3000,16 +2980,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 165.1) (xy 163.83 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac8ef9a-1b97-4d5a-adb5-ed62697b6c88")
-	)
-	(wire
-		(pts
 			(xy 106.68 199.39) (xy 106.68 185.42)
 		)
 		(stroke
@@ -3080,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 160.02) (xy 148.59 165.1)
+			(xy 142.24 160.02) (xy 142.24 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 165.1) (xy 165.1 165.1)
+			(xy 142.24 165.1) (xy 154.94 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3167,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "9dbad477-d503-48bd-a292-746e734100a7")
+	)
+	(wire
+		(pts
+			(xy 142.24 152.4) (xy 154.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e927e6-7157-45f3-bee0-cbcc95c7ca2e")
 	)
 	(wire
 		(pts
@@ -3230,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 152.4) (xy 148.59 152.4)
+			(xy 137.16 152.4) (xy 142.24 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3500,6 +3480,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 162.56) (xy 154.94 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db33e105-23e2-4d08-8f6f-0a26df1c9b22")
+	)
+	(wire
+		(pts
 			(xy 353.06 55.88) (xy 350.52 55.88)
 		)
 		(stroke
@@ -3517,16 +3507,6 @@
 			(type default)
 		)
 		(uuid "ddda6f04-8052-4c7c-b76a-e4e4326479e6")
-	)
-	(wire
-		(pts
-			(xy 158.75 152.4) (xy 163.83 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df37759e-4b38-43dd-b316-f03718d10674")
 	)
 	(wire
 		(pts
@@ -3587,6 +3567,26 @@
 			(type default)
 		)
 		(uuid "f37f645a-3b06-4b18-aa27-ef0c805bc964")
+	)
+	(wire
+		(pts
+			(xy 154.94 152.4) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cb87f9-3142-433a-b846-ad64cc67ac97")
+	)
+	(wire
+		(pts
+			(xy 154.94 152.4) (xy 154.94 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40ec86c-6ad6-4208-ac21-d321d7a8a44e")
 	)
 	(wire
 		(pts
@@ -3931,7 +3931,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "081f4d6e-83db-460e-aa82-8960fb83a344")
 		(property "Reference" "U17"
@@ -3950,7 +3950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIP39_54.5X31.0_MODGC_OSI"
+		(property "Footprint" "footprints:DIP39_54.5X31.0_MODGC_OSI"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -3989,6 +3989,15 @@
 			)
 		)
 		(property "Manufacturer" "ONSEMI"
+			(at 184.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -4729,6 +4738,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 154.94 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41c728d8-fdc4-4429-9774-de76f33ae0da")
+		(property "Reference" "R26"
+			(at 149.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12.1k"
+			(at 149.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.924 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C132157"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0712K1L"
+			(at 154.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfdf7b44-6f0d-4587-bef6-8a50f6a30c98")
+		)
+		(pin "2"
+			(uuid "edd68cbf-b4da-42ae-bcce-e81d0f31e5c9")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/f9b2e3e2-8826-4e27-8473-89b1dab58dc9"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 85.09 90)
 		(unit 1)
@@ -5186,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 156.21 180)
+		(at 142.24 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5194,7 +5316,7 @@
 		(dnp no)
 		(uuid "48e4b043-99bf-42b4-bc95-0248ecbbb1b7")
 		(property "Reference" "C150"
-			(at 145.415 155.067 0)
+			(at 139.065 155.067 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5325,7 @@
 			)
 		)
 		(property "Value" ".1uf"
-			(at 145.288 157.226 0)
+			(at 138.938 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5334,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 147.6248 152.4 0)
+			(at 141.2748 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5352,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5361,7 @@
 			)
 		)
 		(property "cost" "0.003"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5370,7 @@
 			)
 		)
 		(property "Generic Allowed?" "yes"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5379,7 @@
 			)
 		)
 		(property "LCSC#" "C105882"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5388,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5397,7 @@
 			)
 		)
 		(property "Part number" "CC0402KRX5R9BB104"
-			(at 148.59 156.21 0)
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,118 +7607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 163.83 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a134c3c6-18ed-4f25-89e1-1e7dd31242a5")
-		(property "Reference" "R139"
-			(at 160.02 157.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 160.02 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.814 158.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" "0.0006"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "yes"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C105873"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "RC0402JR-075K1L"
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b255b245-94b9-4591-ba5d-fa51185d2609")
-		)
-		(pin "2"
-			(uuid "9df08008-ff20-403a-81f7-dc01cbd4b4fa")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/f9b2e3e2-8826-4e27-8473-89b1dab58dc9"
-					(reference "R139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 96.52 157.48 0)
 		(unit 1)
@@ -8227,23 +8237,24 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 154.94 152.4 270)
+		(at 160.02 152.4 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b493a712-1847-4054-b922-795649dea67c")
-		(property "Reference" "R106"
-			(at 154.94 154.94 90)
+		(uuid "b90898c3-5fb2-481e-a948-70806a4563df")
+		(property "Reference" "R27"
+			(at 160.02 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 154.94 156.972 90)
+		(property "Value" "12.1k"
+			(at 160.02 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8262,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.686 153.416 90)
+			(at 160.274 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 152.4 0)
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8280,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 154.94 152.4 0)
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,8 +8288,8 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.0006"
-			(at 154.94 152.4 0)
+		(property "cost" "0.0007"
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,8 +8297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Generic Allowed?" "yes"
-			(at 154.94 152.4 0)
+		(property "Generic Allowed?" "yes, 1% or better"
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,8 +8306,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C105873"
-			(at 154.94 152.4 0)
+		(property "LCSC#" "C132157"
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8316,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 152.4 0)
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,8 +8324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "RC0402JR-075K1L"
-			(at 154.94 152.4 0)
+		(property "Part number" "RC0402FR-0712K1L"
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,15 +8334,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "19b6597b-95ca-419c-9db8-ab733f7faf4c")
+			(uuid "b7efc096-1cc0-4cf3-beb7-31332a4e6f7e")
 		)
 		(pin "2"
-			(uuid "77b544e7-ebb2-4b6f-b768-58eed4b5cf99")
+			(uuid "f386e726-d8a3-49ab-b65d-0e3a6853f789")
 		)
 		(instances
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/f9b2e3e2-8826-4e27-8473-89b1dab58dc9"
-					(reference "R106")
+					(reference "R27")
 					(unit 1)
 				)
 			)

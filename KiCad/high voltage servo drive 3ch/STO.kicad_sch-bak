@@ -3403,7 +3403,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ab21eb-acf8-42f3-b2b3-7a1cfa02fac4")
 		(property "Reference" "J8"
@@ -4208,7 +4208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PC-817S1-CTP1-F"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 256.54 100.33 0)
 			(effects
 				(font
@@ -4760,7 +4760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -4769,7 +4769,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 241.3 129.54 0)
 			(effects
 				(font
@@ -5384,7 +5384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PC-817S1-CTP1-F"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 256.54 152.4 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PC-817S1-CTP1-F"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 266.7 203.2 0)
 			(effects
 				(font
@@ -5893,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 241.3 77.47 0)
 			(effects
 				(font
@@ -5902,7 +5902,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 241.3 77.47 0)
 			(effects
 				(font
@@ -5920,7 +5920,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 241.3 77.47 0)
 			(effects
 				(font
@@ -5938,7 +5938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 241.3 77.47 0)
 			(effects
 				(font
@@ -7669,7 +7669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 224.79 224.79 0)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 224.79 224.79 0)
 			(effects
 				(font
@@ -7696,7 +7696,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 224.79 224.79 0)
 			(effects
 				(font
@@ -7714,7 +7714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 224.79 224.79 0)
 			(effects
 				(font

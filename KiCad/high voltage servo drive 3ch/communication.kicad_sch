@@ -11173,7 +11173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, emerald green"
 			(at 473.71 302.26 0)
 			(effects
 				(font
@@ -11182,7 +11182,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.004"
+		(property "cost" "0.005"
 			(at 473.71 302.26 0)
 			(effects
 				(font
@@ -11200,7 +11200,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965807"
+		(property "LCSC#" "C965804"
 			(at 473.71 302.26 0)
 			(effects
 				(font
@@ -11218,7 +11218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UBC-04"
+		(property "Part number" "XL-1608UGC-04"
 			(at 473.71 302.26 0)
 			(effects
 				(font
@@ -14464,7 +14464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Generic Allowed?" "yes"
+		(property "Generic Allowed?" "yes, 1% or better"
 			(at 278.13 299.72 0)
 			(effects
 				(font
@@ -14972,7 +14972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, emerald green"
 			(at 314.96 292.1 0)
 			(effects
 				(font
@@ -14981,7 +14981,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.004"
+		(property "cost" "0.005"
 			(at 314.96 292.1 0)
 			(effects
 				(font
@@ -14999,7 +14999,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965807"
+		(property "LCSC#" "C965804"
 			(at 314.96 292.1 0)
 			(effects
 				(font
@@ -15017,7 +15017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UBC-04"
+		(property "Part number" "XL-1608UGC-04"
 			(at 314.96 292.1 0)
 			(effects
 				(font
@@ -16618,7 +16618,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7adafbf9-eb45-4d66-87d6-bc69fc016f4d")
 		(property "Reference" "J1"
@@ -20739,7 +20739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, emerald green"
 			(at 158.75 292.1 0)
 			(effects
 				(font
@@ -20748,7 +20748,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.004"
+		(property "cost" "0.005"
 			(at 158.75 292.1 0)
 			(effects
 				(font
@@ -20766,7 +20766,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965807"
+		(property "LCSC#" "C965804"
 			(at 158.75 292.1 0)
 			(effects
 				(font
@@ -20784,7 +20784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UBC-04"
+		(property "Part number" "XL-1608UGC-04"
 			(at 158.75 292.1 0)
 			(effects
 				(font
@@ -21619,7 +21619,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "df4f0235-34e5-4d5e-ac19-d2445abca47e")
 		(property "Reference" "PS1"
@@ -22647,7 +22647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7f424e2-3783-426b-a2c4-5b16144c44da")
 		(property "Reference" "J1"

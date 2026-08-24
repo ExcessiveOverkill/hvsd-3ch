@@ -5108,6 +5108,12 @@
 		(uuid "d7ec0ae3-a3f1-414f-89ab-705ce4a0413b")
 	)
 	(junction
+		(at 360.68 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da36ce46-279e-482e-829a-a91eac1d564a")
+	)
+	(junction
 		(at 323.85 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5148,12 +5154,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeab1e83-ef56-4ec5-a4bc-881a6f937478")
-	)
-	(junction
-		(at 360.68 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef20cb2c-2b72-400b-9bb1-c7ac3731a784")
 	)
 	(junction
 		(at 152.4 173.99)
@@ -6227,26 +6227,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 308.61) (xy 83.82 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9605f941-a26e-4ce1-8efc-b832b1819101")
-	)
-	(wire
-		(pts
-			(xy 76.2 303.53) (xy 76.2 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cb1cd8-cbf3-4d68-9b01-607d3eecb8b8")
-	)
-	(wire
-		(pts
 			(xy 191.77 55.88) (xy 191.77 57.15)
 		)
 		(stroke
@@ -6447,6 +6427,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 190.5) (xy 144.78 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4f678d-6497-478a-9951-3c93eab59dbb")
+	)
+	(wire
+		(pts
 			(xy 83.82 387.35) (xy 87.63 387.35)
 		)
 		(stroke
@@ -6484,6 +6474,16 @@
 			(type default)
 		)
 		(uuid "b53e23fd-c546-428d-a69f-710da3f41291")
+	)
+	(wire
+		(pts
+			(xy 68.58 190.5) (xy 68.58 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5aafc15-7b5e-4e1a-aa43-5802dee641f0")
 	)
 	(wire
 		(pts
@@ -6717,16 +6717,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 190.5) (xy 134.62 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a17315-41c2-4079-b2cb-282d38eea27b")
-	)
-	(wire
-		(pts
 			(xy 157.48 213.36) (xy 162.56 213.36)
 		)
 		(stroke
@@ -6784,16 +6774,6 @@
 			(type default)
 		)
 		(uuid "df9b54ce-ff77-46ff-905e-a97a525d3959")
-	)
-	(wire
-		(pts
-			(xy 144.78 190.5) (xy 134.62 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2650159-77ed-40bb-bef2-ba6a415e7247")
 	)
 	(wire
 		(pts
@@ -6967,6 +6947,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 181.61) (xy 81.28 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45acd72-c031-4471-bc07-395f1cd8642c")
+	)
+	(wire
+		(pts
 			(xy 132.08 193.04) (xy 132.08 213.36)
 		)
 		(stroke
@@ -6974,16 +6964,6 @@
 			(type default)
 		)
 		(uuid "f5812c5d-aa03-4721-91df-36feb26ce548")
-	)
-	(wire
-		(pts
-			(xy 134.62 303.53) (xy 76.2 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82e41ef-9a39-4898-a0e9-6268f3bede18")
 	)
 	(wire
 		(pts
@@ -8966,7 +8946,7 @@
 			(justify right)
 		)
 		(uuid "c0fda5a7-aaaa-49ed-af55-62bb82d0732b")
-		(property "STM32_FUNCTION" "ADC1_IN5"
+		(property "STM32_FUNCTION" "ADC3_IN5"
 			(at 88.9 125.73 0)
 			(effects
 				(font
@@ -10379,121 +10359,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 360.68 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f702346-a1ae-422b-9004-cff79c3e255d")
-		(property "Reference" "R86"
-			(at 363.22 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 363.22 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 359.664 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" "0.0007"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "yes"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C60490"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "RC0402FR-0710KL"
-			(at 360.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8495b472-1531-4d89-96cc-5615a8945fc6")
-		)
-		(pin "1"
-			(uuid "f014bcf4-8dda-4ab3-bf68-b04d1ca211f8")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 33.02 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10602,6 +10467,121 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 537.21 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bce54eb-e33d-4322-8693-383da9a71f21")
+		(property "Reference" "R81"
+			(at 539.75 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 539.75 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 538.226 259.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
+			(at 537.21 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a98f7cdd-b1fa-4132-b462-eae307f1d301")
+		)
+		(pin "2"
+			(uuid "a0b6bfe8-f54d-4e48-9f5c-21fefbf401c4")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -11282,119 +11262,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 481.33 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea67887-d331-4f16-a3eb-a6bd903c8600")
-		(property "Reference" "R16"
-			(at 481.33 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 481.33 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 481.076 98.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" "0.0007"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "yes"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C106231"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "RC0402FR-070RL"
-			(at 481.33 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2ffb311-93f2-48c8-b37c-1dcf335326f8")
-		)
-		(pin "1"
-			(uuid "c643d48f-14d6-4713-a715-7d1f3aa9fa97")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 510.54 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11668,7 +11535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 483.87 69.85 0)
 			(effects
 				(font
@@ -11677,7 +11544,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 483.87 69.85 0)
 			(effects
 				(font
@@ -11695,7 +11562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 483.87 69.85 0)
 			(effects
 				(font
@@ -11713,7 +11580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 483.87 69.85 0)
 			(effects
 				(font
@@ -12629,7 +12496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 273.05 0)
 			(effects
 				(font
@@ -12716,15 +12583,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 100.33 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 100.33 273.05 0)
 			(effects
 				(font
@@ -13800,7 +13658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 510.54 109.22 0)
 			(effects
 				(font
@@ -13809,7 +13667,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 510.54 109.22 0)
 			(effects
 				(font
@@ -13827,7 +13685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 510.54 109.22 0)
 			(effects
 				(font
@@ -13845,7 +13703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 510.54 109.22 0)
 			(effects
 				(font
@@ -14220,7 +14078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 99.06 326.39 0)
 			(effects
 				(font
@@ -14307,15 +14165,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 99.06 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 99.06 326.39 0)
 			(effects
 				(font
@@ -14718,121 +14567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 537.21 259.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "704e3e22-cdf8-4378-862b-b326d2f37150")
-		(property "Reference" "R81"
-			(at 539.75 257.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12.1k"
-			(at 539.75 260.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 536.194 258.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" "0.0007"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "yes, 1% or better"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C132157"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "RC0402FR-0712K1L"
-			(at 537.21 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6d992b0-2ecc-482a-999b-499afbb2bb4a")
-		)
-		(pin "2"
-			(uuid "070bb7e9-20ad-4651-89ee-2085e93d8f1f")
-		)
-		(instances
-			(project "high voltage servo drive 3ch"
-				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 379.73 334.01 180)
 		(unit 1)
@@ -14974,7 +14708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -15061,15 +14795,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -15727,7 +15452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 217.17 0)
 			(effects
 				(font
@@ -15814,15 +15539,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 100.33 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 100.33 217.17 0)
 			(effects
 				(font
@@ -16614,7 +16330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -16701,15 +16417,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -17702,7 +17409,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9608f19e-f709-4a43-852b-6478ef724306")
 		(property "Reference" "R137"
@@ -17945,6 +17652,118 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 481.33 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b0f59bb-32c7-4e57-96b6-71595ce5f88c")
+		(property "Reference" "R151"
+			(at 481.33 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 481.33 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 481.584 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0008"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C114758"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" " RC0402FR-07120RL"
+			(at 481.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d13c3379-dfe6-4672-a3e9-8278eac53d79")
+		)
+		(pin "2"
+			(uuid "6334a268-5533-40c5-975a-3acf05294a73")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "R151")
 					(unit 1)
 				)
 			)
@@ -18431,7 +18250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 100.33 374.65 0)
 			(effects
 				(font
@@ -18518,15 +18337,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 100.33 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 100.33 374.65 0)
 			(effects
 				(font
@@ -19582,7 +19392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -19591,7 +19401,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -19609,7 +19419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -19627,7 +19437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 243.84 165.1 0)
 			(effects
 				(font
@@ -19646,6 +19456,121 @@
 			(project "high voltage servo drive 3ch"
 				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
 					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 360.68 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c019ab7d-d407-41cd-a5c2-dbbc206b66a2")
+		(property "Reference" "R86"
+			(at 363.22 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 363.22 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 359.664 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60490"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-0710KL"
+			(at 360.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe7d5fe6-98fc-4d35-8b99-7c96204ac065")
+		)
+		(pin "1"
+			(uuid "8369e724-4e03-463a-bb97-3bb64e7f2002")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3/97972930-2eeb-4c0e-9851-224b79e49b2f"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -19993,7 +19918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -20080,15 +20005,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 99.06 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -22013,7 +21929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "STM32G473QET6:QFP40P1600X1600X160-128N"
 			(at 311.15 336.55 0)
 			(effects
 				(font
@@ -22100,15 +22016,6 @@
 			)
 		)
 		(property "Part number" "STM32G473QET6"
-			(at 311.15 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
 			(at 311.15 336.55 0)
 			(effects
 				(font
@@ -22850,7 +22757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -22859,7 +22766,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -22877,7 +22784,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -22895,7 +22802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 261.62 165.1 0)
 			(effects
 				(font

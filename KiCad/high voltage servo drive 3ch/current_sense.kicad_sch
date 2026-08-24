@@ -10287,15 +10287,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 130.81 60.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1bfffd41-41fd-45ef-8609-fcf2cd93d567")
 		(property "Reference" "U12"
-			(at 130.81 50.8 0)
+			(at 130.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10303,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 130.81 53.34 0)
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,7 +10311,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 129.54 58.42 0)
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +10320,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 132.08 55.88 0)
+			(at 132.08 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,15 +10914,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 508 285.75 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23725483-eab8-4ee9-81e1-7476a841313c")
 		(property "Reference" "U14"
-			(at 508 275.59 0)
+			(at 508 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +10930,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 508 278.13 0)
+			(at 508 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +10938,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 506.73 283.21 0)
+			(at 506.73 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +10947,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 509.27 280.67 0)
+			(at 509.27 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19832,15 +19832,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 317.5 62.23 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89a9092a-2059-4daa-ac34-1cdde510a0a5")
 		(property "Reference" "U12"
-			(at 317.5 52.07 0)
+			(at 317.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19848,7 +19848,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 317.5 54.61 0)
+			(at 317.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19856,7 +19856,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 316.23 59.69 0)
+			(at 316.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19865,7 +19865,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 318.77 57.15 0)
+			(at 318.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23120,15 +23120,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 508 172.72 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aabe90bd-4fa6-44e1-9a7b-290e60f4f02f")
 		(property "Reference" "U13"
-			(at 508 162.56 0)
+			(at 508 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23136,7 +23136,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 508 165.1 0)
+			(at 508 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23144,7 +23144,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 506.73 170.18 0)
+			(at 506.73 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23153,7 +23153,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 509.27 167.64 0)
+			(at 509.27 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23860,15 +23860,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 130.81 285.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b40f53b1-f9e8-4253-be0d-24e4970e7b9b")
 		(property "Reference" "U14"
-			(at 130.81 275.59 0)
+			(at 130.81 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23876,7 +23876,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 130.81 278.13 0)
+			(at 130.81 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23884,7 +23884,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 129.54 283.21 0)
+			(at 129.54 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23893,7 +23893,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 132.08 280.67 0)
+			(at 132.08 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25126,15 +25126,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 508 60.96 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb97ba90-181e-4cf9-8a73-d2f3511b0bcd")
 		(property "Reference" "U12"
-			(at 508 50.8 0)
+			(at 508 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25142,7 +25142,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 508 53.34 0)
+			(at 508 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25150,7 +25150,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 506.73 58.42 0)
+			(at 506.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25159,7 +25159,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 509.27 55.88 0)
+			(at 509.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25833,15 +25833,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 317.5 173.99 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1cb2b1e-e223-4fb5-8e60-7281433e4cd7")
 		(property "Reference" "U13"
-			(at 317.5 163.83 0)
+			(at 317.5 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25849,7 +25849,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 317.5 166.37 0)
+			(at 317.5 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25857,7 +25857,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 316.23 171.45 0)
+			(at 316.23 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25866,7 +25866,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 318.77 168.91 0)
+			(at 318.77 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27084,15 +27084,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 317.5 287.02 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7b29e61-3c71-4b00-a8b5-440ed7ea0b6d")
 		(property "Reference" "U14"
-			(at 317.5 276.86 0)
+			(at 317.5 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27100,7 +27100,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 317.5 279.4 0)
+			(at 317.5 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27108,7 +27108,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 316.23 284.48 0)
+			(at 316.23 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27117,7 +27117,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 318.77 281.94 0)
+			(at 318.77 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27934,15 +27934,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA4340UA")
 		(at 130.81 172.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1e162b3-a479-49fb-a62d-9078fab50d26")
 		(property "Reference" "U13"
-			(at 130.81 162.56 0)
+			(at 130.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27950,7 +27950,7 @@
 			)
 		)
 		(property "Value" "OPA4323IPWR"
-			(at 130.81 165.1 0)
+			(at 130.81 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27958,7 +27958,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 129.54 170.18 0)
+			(at 129.54 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27967,7 +27967,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa340.pdf"
-			(at 132.08 167.64 0)
+			(at 132.08 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

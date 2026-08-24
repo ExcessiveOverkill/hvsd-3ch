@@ -309,6 +309,12 @@
 		(uuid "27a49b57-1bb7-4428-981c-3d873e34b9b0")
 	)
 	(junction
+		(at 125.73 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bb88424-ef4c-4a21-a688-72eb248d7a5b")
+	)
+	(junction
 		(at 171.45 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -325,6 +331,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a609db30-4a7c-4b60-b6fb-88ef2d030279")
+	)
+	(junction
+		(at 153.67 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b093701f-61d4-4c4c-825b-eecca8eac7f9")
 	)
 	(junction
 		(at 171.45 139.7)
@@ -1329,6 +1341,16 @@
 		)
 		(uuid "2519c119-75a2-4f47-9ae7-7ce4dd4d30cf")
 	)
+	(wire
+		(pts
+			(xy 127 179.07) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ab1f0b-aa0b-4382-85bf-1622ec2ac7b5")
+	)
 	(bus
 		(pts
 			(xy 335.28 191.77) (xy 335.28 194.31)
@@ -1639,6 +1661,16 @@
 		)
 		(uuid "3f6b31f4-5839-42ba-b318-86e23b842385")
 	)
+	(wire
+		(pts
+			(xy 125.73 171.45) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4445c427-bbf6-47ef-804e-086b8de73590")
+	)
 	(bus
 		(pts
 			(xy 262.89 118.11) (xy 262.89 120.65)
@@ -1691,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 179.07) (xy 173.99 179.07)
+			(xy 134.62 179.07) (xy 153.67 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1768,6 +1800,16 @@
 			(type default)
 		)
 		(uuid "534542ad-ed9d-4bbc-8ef1-addc0963f0fd")
+	)
+	(wire
+		(pts
+			(xy 125.73 171.45) (xy 135.89 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ad0e65-3ddb-4d3e-a2dd-7c72f05505bf")
 	)
 	(wire
 		(pts
@@ -1918,6 +1960,16 @@
 			(type default)
 		)
 		(uuid "64da8775-3f66-4db7-ba25-02cd07ab60fa")
+	)
+	(wire
+		(pts
+			(xy 153.67 179.07) (xy 173.99 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652de7ad-93ac-40a1-b51e-08a35bb65243")
 	)
 	(wire
 		(pts
@@ -2188,6 +2240,16 @@
 			(type default)
 		)
 		(uuid "7c4bfe5b-a905-4f3b-bcbb-38e5a678a5fe")
+	)
+	(wire
+		(pts
+			(xy 143.51 171.45) (xy 153.67 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5a4d30-60f8-4ac3-8fb7-abfe77056fbc")
 	)
 	(wire
 		(pts
@@ -2841,6 +2903,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 171.45) (xy 153.67 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca41cc69-f199-462d-877a-301c9be8c1dd")
+	)
+	(wire
+		(pts
 			(xy 245.11 156.21) (xy 276.86 156.21)
 		)
 		(stroke
@@ -2958,6 +3030,16 @@
 			(type default)
 		)
 		(uuid "d6aa0716-a5d2-4f9b-b4b9-9dbb204cc3ce")
+	)
+	(wire
+		(pts
+			(xy 124.46 179.07) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d743d7f7-a24e-4037-a2a0-33bf01353b7a")
 	)
 	(bus
 		(pts
@@ -3131,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 179.07) (xy 118.11 179.07)
+			(xy 91.44 179.07) (xy 116.84 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 170.18) (xy 125.73 179.07)
+			(xy 125.73 170.18) (xy 125.73 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4567,6 +4649,121 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 139.7 171.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ad59fa5-e334-48ef-a4e4-c3ee75424d9d")
+		(property "Reference" "R120"
+			(at 142.24 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 142.24 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 139.446 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "0.0007"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C60491"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "RC0402FR-07100KL"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb30c02a-ed9a-4daf-83a7-3d75abc93bc5")
+		)
+		(pin "1"
+			(uuid "731a2c15-2de6-4fda-8a43-33321faac55f")
+		)
+		(instances
+			(project "high voltage servo drive 3ch"
+				(path "/eecae1c5-422c-4f4e-9e29-a72e69fc94b3"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 125.73 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4682,16 +4879,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 129.54 179.07 90)
+		(at 130.81 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "da98b876-ca8d-426b-92b5-ad1e65538e00")
 		(property "Reference" "R149"
-			(at 129.54 172.72 90)
+			(at 130.81 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4895,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 129.54 175.26 90)
+			(at 130.81 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4903,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 129.794 178.054 90)
+			(at 131.064 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4921,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4930,7 @@
 			)
 		)
 		(property "cost" "0.0007"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4939,7 @@
 			)
 		)
 		(property "Generic Allowed?" "yes"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4948,7 @@
 			)
 		)
 		(property "LCSC#" "C106231"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4957,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4966,7 @@
 			)
 		)
 		(property "Part number" "RC0402FR-070RL"
-			(at 129.54 179.07 0)
+			(at 130.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,16 +4991,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 121.92 179.07 90)
+		(at 120.65 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e32b5da1-0f15-47da-a352-1c75c0250395")
 		(property "Reference" "R147"
-			(at 121.92 172.72 90)
+			(at 120.65 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5007,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 121.92 175.26 90)
+			(at 120.65 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +5015,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 122.174 178.054 90)
+			(at 120.904 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5033,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5042,7 @@
 			)
 		)
 		(property "cost" "0.0007"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +5051,7 @@
 			)
 		)
 		(property "Generic Allowed?" "yes"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5060,7 @@
 			)
 		)
 		(property "LCSC#" "C106231"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5069,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +5078,7 @@
 			)
 		)
 		(property "Part number" "RC0402FR-070RL"
-			(at 121.92 179.07 0)
+			(at 120.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

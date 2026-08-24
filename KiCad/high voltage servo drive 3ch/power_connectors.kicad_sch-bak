@@ -2607,7 +2607,7 @@
 		)
 		(uuid "f7b07dc7-6434-47f6-b70d-34e357d314ec")
 	)
-	(text "1.65v FBK target voltage\n10k: 18.15v (SiC)\n8.2k: 15.18v (IGBT)"
+	(text "1.65v FBK target voltage\n11k: 18.15v\n9.2k: 15.18v"
 		(exclude_from_sim no)
 		(at 148.844 114.554 0)
 		(effects
@@ -3525,7 +3525,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6118745e-7998-4007-ae4f-52d33719579d")
 		(property "Reference" "L9"
@@ -3961,7 +3961,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79faa87e-5a8b-45c8-bed8-bf5b15edacee")
 		(property "Reference" "J7"
@@ -4563,7 +4563,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0726dee-29e3-40bf-88b3-1352a576c725")
 		(property "Reference" "J5"
@@ -4681,7 +4681,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aafc28dc-bdd7-4397-90ab-cc89049a202a")
 		(property "Reference" "C130"
@@ -4966,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, emerald green"
+		(property "Description" "Light emitting diode"
 			(at 203.2 153.67 0)
 			(effects
 				(font
@@ -4975,7 +4975,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "0.005"
+		(property "cost" "0.004"
 			(at 203.2 153.67 0)
 			(effects
 				(font
@@ -4993,7 +4993,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C965804"
+		(property "LCSC#" "C965807"
 			(at 203.2 153.67 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "XL-1608UGC-04"
+		(property "Part number" "XL-1608UBC-04"
 			(at 203.2 153.67 0)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c9fd8e-c4fb-4293-8c9b-bad6448318a2")
 		(property "Reference" "J4"
@@ -5973,7 +5973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c4bc96-4567-40e9-b98c-bae6df767263")
 		(property "Reference" "J6"
