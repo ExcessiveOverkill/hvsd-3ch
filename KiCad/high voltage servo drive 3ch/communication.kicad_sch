@@ -11868,7 +11868,6 @@
 		)
 	)
 	(symbol
-		(lib_name "THVD1452:THVD1452")
 		(lib_id "THVD1452:THVD1452")
 		(at 294.64 124.46 0)
 		(mirror y)
@@ -17445,6 +17444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 373.38 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c4ec43f-781b-4d2d-b917-960648577132")
 		)
@@ -22280,7 +22288,6 @@
 		)
 	)
 	(symbol
-		(lib_name "THVD1452:THVD1452")
 		(lib_id "THVD1452:THVD1452")
 		(at 294.64 176.53 0)
 		(mirror y)

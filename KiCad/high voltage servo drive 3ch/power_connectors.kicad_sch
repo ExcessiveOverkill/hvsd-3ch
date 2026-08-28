@@ -2990,7 +2990,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "204ce7df-dfdc-4910-ab61-128888c676d8")
 		(property "Reference" "C135"
@@ -3047,7 +3047,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" ""
+		(property "cost" "1.124"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -3057,6 +3057,24 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XIAMEN FARATRONIC"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "D3D1U106KB00C00"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -3638,7 +3656,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "623a7d3c-11ee-4244-9f52-f11216d57400")
 		(property "Reference" "C134"
@@ -3695,7 +3713,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" ""
+		(property "cost" "1.124"
 			(at 138.43 43.18 0)
 			(effects
 				(font
@@ -3705,6 +3723,24 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XIAMEN FARATRONIC"
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "D3D1U106KB00C00"
 			(at 138.43 43.18 0)
 			(effects
 				(font
@@ -4074,7 +4110,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84d7fd8e-86d4-44dd-b946-cc07f0226a0b")
 		(property "Reference" "C132"
@@ -4131,7 +4167,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" ""
+		(property "cost" "1.124"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -4141,6 +4177,24 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XIAMEN FARATRONIC"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "D3D1U106KB00C00"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -4237,7 +4291,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "895c4884-ac77-4a21-aeb7-c0b740c16b7b")
 		(property "Reference" "C21"
@@ -4294,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" ""
+		(property "cost" "1.124"
 			(at 92.71 43.18 0)
 			(effects
 				(font
@@ -4304,6 +4358,24 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XIAMEN FARATRONIC"
+			(at 92.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "D3D1U106KB00C00"
 			(at 92.71 43.18 0)
 			(effects
 				(font
@@ -4466,7 +4538,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "99d81889-28dd-4454-afa1-eaef54dbb83c")
 		(property "Reference" "C131"
@@ -4523,7 +4595,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" ""
+		(property "cost" "1.124"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -4533,6 +4605,24 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XIAMEN FARATRONIC"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "D3D1U106KB00C00"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -5876,7 +5966,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eebf986a-fda6-451f-9d1d-4045b497261f")
 		(property "Reference" "C133"
@@ -5933,7 +6023,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" ""
+		(property "cost" "1.124"
 			(at 127 43.18 0)
 			(effects
 				(font
@@ -5943,6 +6033,24 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XIAMEN FARATRONIC"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "D3D1U106KB00C00"
 			(at 127 43.18 0)
 			(effects
 				(font

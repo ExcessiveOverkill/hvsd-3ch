@@ -14054,6 +14054,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1b296e1-acb0-4366-8112-ae022babac24")
 		)
@@ -15768,6 +15777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 478.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2eda23d-14b7-4a75-9eaa-c2b0e1de43a3")
 		)
@@ -16448,6 +16466,15 @@
 			)
 		)
 		(property "cost" ""
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -18059,6 +18086,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 101.6 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b5e3340-6598-4bea-a507-0183ea86f0f0")
 		)
@@ -18130,6 +18166,15 @@
 			)
 		)
 		(property "cost" ""
+			(at 478.79 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 478.79 172.72 0)
 			(effects
 				(font
@@ -24740,6 +24785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 288.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e359bf60-bc7a-4a0a-8006-5e14a9c510a7")
 		)
@@ -26241,6 +26295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Generic Allowed?" "yes"
+			(at 478.79 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79683a5a-5a7b-48ca-ac7e-7e2623f3f7d1")
 		)
@@ -26312,6 +26375,15 @@
 			)
 		)
 		(property "cost" ""
+			(at 288.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 288.29 173.99 0)
 			(effects
 				(font
@@ -29295,6 +29367,15 @@
 			)
 		)
 		(property "cost" ""
+			(at 288.29 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "yes"
 			(at 288.29 287.02 0)
 			(effects
 				(font

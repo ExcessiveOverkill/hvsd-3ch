@@ -12620,7 +12620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 109.22 275.5899 0)
 			(effects
 				(font
@@ -12697,7 +12697,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 100.33 273.05 0)
 			(effects
 				(font
@@ -12715,7 +12715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 100.33 273.05 0)
 			(effects
 				(font
@@ -12725,6 +12725,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 100.33 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 100.33 273.05 0)
 			(effects
 				(font
@@ -14211,7 +14220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 110.49 328.9299 0)
 			(effects
 				(font
@@ -14288,7 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 99.06 326.39 0)
 			(effects
 				(font
@@ -14306,7 +14315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 99.06 326.39 0)
 			(effects
 				(font
@@ -14316,6 +14325,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 99.06 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 99.06 326.39 0)
 			(effects
 				(font
@@ -14965,7 +14983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 109.22 50.7999 0)
 			(effects
 				(font
@@ -15042,7 +15060,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -15060,7 +15078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -15070,6 +15088,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -15718,7 +15745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 109.22 219.7099 0)
 			(effects
 				(font
@@ -15795,7 +15822,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 100.33 217.17 0)
 			(effects
 				(font
@@ -15813,7 +15840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 100.33 217.17 0)
 			(effects
 				(font
@@ -15823,6 +15850,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 100.33 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 100.33 217.17 0)
 			(effects
 				(font
@@ -16605,7 +16641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 110.49 109.2199 0)
 			(effects
 				(font
@@ -16682,7 +16718,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -16700,7 +16736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -16710,6 +16746,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -18422,7 +18467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 109.22 375.9199 0)
 			(effects
 				(font
@@ -18499,7 +18544,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 100.33 374.65 0)
 			(effects
 				(font
@@ -18517,7 +18562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 100.33 374.65 0)
 			(effects
 				(font
@@ -18527,6 +18572,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 100.33 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 100.33 374.65 0)
 			(effects
 				(font
@@ -19984,7 +20038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 113.03 166.3699 0)
 			(effects
 				(font
@@ -20061,7 +20115,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -20079,7 +20133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -20089,6 +20143,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 99.06 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -22005,7 +22068,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G473QET6"
+		(property "Value" "STM32G474QET6"
 			(at 311.15 323.85 0)
 			(effects
 				(font
@@ -22081,7 +22144,7 @@
 				(hide yes)
 			)
 		)
-		(property "cost" "7.51"
+		(property "cost" "9.836"
 			(at 311.15 336.55 0)
 			(effects
 				(font
@@ -22099,7 +22162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part number" "STM32G473QET6"
+		(property "Part number" "STM32G474QET6"
 			(at 311.15 336.55 0)
 			(effects
 				(font
@@ -22109,6 +22172,15 @@
 			)
 		)
 		(property "Generic Allowed?" "no"
+			(at 311.15 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C730129"
 			(at 311.15 336.55 0)
 			(effects
 				(font
